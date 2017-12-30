@@ -24,7 +24,8 @@ const {
 	mutation,
 	notMutableVerbs,
 	mutableVerbs,
-	alphabet
+	alphabet,
+	auxiliaryComposedVerbs
 } = require('./../obj');
 
 
@@ -144,7 +145,9 @@ const getProperties = verb => ({
 
 	isTwoWordsVerb: (whiteSpaces(verb)) ? true : false,
 
-	isSingleSyllableVerb: isSingleSyllableVerb(verb)
+	isSingleSyllableVerb: isSingleSyllableVerb(verb),
+
+	isAuxiliaryComposedVerb: (auxiliaryComposedVerbs.includes(verb)) ? true : false
 
 });
 

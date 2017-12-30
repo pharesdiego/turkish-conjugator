@@ -4,7 +4,8 @@ const {
 	firstLetter,
 	isVowel,
 	getLastPart,
-	getFirstPart
+	getFirstPart,
+	strInit
 } = require('./../methods/basics');
 
 const {
@@ -38,7 +39,6 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 	// OLD: let aoristSuffix = isLastLetterOfRootAVowel(verb) ? 'r' : (DEFAULT.vowelsLength >= 2) ? harmonyRoot : (DEFAULT.vowelsLength == 1 && /[ae]/i.test(DEFAULT.verbVowels) && /[lnr]/i.test(lastLetter(DEFAULT.root))) ? harmonyRoot : (/[ie]/.test(DEFAULT.verbVowels) && lastLetter(DEFAULT.root) != 'l') ? 'er' : (DEFAULT.verbVowels == 'i') ? 'ir' : (DEFAULT.verbVowels == 'a') ? 'ar' : (DEFAULT.verbVowels == 'ü') ? 'er' : (DEFAULT.verbVowels == 'ı') ? 'ar' : harmonyRoot;
 	let aoristSuffix = isLastLetterOfRootAVowel(verb) ? 'r' : (DEFAULT.vowelsLength >= 2) ? harmonyRoot : (DEFAULT.vowelsLength == 1 && /[ae]/i.test(DEFAULT.verbVowels) && /[lnr]/i.test(lastLetter(DEFAULT.root))) ? harmonyRoot : (/[ie]/.test(DEFAULT.verbVowels) && lastLetter(DEFAULT.root) != 'l') ? 'er' : (DEFAULT.verbVowels == 'i') ? 'ir' : (DEFAULT.verbVowels == 'a') ? 'ar' : (DEFAULT.verbVowels == 'ü') ? 'er' : (DEFAULT.verbVowels == 'ı') ? 'ar' : (DEFAULT.verbVowels == 'o') ? 'ur' : (DEFAULT.isSingleSyllableVerb && DEFAULT.verbSuffix == 'mek') ? 'er' : 'ar';
 
-
 	// To change aoristSuffix value isn't very function paradigm but,
 	// believe me, we won't use it anymore :)
 
@@ -50,6 +50,11 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 	// If it's etmekComposed then the aoristSuffix will always be "-er"
 	aoristSuffix = (DEFAULT.isEtmekComposed) ? 'er' : aoristSuffix;
 
+	// if it's axiliary composed verb (without spaces)
+
+	aoristSuffix = (DEFAULT.isAuxiliaryComposedVerb) ? 'er' : aoristSuffix;
+
+	DEFAULT.root = (DEFAULT.isAuxiliaryComposedVerb) ? strInit(DEFAULT.root) + 'd' : DEFAULT.root;
 
 	// RECHECKS. Aorist time is really complicated and we need to recheck the root harmony
 	// We are recheking by the aorist suffix, so if it's "-er"

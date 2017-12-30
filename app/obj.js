@@ -36,7 +36,8 @@ module.exports.mutableVerbs = [
 	'gitmek',
 	'ditmek',
 	'tatmak',
-	'yetmek'
+	'yetmek',
+	'affetmek'
 ]
 
 module.exports.alphabet =
@@ -44,4 +45,13 @@ module.exports.alphabet =
 	'a','b','c','ç','d','e','f','g','ğ','h','ı','i','j','k','l','m','n','o','ö','p','r','s','ş','t','u','ü','v','y','z', ' '
 ]
 
-
+module.exports.auxiliaryComposedVerbs = [
+	
+	'halletmek',
+	'farketmek',
+	'seyretmek',
+	'sabretmek',
+	'nakletmek',
+	'vefatetmek',
+	'zannetmek'
+]
