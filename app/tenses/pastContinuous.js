@@ -25,6 +25,9 @@ const PastContinuous = (verb, DEFAULT = getProperties(verb)) => {
 
 	let root = (isLastLetterOfRootAVowel(verb)) ? strInit(DEFAULT.root) + DEFAULT.harmony4way : DEFAULT.root;
 
+	//if it's auxiliary composed (so if it uses etmek) then we need to mutate the final t to d 
+	root = (DEFAULT.isAuxiliaryComposedVerb) ? strInit(root) + 'd' : root;
+
 	let gerundSuffix = (isLastLetterOfRootAVowel(verb)) ? 'yor' : `${get4WayHarmonyByRootOf(root)}yor`;
 		
 	// The suffix (-lardu, (du is from Past Suffix, but it's always 'dı' because of vowel harmony)) is  

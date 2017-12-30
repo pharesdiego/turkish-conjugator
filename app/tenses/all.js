@@ -11,7 +11,6 @@ const Aorist = require('./aorist'),
 			PotentialPositive = require('./potentialPositive');
 
 
-
 module.exports = {
 
 	Aorist,

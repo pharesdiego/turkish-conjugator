@@ -27,6 +27,9 @@ const PresentContinuousIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 	// for 3th person plural we use the suffix (-larmış)
 	let root = (isLastLetterOfRootAVowel(verb)) ? strInit(DEFAULT.root) + DEFAULT.harmony4way : DEFAULT.root;
 
+	//if it's auxiliary composed (so if it uses etmek) then we need to mutate the final t to d 
+	root = (DEFAULT.isAuxiliaryComposedVerb) ? strInit(root) + 'd' : root;
+
 	let gerundSuffix = (isLastLetterOfRootAVowel(verb)) ? 'yor' : `${get4WayHarmonyByRootOf(root)}yor`;
 
 	let larOrLer = 'larmış';
@@ -36,6 +39,5 @@ const PresentContinuousIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 	return generateResult(push(personalSuffixes, larOrLer), firstPart, root, gerundSuffix);
 
 }
-
 
 module.exports = PresentContinuousIndefinite;

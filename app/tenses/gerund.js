@@ -26,6 +26,9 @@ const Gerund = (verb, DEFAULT = getProperties(verb)) => {
 
 	let root = (isLastLetterOfRootAVowel(DEFAULT.verb) && DEFAULT.vowelsLength == 1) ? strInit(DEFAULT.root) + DEFAULT.harmony4way : (!isLastLetterOfRootAVowel(DEFAULT.verb) && DEFAULT.vowelsLength >= 1) ? DEFAULT.root : strInit(DEFAULT.root) + lookIn4Ways(getFirstVowel(DEFAULT.verb));
 
+	//if it's auxiliary composed (so if it uses etmek) then we need to mutate the final t to d 
+	root = (DEFAULT.isAuxiliaryComposedVerb) ? strInit(root) + 'd' : root;
+
 	let gerundSuffix = (isLastLetterOfRootAVowel(DEFAULT.verb)) ? 'yor' : `${get4WayHarmonyByRootOf(root)}yor`;
 
 	let larOrLer = 'lar';

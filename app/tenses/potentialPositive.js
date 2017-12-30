@@ -1,7 +1,8 @@
 const {
 	push,
 	getFirstPart,
-	getLastPart
+	getLastPart,
+	strInit
 } = require('./../methods/basics');
 
 const {
@@ -21,6 +22,9 @@ const PotentialPositive = (verb, DEFAULT = getProperties(verb)) => {
 	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
 	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
 
+
+	DEFAULT.root = (DEFAULT.isAuxiliaryComposedVerb) ? strInit(DEFAULT.root) + 'd' : DEFAULT.root;
+
 	//gel + (y)ebil + ir + im
 	// root + (ebil|abil) + aorist + Personal Suffixes I
 	// yapabilirim, olabilirim, söyleyebilirim (!!söyle yebil er im)
@@ -34,7 +38,6 @@ const PotentialPositive = (verb, DEFAULT = getProperties(verb)) => {
 	let personalSuffixes = arrayOfPersonalSuffixes.I('i');
 
 	return generateResult(push(personalSuffixes, larOrLer), firstPart, DEFAULT.root + abilitySuffix, aoristSuffix);
-	
 
 }
 

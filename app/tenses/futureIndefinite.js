@@ -1,7 +1,8 @@
 const {
 	push,
 	getFirstPart,
-	getLastPart
+	getLastPart,
+	strInit
 } = require('./../methods/basics');
 
 const {
@@ -25,6 +26,9 @@ const FutureIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 	// for 3th person plural we use the suffix (-larmış) or (-lermiş)
 
 	let root = (isLastLetterOfRootAVowel(verb)) ? DEFAULT.root + 'y' : DEFAULT.root;
+
+	//if it's auxiliary composed (so if it uses etmek) then we need to mutate the final t to d 
+	root = (DEFAULT.isAuxiliaryComposedVerb) ? strInit(root) + 'd' : root;
 
 	// the final K or ğ is added later because it's more use to add than mutate a letter
 	let futureSuffix = `${DEFAULT.harmony2way}c${DEFAULT.harmony2way}k`;
