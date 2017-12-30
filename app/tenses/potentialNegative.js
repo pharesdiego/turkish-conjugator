@@ -21,7 +21,6 @@ const PotentialNegative = (verb, DEFAULT = getProperties(verb)) => {
 	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
 	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
 
-	console.log(DEFAULT);
 	//SUFFIX (y)a (y)e
 	// bak + (y)a + ma + m Personal Suffix IN
 	/*
@@ -45,6 +44,8 @@ const PotentialNegative = (verb, DEFAULT = getProperties(verb)) => {
 
 
 }
+
+console.log(PotentialNegative('anlamak'))
 
 module.exports = PotentialNegative;
 
