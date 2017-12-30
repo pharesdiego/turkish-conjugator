@@ -22,19 +22,26 @@ module.exports.mutation =
 ];
 
 // We prevent these verbs to mutate its final consonant, it can't be "yabarım" but "yaparım" (so we prevent the mutation from "p" to "b")
+// notMutableVerbs with more than one syllable in the root
 module.exports.notMutableVerbs = 
 [
-	'yapmak',
-	'içmek',
-	'çarpmak',
-	'satmak',
-	'atmak',
+
 	'bırakmak',
 	'anlatmak'
+]
+
+
+module.exports.mutableVerbs = [
+	'etmek',
+	'gitmek',
+	'ditmek',
+	'tatmak',
+	'yetmek'
 ]
 
 module.exports.alphabet =
 [
 	'a','b','c','ç','d','e','f','g','ğ','h','ı','i','j','k','l','m','n','o','ö','p','r','s','ş','t','u','ü','v','y','z', ' '
 ]
+
 

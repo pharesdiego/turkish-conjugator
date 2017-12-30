@@ -1,6 +1,6 @@
 {
   "name": "turkish-conjugator",
-  "version": "0.0.15",
+  "version": "1.0.16",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "dev": "webpack"
   },
   "author": {
-    "name": "Diego Phares",
+    "name": "Diego Phares <pharesdiego@gmail.com>",
     "email": "pharesdiego@gmail.com"
   },
   "license": "MIT",

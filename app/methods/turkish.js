@@ -23,6 +23,7 @@ const {
 	harmony,
 	mutation,
 	notMutableVerbs,
+	mutableVerbs,
 	alphabet
 } = require('./../obj');
 
@@ -48,6 +49,8 @@ const arrayOfPersonalSuffixes = {
 
 const vowelsQuantity = _(verbRoot, getVowelsStr, length);
 
+const isSingleSyllableVerb = verb => (vowelsQuantity(verb) == 1) ? true : false;
+
 // Make Babel issue on Github
 // const getFirstVowel = str => (lastVowel = str.match(/[aeiıouöü]/gi)) ? lastVowel[0] : false;
 
@@ -68,6 +71,10 @@ const get4WayHarmonyByRootOf = _(getLastVowel, lookIn4Ways);
 const get2WayHarmonyByRootOf = _(firstLetter, lookIn2Ways);
 
 const doWeNeedToMutate = arr => _(verbRoot, lastLetter, isMutable(arr));
+
+const isOnMutableList = str => mutableVerbs.includes(str) ? true : false;
+
+const validMutableSingleSyllableVerb = verb => (isOnMutableList(verb) && isSingleSyllableVerb(verb)) ? true : false; 
 
 const generateResult = (arr, firstPart, verbRoot, timeSuffix = '') => arr.map(suffix => `${firstPart + verbRoot + timeSuffix + suffix}`);
 
@@ -103,16 +110,21 @@ const gotAccepted = verb => {
 
 const whiteSpaces = str => (str.match(/\s/g)) ? str.match(/\s/g).length : false;
 
-
 // Conjugations, Times
+
+// Root property explained:
+// IF IT INCLUDES THE VERB ON notMutableVerbs then we negate it and return false, so like: "don't mutate"
+// IF IT'S NOT A SINGLE SYLLABLE VERB AND THE OTHERS CONDITIONS ARE TRUE THEN WE MUTATE
 
 const getProperties = verb => ({
 
 	verb: lowerCase(verb),
 
-	root: (doWeNeedToMutate(mutation[0].from)(verb) >= 0 && !notMutableVerbs.includes(verb)) ? strInit(verbRoot(verb)) + mutate(doWeNeedToMutate(mutation[0].from)(verb)) : verbRoot(verb),
+	root: (doWeNeedToMutate(mutation[0].from)(verb) >= 0 && !notMutableVerbs.includes(verb) && validMutableSingleSyllableVerb(verb)) ? strInit(verbRoot(verb)) + mutate(doWeNeedToMutate(mutation[0].from)(verb)) : verbRoot(verb),
 
 	originalRoot: verbRoot(verb),
+
+	verbSuffix: verb.slice(-3),
 
 	vowelsLength: vowelsQuantity(verb),
 
@@ -126,9 +138,13 @@ const getProperties = verb => ({
 
 	isNegative: isNegativeVerb(verb),
 
+	isEtmekComposed: (strEndsWith(verb)(' etmek') && !whiteSpaces(verb)) ? true : false,
+
 	positiveRoot: (isNegativeVerb(verb)) ? negativeVerbRoot(verb) : '',
 
-	isTwoWordsVerb: (whiteSpaces(verb)) ? true : false
+	isTwoWordsVerb: (whiteSpaces(verb)) ? true : false,
+
+	isSingleSyllableVerb: isSingleSyllableVerb(verb)
 
 });
 
