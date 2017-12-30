@@ -45,7 +45,5 @@ const PotentialNegative = (verb, DEFAULT = getProperties(verb)) => {
 
 }
 
-console.log(PotentialNegative('anlamak'))
-
 module.exports = PotentialNegative;
 
