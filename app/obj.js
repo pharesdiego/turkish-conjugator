@@ -29,7 +29,8 @@ module.exports.notMutableVerbs =
 	'çarpmak',
 	'satmak',
 	'atmak',
-	'bırakmak'
+	'bırakmak',
+	'anlatmak'
 ]
 
 module.exports.alphabet =
