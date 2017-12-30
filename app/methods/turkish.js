@@ -2,6 +2,7 @@ const {
 	_,
 	length,
 	split,
+	splitWords,
 	join,
 	push,
 	lowerCase,
@@ -13,6 +14,7 @@ const {
 	isVowel,
 	getVowelsArr,
 	getVowelsStr,
+	getLastPart,
 	empty,
 	strEndsWith
 } = require('./basics');
@@ -67,7 +69,7 @@ const get2WayHarmonyByRootOf = _(firstLetter, lookIn2Ways);
 
 const doWeNeedToMutate = arr => _(verbRoot, lastLetter, isMutable(arr));
 
-const generateResult = (arr, verbRoot, timeSuffix = '') => arr.map(suffix => `${verbRoot + timeSuffix + suffix}`);
+const generateResult = (arr, firstPart, verbRoot, timeSuffix = '') => arr.map(suffix => `${firstPart + verbRoot + timeSuffix + suffix}`);
 
 
 // VERIFY
@@ -99,6 +101,7 @@ const gotAccepted = verb => {
 
 }
 
+const whiteSpaces = str => (str.match(/\s/g)) ? str.match(/\s/g).length : false;
 
 
 // Conjugations, Times
@@ -123,10 +126,11 @@ const getProperties = verb => ({
 
 	isNegative: isNegativeVerb(verb),
 
-	positiveRoot: (isNegativeVerb(verb)) ? negativeVerbRoot(verb) : ''
+	positiveRoot: (isNegativeVerb(verb)) ? negativeVerbRoot(verb) : '',
+
+	isTwoWordsVerb: (whiteSpaces(verb)) ? true : false
 
 });
-
 
 module.exports = {
 
@@ -155,6 +159,7 @@ module.exports = {
 	convertToPositive,
 	isAlphabeticallyValid,
 	gotAccepted,
-	getProperties
+	getProperties,
+	whiteSpaces
 
 }

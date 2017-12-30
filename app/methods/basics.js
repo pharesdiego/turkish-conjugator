@@ -4,6 +4,8 @@ const length = str => str.length;
 
 const split = str => str.split('');
 
+const splitWords = str => str.split(' ');
+
 const join = arr => arr.join('');
 
 const push = (arr, ...items) => [...arr, ...items];
@@ -26,6 +28,10 @@ const getVowelsArr = arr => arr.filter(isVowel);
 
 const getVowelsStr = _(split, getVowelsArr, join);
 
+const getLastPart = _(splitWords, reverse);
+
+const getFirstPart = _(splitWords);
+
 const empty = (thing) => (thing.length == 0) ? true : false;
 
 const strEndsWith = string => (...letters) => !empty(letters.filter((letter) => string.endsWith(letter)));
@@ -34,6 +40,7 @@ module.exports = {
 	_,
 	length,
 	split,
+	splitWords,
 	join,
 	push,
 	lowerCase,
@@ -45,6 +52,8 @@ module.exports = {
 	isVowel,
 	getVowelsArr,
 	getVowelsStr,
+	getLastPart,
+	getFirstPart,
 	empty,
 	strEndsWith
 }

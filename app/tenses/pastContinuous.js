@@ -1,6 +1,8 @@
 const {
 	push,
-	strInit
+	strInit,
+	getFirstPart,
+	getLastPart
 } = require('./../methods/basics');
 
 const {
@@ -16,6 +18,11 @@ const {
 
 const PastContinuous = (verb, DEFAULT = getProperties(verb)) => {
 
+	// if it's two words verb then we get the first part
+	let firstPart = (DEFAULT.isTwoWordsVerb) ? `${getFirstPart(DEFAULT.verb)[0]} ` : '';
+	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
+	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
+
 	let root = (isLastLetterOfRootAVowel(verb)) ? strInit(DEFAULT.root) + DEFAULT.harmony4way : DEFAULT.root;
 
 	let gerundSuffix = (isLastLetterOfRootAVowel(verb)) ? 'yor' : `${get4WayHarmonyByRootOf(root)}yor`;
@@ -27,7 +34,7 @@ const PastContinuous = (verb, DEFAULT = getProperties(verb)) => {
 
 	let personalSuffixes = push(arrayOfPersonalSuffixes.II('du', 'u'), larOrLer);
 
-	return generateResult(personalSuffixes, root, gerundSuffix);
+	return generateResult(personalSuffixes, firstPart, root, gerundSuffix);
 
 }
 

@@ -1,5 +1,7 @@
 const {
-	push
+	push,
+	getFirstPart,
+	getLastPart
 } = require('./../methods/basics');
 
 const {
@@ -12,6 +14,12 @@ const {
 
 // CANNOT, CAN'T
 const PotentialNegative = (verb, DEFAULT = getProperties(verb)) => {
+
+	// if it's two words verb then we get the first part
+	let firstPart = (DEFAULT.isTwoWordsVerb) ? `${getFirstPart(DEFAULT.verb)[0]} ` : '';
+	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
+	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
+
 	// bak + a + ma + m Personal Suffix IN
 	/*
 	Just add -ma or -me to the verb's root 
@@ -30,7 +38,7 @@ const PotentialNegative = (verb, DEFAULT = getProperties(verb)) => {
 
 	let larOrLer = `zl${DEFAULT.harmony2way}r`;
 
-	return generateResult(push(personalSuffixes, larOrLer), root);
+	return generateResult(push(personalSuffixes, larOrLer), firstPart, root);
 
 
 }

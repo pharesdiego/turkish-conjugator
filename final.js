@@ -22,7 +22,8 @@ const {
 	convertToNegative,
 	convertToPositive,
 	isAlphabeticallyValid,
-	gotAccepted
+	gotAccepted,
+	whiteSpaces
 } = require('./app/methods/turkish');
 
 const ALL = (verb, verbN = convertToNegative(verb)) => 
@@ -82,7 +83,8 @@ const Conjugate = {
 	isNegativeVerb,
 	convertToPositive,
 	convertToNegative,
-	isAlphabeticallyValid
+	isAlphabeticallyValid,
+	whiteSpaces
 }
 
 module.exports = Conjugate;

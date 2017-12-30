@@ -1,6 +1,8 @@
 const {
 	push,
 	lastLetter,
+	getFirstPart,
+	getLastPart
 } = require('./../methods/basics');
 
 const {
@@ -14,6 +16,12 @@ const {
 } = require('./../methods/turkish');
 
 const PresentIndefinite = (verb, DEFAULT = getProperties(verb)) => {
+
+	// if it's two words verb then we get the first part
+	let firstPart = (DEFAULT.isTwoWordsVerb) ? `${getFirstPart(DEFAULT.verb)[0]} ` : '';
+	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
+	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
+
 	// Gelirmişler -> It seems they (will) come. (Parece que vienen/vendrán)
 	// This use: verb root + aorist suffix + -miş- -mış- -müş- -muş + Personal Suffix I
 	// for 3th person plural we use the suffix muş + lar/miş + ler... etc
@@ -27,7 +35,7 @@ const PresentIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 
 	let personalSuffixes = arrayOfPersonalSuffixes.I(DEFAULT.harmony4way).map((item) => `m${DEFAULT.harmony4way}ş${item}`);
 
-	return generateResult(push(personalSuffixes, larOrLer), DEFAULT.root, aoristSuffix);
+	return generateResult(push(personalSuffixes, larOrLer), firstPart, DEFAULT.root, aoristSuffix);
 
 }
 

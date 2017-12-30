@@ -1,6 +1,8 @@
 const {
 	push,
-	strInit
+	strInit,
+	getFirstPart,
+	getLastPart
 } = require('./../methods/basics');
 
 const {
@@ -17,6 +19,11 @@ const {
 
 const Gerund = (verb, DEFAULT = getProperties(verb)) => {
 
+	// if it's two words verb then we get the first part
+	let firstPart = (DEFAULT.isTwoWordsVerb) ? `${getFirstPart(DEFAULT.verb)[0]} ` : '';
+	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
+	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
+
 	let root = (isLastLetterOfRootAVowel(DEFAULT.verb) && DEFAULT.vowelsLength == 1) ? strInit(DEFAULT.root) + DEFAULT.harmony4way : (!isLastLetterOfRootAVowel(DEFAULT.verb) && DEFAULT.vowelsLength >= 1) ? DEFAULT.root : strInit(DEFAULT.root) + lookIn4Ways(getFirstVowel(DEFAULT.verb));
 
 	let gerundSuffix = (isLastLetterOfRootAVowel(DEFAULT.verb)) ? 'yor' : `${get4WayHarmonyByRootOf(root)}yor`;
@@ -25,7 +32,7 @@ const Gerund = (verb, DEFAULT = getProperties(verb)) => {
 
 	let personalSuffixes = push(arrayOfPersonalSuffixes.I('u'), larOrLer);
 
-	return generateResult(personalSuffixes, root, gerundSuffix); 
+	return generateResult(personalSuffixes, firstPart, root, gerundSuffix); 
 
 }
 

@@ -1,7 +1,9 @@
 const {
 	push,
 	firstLetter,
-	isVowel
+	isVowel,
+	getFirstPart,
+	getLastPart
 } = require('./../methods/basics');
 
 const {
@@ -15,6 +17,11 @@ const {
 
 const Future = (verb, DEFAULT = getProperties(verb)) => {
 
+	// if it's two words verb then we get the first part
+	let firstPart = (DEFAULT.isTwoWordsVerb) ? `${getFirstPart(DEFAULT.verb)[0]} ` : '';
+	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
+	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
+
 	let root = (isLastLetterOfRootAVowel(verb)) ? DEFAULT.root + 'y' : DEFAULT.root;
 
 	// the final K or ğ is added later because it's more use to add than mutate a letter
@@ -26,7 +33,7 @@ const Future = (verb, DEFAULT = getProperties(verb)) => {
 
 	let addMutatedLetter = personalSuffixes.map(item => isVowel(firstLetter(item)) ? `ğ${item}` : `k${item}`);
 
-	return generateResult(addMutatedLetter, root, futureSuffix);
+	return generateResult(addMutatedLetter, firstPart, root, futureSuffix);
 
 }
 
