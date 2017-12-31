@@ -79,5 +79,4 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 
 	return (DEFAULT.isNegative) ? generateResult(personalSuffixesN, firstPart, root) : generateResult(personalSuffixes, firstPart, DEFAULT.root, aoristSuffix);
 }
-
 module.exports = Aorist;

@@ -25,7 +25,8 @@ const {
 	notMutableVerbs,
 	mutableVerbs,
 	alphabet,
-	auxiliaryComposedVerbs
+	auxiliaryComposedVerbs,
+	auxiliaryComposedVerbsNegative
 } = require('./../obj');
 
 
@@ -117,6 +118,7 @@ const whiteSpaces = str => (str.match(/\s/g)) ? str.match(/\s/g).length : false;
 // IF IT INCLUDES THE VERB ON notMutableVerbs then we negate it and return false, so like: "don't mutate"
 // IF IT'S NOT A SINGLE SYLLABLE VERB AND THE OTHERS CONDITIONS ARE TRUE THEN WE MUTATE
 
+
 const getProperties = verb => ({
 
 	verb: lowerCase(verb),
@@ -147,9 +149,13 @@ const getProperties = verb => ({
 
 	isSingleSyllableVerb: isSingleSyllableVerb(verb),
 
-	isAuxiliaryComposedVerb: (auxiliaryComposedVerbs.includes(verb)) ? true : false
+	isAuxiliaryComposedVerb: (auxiliaryComposedVerbs.includes(verb)) ? true : false,
+
+	isAuxiliaryComposedVerbInNegativeForm: (auxiliaryComposedVerbsNegative.includes(verb)) ? true : false
 
 });
+
+
 
 module.exports = {
 

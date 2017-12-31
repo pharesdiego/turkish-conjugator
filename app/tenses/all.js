@@ -10,6 +10,11 @@ const Aorist = require('./aorist'),
 			PotentialNegative = require('./potentialNegative'),
 			PotentialPositive = require('./potentialPositive');
 
+console.log(Aorist('olmamak'));
+console.log(Gerund('olmamak'))
+
+console.log(Aorist('kaybolmamak'))
+console.log(Gerund('kaybolmamak'))
 
 module.exports = {
 

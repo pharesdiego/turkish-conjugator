@@ -1,7 +1,7 @@
 {
   "name": "turkish-conjugator",
-  "version": "1.0.19",
-  "description": "",
+  "version": "1.0.20",
+  "description": "Turkish conjugator for students!",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
