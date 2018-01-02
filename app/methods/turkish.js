@@ -215,6 +215,7 @@ module.exports = {
 	convertToPositive,
 	isAlphabeticallyValid,
 	gotAccepted,
-	getProperties
+	getProperties,
+	whiteSpaces
 
 }
