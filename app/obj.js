@@ -37,7 +37,6 @@ module.exports.mutableVerbs = [
 	'ditmek',
 	'tatmak',
 	'yetmek',
-	'affetmek'
 ]
 
 module.exports.alphabet =
@@ -45,53 +44,8 @@ module.exports.alphabet =
 	'a','b','c','ç','d','e','f','g','ğ','h','ı','i','j','k','l','m','n','o','ö','p','r','s','ş','t','u','ü','v','y','z', ' '
 ]
 
-// module.exports.auxiliaryComposedVerbs = [
+module.exports.arentComposed = [
+
+	'sıkılmak'
 	
-// 	'halletmek',
-// 	'hasretmek',
-// 	'farketmek',
-// 	'seyretmek',
-// 	'sabretmek',
-// 	'nakletmek',
-// 	'hissetmek',
-// 	'vefatetmek',
-// 	'zannetmek',
-// 	'terketmek',
-// 	'kaybetmek',
-// 	'kastetmek',
-// 	'icabetmek',
-// 	'affetmek',
-// 	'bahşetmek'
-// ]
-
-// module.exports.auxiliaryComposedVerbsNegative = [
-// 	'halletmemek',
-// 	'farketmemek',
-// 	'sabretmemek',
-// 	'nakletmemek',
-// 	'zannetmemek',
-// 	'hasretmemek',
-// 	'kaybetmemek',
-// 	'kastetmemek',
-// 	'icabetmemek',
-// 	'affetmemek',
-// 	'bahşetmemek'
-
-// ]
-
-module.exports.auxiliaryComposedVerbs = [
-	
-	'etmek',
-	'yapmak',
-	'kılmak',
-	'eylemek'
-]
-
-module.exports.auxiliaryComposedVerbsNegative = [
-
-	'etmemek',
-	'yapmamak',
-	'kılmamak',
-	'eylememek'
-
 ]

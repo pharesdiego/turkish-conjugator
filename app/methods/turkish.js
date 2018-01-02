@@ -25,8 +25,7 @@ const {
 	notMutableVerbs,
 	mutableVerbs,
 	alphabet,
-	auxiliaryComposedVerbs,
-	auxiliaryComposedVerbsNegative
+	arentComposed
 } = require('./../obj');
 
 
@@ -56,7 +55,7 @@ const isSingleSyllableVerb = verb => (vowelsQuantity(verb) == 1) ? true : false;
 // Make Babel issue on Github
 // const getFirstVowel = str => (lastVowel = str.match(/[aeiıouöü]/gi)) ? lastVowel[0] : false;
 
-const getFirstVowel = str => (str.match(/[aeiıouöü]/gi)) ? str.match(/[aeiıouöü]/gi)[0] : false;
+const getFirstVowel = str => (/[aeiıouöü]/gi.test(str)) ? str.match(/[aeiıouöü]/gi)[0] : false;
 
 const getLastVowel = _(reverseStr, getFirstVowel);
 
@@ -110,7 +109,30 @@ const gotAccepted = verb => {
 
 }
 
-const whiteSpaces = str => (str.match(/\s/g)) ? str.match(/\s/g).length : false;
+const whiteSpaces = str => (/\s/g.test(str)) ? str.match(/\s/g).length : false;
+
+// kılmak is supported with the natural algorithm, so we don't need to put it here
+var regGet = /(etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
+var regIs = /^[a-zşüıöğç\s?]{2,}(etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
+
+var regGetNeg = /(etmemek|yapmamak|eylememek|olmamak|vermemek|kalmamak|edilmemek|dememek|dilememek|gelmemek|bulunmamak|söylememek|durmamak)$/;
+var regIsNeg = /^[a-zşüıöğç\s?]{2,}(etmemek|yapmamak|eylememek|olmamak|vermemek|kalmamak|edilmemek|dememek|dilememek|gelmemek|bulunmamak|söylememek|durmamak)$/;
+
+
+const isAuxiliaryComposedVerb = str => regIs.test(str);
+
+const getAuxiliaryComposedVerb = str => regGet.test(str) ? str.match(regGet)[0] : false;
+
+const getInitOfComposedVerb = str => str.replace(regGet, '');
+
+
+const isAuxiliaryComposedVerbInNegativeForm = str => regIsNeg.test(str);
+
+const getAuxiliaryComposedVerbInNegativeForm = str => regGetNeg.test(str) ? str.match(regGetNeg)[0] : false;
+
+const getInitOfComposedVerbInNegativeForm = str => str.replace(regGetNeg, '');
+
+
 
 // Conjugations, Times
 
@@ -121,7 +143,7 @@ const whiteSpaces = str => (str.match(/\s/g)) ? str.match(/\s/g).length : false;
 
 const getProperties = verb => ({
 
-	verb: lowerCase(verb),
+	verb: verb,
 
 	root: (doWeNeedToMutate(mutation[0].from)(verb) >= 0 && !notMutableVerbs.includes(verb) && validMutableSingleSyllableVerb(verb)) ? strInit(verbRoot(verb)) + mutate(doWeNeedToMutate(mutation[0].from)(verb)) : verbRoot(verb),
 
@@ -139,19 +161,28 @@ const getProperties = verb => ({
 
 	negativeSuffix: `m${get2WayHarmonyOf(verb)}`,
 
-	isNegative: isNegativeVerb(verb),
-
-	isEtmekComposed: (strEndsWith(verb)(' etmek') && !whiteSpaces(verb)) ? true : false,
-
 	positiveRoot: (isNegativeVerb(verb)) ? negativeVerbRoot(verb) : '',
 
-	isTwoWordsVerb: (whiteSpaces(verb)) ? true : false,
+	isNegative: isNegativeVerb(verb),
 
 	isSingleSyllableVerb: isSingleSyllableVerb(verb),
 
-	isAuxiliaryComposedVerb: (auxiliaryComposedVerbs.includes(verb)) ? true : false,
+	isComposed: (whiteSpaces(verb)) ? true : false,
 
-	isAuxiliaryComposedVerbInNegativeForm: (auxiliaryComposedVerbsNegative.includes(verb)) ? true : false
+
+	isAuxiliaryComposedVerb: (isAuxiliaryComposedVerb(verb)),
+
+	auxiliaryVerb: getAuxiliaryComposedVerb(verb),
+
+	initComposedVerb: (isAuxiliaryComposedVerb(verb)) ? getInitOfComposedVerb(verb) : false,
+
+
+	isAuxiliaryComposedVerbInNegativeForm: isAuxiliaryComposedVerbInNegativeForm(verb),
+
+	auxiliaryVerbInNegativeForm: getAuxiliaryComposedVerbInNegativeForm(verb),
+
+	initComposedVerbInNegativeForm: (isAuxiliaryComposedVerbInNegativeForm(verb)) ? getInitOfComposedVerbInNegativeForm(verb) : false,
+
 
 });
 
@@ -184,7 +215,6 @@ module.exports = {
 	convertToPositive,
 	isAlphabeticallyValid,
 	gotAccepted,
-	getProperties,
-	whiteSpaces
+	getProperties
 
 }

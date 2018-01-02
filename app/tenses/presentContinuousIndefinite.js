@@ -1,8 +1,6 @@
 const {
 	push,
-	strInit,
-	getFirstPart,
-	getLastPart
+	strInit
 } = require('./../methods/basics');
 
 const {
@@ -15,20 +13,19 @@ const {
 
 } = require('./../methods/turkish');
 
-
+// LAST CHECK 1 1 2018
 const PresentContinuousIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 
-	// if it's two words verb then we get the first part
-	let firstPart = (DEFAULT.isTwoWordsVerb) ? `${getFirstPart(DEFAULT.verb)[0]} ` : '';
+	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
+	// this has an space but it's not longer necessary
+	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : '';
 	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
-	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
+	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT;
 
 	// this use the root + gerund suffix +  -muş- + Personal Suffix I
 	// for 3th person plural we use the suffix (-larmış)
 	let root = (isLastLetterOfRootAVowel(verb)) ? strInit(DEFAULT.root) + DEFAULT.harmony4way : DEFAULT.root;
 
-	//if it's auxiliary composed (so if it uses etmek) then we need to mutate the final t to d 
-	root = (DEFAULT.isAuxiliaryComposedVerb) ? strInit(root) + 'd' : root;
 
 	let gerundSuffix = (isLastLetterOfRootAVowel(verb)) ? 'yor' : `${get4WayHarmonyByRootOf(root)}yor`;
 
@@ -39,5 +36,6 @@ const PresentContinuousIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 	return generateResult(push(personalSuffixes, larOrLer), firstPart, root, gerundSuffix);
 
 }
+
 
 module.exports = PresentContinuousIndefinite;

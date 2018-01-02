@@ -28,13 +28,12 @@ const getVowelsArr = arr => arr.filter(isVowel);
 
 const getVowelsStr = _(split, getVowelsArr, join);
 
-const getLastPart = _(splitWords, reverse);
-
-const getFirstPart = _(splitWords);
-
 const empty = (thing) => (thing.length == 0) ? true : false;
 
 const strEndsWith = string => (...letters) => !empty(letters.filter((letter) => string.endsWith(letter)));
+
+const strStarsWith = string => (...letters) => !empty(letters.filter((letter) => string.startsWith(letter)));
+
 
 module.exports = {
 	_,
@@ -52,8 +51,7 @@ module.exports = {
 	isVowel,
 	getVowelsArr,
 	getVowelsStr,
-	getLastPart,
-	getFirstPart,
 	empty,
-	strEndsWith
+	strEndsWith,
+	strStarsWith
 }

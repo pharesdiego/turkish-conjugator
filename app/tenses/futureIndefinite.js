@@ -1,7 +1,5 @@
 const {
 	push,
-	getFirstPart,
-	getLastPart,
 	strInit
 } = require('./../methods/basics');
 
@@ -14,12 +12,14 @@ const {
 
 } = require('./../methods/turkish');
 
+// LAST CHECK 1 1 2018
 const FutureIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 
-	// if it's two words verb then we get the first part
-	let firstPart = (DEFAULT.isTwoWordsVerb) ? `${getFirstPart(DEFAULT.verb)[0]} ` : '';
+	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
+	// this has an space but it's not longer necessary
+	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : '';
 	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
-	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
+	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT;
 
 	// this use: verb root + future suffix + -miş- OR -mış- + Personal Suffix I
 	// Try with gelmek and yapmak for -(y)ecek and -(y)acak
@@ -27,15 +27,19 @@ const FutureIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 
 	let root = (isLastLetterOfRootAVowel(verb)) ? DEFAULT.root + 'y' : DEFAULT.root;
 
-	//if it's auxiliary composed (so if it uses etmek) then we need to mutate the final t to d 
-	root = (DEFAULT.isAuxiliaryComposedVerb) ? strInit(root) + 'd' : root;
-
 	// the final K or ğ is added later because it's more use to add than mutate a letter
 	let futureSuffix = `${DEFAULT.harmony2way}c${DEFAULT.harmony2way}k`;
 
-	let larOrLer = `l${DEFAULT.harmony2way}rm${DEFAULT.harmony4way}ş`;
+	// we need to know which suffix is maked on "futureSuffix" for making the harmony
+	// if it's "ece" then the harmony is "i"
+	// if it's "aca" then the harmony is "ı"
+	// in this case we add the "k" at the final immediatly because we already know that the next thing will be the "m" of "miş"
+	let harmonyByFutureSuffix = (futureSuffix == 'ecek') ? 'i' : 'ı';
 
-	let personalSuffixes = arrayOfPersonalSuffixes.I(DEFAULT.harmony4way).map((item) => `m${DEFAULT.harmony4way}ş${item}`);
+
+	let larOrLer = `l${DEFAULT.harmony2way}rm${harmonyByFutureSuffix}ş`;
+
+	let personalSuffixes = arrayOfPersonalSuffixes.I(harmonyByFutureSuffix).map((item) => `m${harmonyByFutureSuffix}ş${item}`);
 
 	return generateResult(push(personalSuffixes, larOrLer), firstPart, root, futureSuffix);
 

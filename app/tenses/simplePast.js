@@ -17,13 +17,14 @@ const {
 	mutation
 } = require('./../obj');
 
-
+// LAST CHECK 1 1 2018
 const SimplePast = (verb, DEFAULT = getProperties(verb)) => {
 
-	// if it's two words verb then we get the first part
-	let firstPart = (DEFAULT.isTwoWordsVerb) ? `${getFirstPart(DEFAULT.verb)[0]} ` : '';
+	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
+	// this has an space but it's not longer necessary
+	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : '';
 	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
-	DEFAULT = (DEFAULT.isTwoWordsVerb) ? getProperties(getLastPart(DEFAULT.verb)[0]) : DEFAULT;
+	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT;
 
 	// We need to mutate the pastRoot from 'p', 't', 'k', 'ç', 's', 'ş', 'h' to 't'
 
@@ -35,5 +36,6 @@ const SimplePast = (verb, DEFAULT = getProperties(verb)) => {
 
 	return generateResult(personalSuffixes, firstPart, root);
 }
+
 
 module.exports = SimplePast;
