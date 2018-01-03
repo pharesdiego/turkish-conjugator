@@ -20,17 +20,16 @@ const {
 
 } = require('./../methods/turkish');
 
-// lAST CHECK 1 1 2018
+// lAST CHECK 3 1 2018
 const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 
 	// AORIST IS THE HARDER CONJUGATION IN TURKISH
 
-
 	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
 	// this has an space but it's not longer necessary
-	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : '';
+	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isComposed) ? DEFAULT.initPart : '';
 	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
-	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT;
+	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isComposed) ? getProperties(DEFAULT.lastPart) : DEFAULT;
 	
 	// harmonyRoot is like a default value if the conditions in aoristSuffix aren't enough
 	let harmonyRoot = `${get4WayHarmonyOf(verb)}r`;
@@ -63,8 +62,8 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 
 	return (DEFAULT.isNegative) ? generateResult(personalSuffixesN, firstPart, root) : generateResult(personalSuffixes, firstPart, DEFAULT.root, aoristSuffix);
 }
-
-
+ 
+// TEST VERBS
 // console.log(Aorist('ölmek'))
 // console.log(Aorist('yapmak'))
 // console.log(Aorist('olmak'))

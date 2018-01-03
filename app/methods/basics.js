@@ -34,6 +34,15 @@ const strEndsWith = string => (...letters) => !empty(letters.filter((letter) => 
 
 const strStarsWith = string => (...letters) => !empty(letters.filter((letter) => string.startsWith(letter)));
 
+const arrInit = arr => arr.slice(0, -1);
+
+const arrLast = arr => arr.slice(-1);
+
+const addRightSpace = arr => arr.map(item => item += ' ');
+
+const getStrInit = _(splitWords, arrInit, addRightSpace, join);
+
+const getStrLast = _(splitWords, arrLast, join);
 
 module.exports = {
 	_,
@@ -53,5 +62,7 @@ module.exports = {
 	getVowelsStr,
 	empty,
 	strEndsWith,
-	strStarsWith
+	strStarsWith,
+	getStrInit,
+	getStrLast
 }

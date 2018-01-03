@@ -16,7 +16,9 @@ const {
 	getVowelsStr,
 	getLastPart,
 	empty,
-	strEndsWith
+	strEndsWith,
+	getStrLast,
+	getStrInit
 } = require('./basics');
 
 const {
@@ -24,8 +26,7 @@ const {
 	mutation,
 	notMutableVerbs,
 	mutableVerbs,
-	alphabet,
-	arentComposed
+	alphabet
 } = require('./../obj');
 
 
@@ -169,6 +170,9 @@ const getProperties = verb => ({
 
 	isComposed: (whiteSpaces(verb)) ? true : false,
 
+	initPart: (whiteSpaces(verb)) ? getStrInit(verb) : '',
+
+	lastPart: (whiteSpaces(verb)) ? getStrLast(verb) : '',
 
 	isAuxiliaryComposedVerb: (isAuxiliaryComposedVerb(verb)),
 
