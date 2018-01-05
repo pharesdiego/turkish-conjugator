@@ -4,7 +4,8 @@ const {
 	getFirstPart,
 	getLastPart,
 	strInit,
-	isVowel
+	isVowel,
+	length
 } = require('./../methods/basics');
 
 const {
@@ -15,6 +16,11 @@ const {
 	getProperties
 
 } = require('./../methods/turkish');
+
+const {
+	exceptions
+} = require('./../obj');
+
 
 // LAST CHECK 4 1 2018
 const PresentIndefinite = (verb, DEFAULT = getProperties(verb)) => {
@@ -32,7 +38,7 @@ const PresentIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 	// harmonyRoot is like a default value if the conditions in aoristSuffix aren't enough
 	let harmonyRoot = `${get4WayHarmonyOf(verb)}r`;
 
-	let aoristSuffix = isVowel(lastLetter(DEFAULT.root)) ? 'r' : (DEFAULT.vowelsLength >= 2) ? harmonyRoot : (DEFAULT.vowelsLength == 1 && /[ae]/i.test(DEFAULT.verbVowels) && /[lnr]/i.test(lastLetter(DEFAULT.root))) ? harmonyRoot : (/[ie]/.test(DEFAULT.verbVowels) && lastLetter(DEFAULT.root) != 'l') ? 'er' : (DEFAULT.verbVowels == 'i') ? 'ir' : (DEFAULT.verbVowels == 'a') ? 'ar' : (DEFAULT.verbVowels == 'ü') ? 'er' : (DEFAULT.verbVowels == 'ı') ? 'ar' : (DEFAULT.verbVowels == 'o' && lastLetter(DEFAULT.root) != 'r') ? 'ur' : (DEFAULT.isSingleSyllableVerb && DEFAULT.verbSuffix == 'mek' && DEFAULT.verbVowels != 'ö') ? 'er' : (DEFAULT.isSingleSyllableVerb && DEFAULT.verbVowels == 'u' && lastLetter(DEFAULT.root) != 'y') ? 'ur' : (DEFAULT.isSingleSyllableVerb && DEFAULT.verbVowels == 'ö') ? 'ür' : (DEFAULT.isSingleSyllableVerb && DEFAULT.verbVowels == 'ü') ? 'ür' : 'ar';
+	let aoristSuffix = isVowel(lastLetter(DEFAULT.root)) ? 'r' : (length(DEFAULT.root) <= 3 && !exceptions.includes(DEFAULT.verb)) ? `${DEFAULT.harmony2way}r` : `${DEFAULT.harmony4way}r`;
 
 
 	let larOrLer = `m${DEFAULT.harmony4way}şl${DEFAULT.harmony2way}r`;

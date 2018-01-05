@@ -3,7 +3,8 @@ const {
 	lastLetter,
 	firstLetter,
 	isVowel,
-	strInit
+	strInit,
+	length
 } = require('./../methods/basics');
 
 const {
@@ -19,6 +20,10 @@ const {
 
 } = require('./../methods/turkish');
 
+const {
+	exceptions
+} = require('./../obj');
+
 // lAST CHECK 3 1 2018
 const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 
@@ -33,11 +38,8 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 	// harmonyRoot is like a default value if the conditions in aoristSuffix aren't enough
 	let harmonyRoot = `${get4WayHarmonyOf(verb)}r`;
 
-	// <>>>< N E E D  T O  E X P L A I N  A L L  T H E S E  C O N D I T I O N S>>><<<>>
-	// Maybe this could be a function (in other module) with a lot of IF for easy reading 
-	let aoristSuffix = isVowel(lastLetter(DEFAULT.root)) ? 'r' : (DEFAULT.vowelsLength >= 2) ? harmonyRoot : (DEFAULT.vowelsLength == 1 && /[ae]/i.test(DEFAULT.verbVowels) && /[lnr]/i.test(lastLetter(DEFAULT.root))) ? harmonyRoot : (/[ie]/.test(DEFAULT.verbVowels) && lastLetter(DEFAULT.root) != 'l') ? 'er' : (DEFAULT.verbVowels == 'i') ? 'ir' : (DEFAULT.verbVowels == 'a') ? 'ar' : (DEFAULT.verbVowels == 'ü') ? 'er' : (DEFAULT.verbVowels == 'ı') ? 'ar' : (DEFAULT.verbVowels == 'o' && lastLetter(DEFAULT.root) != 'r') ? 'ur' : (DEFAULT.isSingleSyllableVerb && DEFAULT.verbSuffix == 'mek' && DEFAULT.verbVowels != 'ö') ? 'er' : (DEFAULT.isSingleSyllableVerb && DEFAULT.verbVowels == 'u' && lastLetter(DEFAULT.root) != 'y') ? 'ur' : (DEFAULT.isSingleSyllableVerb && DEFAULT.verbVowels == 'ö') ? 'ür' : (DEFAULT.isSingleSyllableVerb && DEFAULT.verbVowels == 'ü') ? 'ür' : 'ar';
-
-
+	let aoristSuffix = isVowel(lastLetter(DEFAULT.root)) ? 'r' : (length(DEFAULT.root) <= 3 && !exceptions.includes(DEFAULT.verb)) ? `${DEFAULT.harmony2way}r` : `${DEFAULT.harmony4way}r`;
+	
 	// RECHECKS. Aorist time is really complicated and we need to recheck the root harmony
 	// We are recheking by the aorist suffix, so if it's "-er"
 	// recheck4Harmony will be "i"
@@ -61,7 +63,7 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 
 	return (DEFAULT.isNegative) ? generateResult(personalSuffixesN, firstPart, root) : generateResult(personalSuffixes, firstPart, DEFAULT.root, aoristSuffix);
 }
- 
+
 // TEST VERBS
 
 
@@ -69,6 +71,8 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 		twoWays: ['aıou', 'eiöü']
 	}
 
+
+I HAVE THIS ONE HERE BECAUSE MY KEYBORDS DOESN'T HAVE THIS TURKISH CARACTERS XD
 module.exports.mutation = 
 [
 	{

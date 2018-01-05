@@ -126,11 +126,11 @@ const gotAccepted = verb => {
 const whiteSpaces = str => (/\s/g.test(str)) ? str.match(/\s/g).length : false;
 
 // kılmak is supported with the natural algorithm, so we don't need to put it here
-var regGet = /(etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
-var regIs = /^[a-zşüıöğç\s?]{2,}(etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
+var regGet = /(geçmek|etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
+var regIs = /^[a-zşüıöğç\s?]{2,}(geçmek|etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
 
-var regGetNeg = /(etmemek|yapmamak|eylememek|olmamak|vermemek|kalmamak|edilmemek|dememek|dilememek|gelmemek|bulunmamak|söylememek|durmamak)$/;
-var regIsNeg = /^[a-zşüıöğç\s?]{2,}(etmemek|yapmamak|eylememek|olmamak|vermemek|kalmamak|edilmemek|dememek|dilememek|gelmemek|bulunmamak|söylememek|durmamak)$/;
+var regGetNeg = /(geçmemek|etmemek|yapmamak|eylememek|olmamak|vermemek|kalmamak|edilmemek|dememek|dilememek|gelmemek|bulunmamak|söylememek|durmamak)$/;
+var regIsNeg = /^[a-zşüıöğç\s?]{2,}(geçmemek|etmemek|yapmamak|eylememek|olmamak|vermemek|kalmamak|edilmemek|dememek|dilememek|gelmemek|bulunmamak|söylememek|durmamak)$/;
 
 
 const isAuxiliaryComposedVerb = str => regIs.test(str);
