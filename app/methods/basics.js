@@ -24,9 +24,13 @@ const strInit = str => str.slice(0,-1);
 
 const isVowel = str => (/[aeiıouöü]/gi.test(str)) ? true : false;
 
+const isConsonant = str => !isVowel(str);
+
 const getVowelsArr = arr => arr.filter(isVowel);
 
 const getVowelsStr = _(split, getVowelsArr, join);
+
+const getLastVowel = str => getVowelsStr(str).slice(-1);
 
 const empty = (thing) => (thing.length == 0) ? true : false;
 
@@ -64,5 +68,6 @@ module.exports = {
 	strEndsWith,
 	strStarsWith,
 	getStrInit,
-	getStrLast
+	getStrLast,
+	getLastVowel
 }

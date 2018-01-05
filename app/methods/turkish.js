@@ -39,10 +39,11 @@ const isMutable = arr => letter => arr.reduce((ref, elem, index) => (elem == let
 
 const mutate = index => mutation[0].to[index];
 
-const isLastLetterOfRootAVowel = _(verbRoot, lastLetter, isVowel);
-
 const lookForHarmonyIn = arr => str => (arr.filter(harmony => harmony.includes(str)));
 
+// I = first type: im, sin, (i), iz, siniz (lar or ler is added later)
+// II = second type: im, in, (i), ik, siniz (lar or ler is added later)
+// IN = first type negative: m, zsin, z, yiz, zsiniz (lar or ler is added later. The -z is not added in first person singular and first person plurar)
 const arrayOfPersonalSuffixes = {
 	I: (i, z = '') => [`${i}m`, `${z}s${i}n`, `${z}`, `${i}z`, `${z}s${i}n${i}z`],
 	II: (i, e = i) => [`${i}m`, `${i}n`, `${i}`, `${i}k`, `${i}n${e}z`],
@@ -78,7 +79,19 @@ const isOnMutableList = str => mutableVerbs.includes(str) ? true : false;
 
 const validMutableSingleSyllableVerb = verb => (isOnMutableList(verb) && isSingleSyllableVerb(verb)) ? true : false; 
 
-const generateResult = (arr, firstPart, verbRoot, timeSuffix = '') => arr.map(suffix => `${firstPart + verbRoot + timeSuffix + suffix}`);
+
+// Sometimes when there isn't a composed verb (so the verb doesn't have spaces) the first part will be empty
+// personalSuffixes is an array like im, sin, , iz, siniz, lar/ler
+// the tenseSuffix is one of the suffix of: aorist, gerund,  future, etc...
+	// it's optional because in negative forms the personalSuffixes may have the tenseSuffix on it
+const generateResult = 
+	(
+		personalSuffixes, 
+		firstPart, 
+		verbRoot, 
+		tenseSuffix = ''
+
+	) => personalSuffixes.map(suffix => `${firstPart + verbRoot + tenseSuffix + suffix}`);
 
 
 // VERIFY
@@ -198,7 +211,6 @@ module.exports = {
 	negativeVerbRoot,
 	isMutable,
 	mutate,
-	isLastLetterOfRootAVowel,
 	lookForHarmonyIn,
 	arrayOfPersonalSuffixes,
 	vowelsQuantity,

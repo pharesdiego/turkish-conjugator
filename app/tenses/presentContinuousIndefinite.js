@@ -1,19 +1,21 @@
 const {
 	push,
-	strInit
+	strInit,
+	isVowel,
+	lastLetter,
+	getLastVowel
 } = require('./../methods/basics');
 
 const {
 
-	isLastLetterOfRootAVowel,
 	arrayOfPersonalSuffixes,
-	get4WayHarmonyByRootOf,
 	generateResult,
-	getProperties
+	getProperties,
+	lookIn4Ways
 
 } = require('./../methods/turkish');
 
-// LAST CHECK 3 1 2018
+// LAST CHECK 4 1 2018
 const PresentContinuousIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 
 	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
@@ -24,18 +26,21 @@ const PresentContinuousIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 
 	// this use the root + gerund suffix +  -muş- + Personal Suffix I
 	// for 3th person plural we use the suffix (-larmış)
-	let root = (isLastLetterOfRootAVowel(verb)) ? strInit(DEFAULT.root) + DEFAULT.harmony4way : DEFAULT.root;
 
+	let root = (DEFAULT.isNegative || isVowel(lastLetter(DEFAULT.root))) ? strInit(DEFAULT.root) : DEFAULT.root;
 
-	let gerundSuffix = (isLastLetterOfRootAVowel(verb)) ? 'yor' : `${get4WayHarmonyByRootOf(root)}yor`;
+	//	gerundSuffix can be iyor,ıyor, üyor, uyor
+	let gerundSuffix = lookIn4Ways(getLastVowel(root)) + 'yor';
+
 
 	let larOrLer = 'larmış';
 
+	// We create the array of personal suffix and after we add the Indefinite Suffix "muş"
 	let personalSuffixes = arrayOfPersonalSuffixes.I('u').map((item) => `muş${item}`);
 
+	// We push here the new Array of personal suffix and the larOrLer
 	return generateResult(push(personalSuffixes, larOrLer), firstPart, root, gerundSuffix);
 
 }
-
 
 module.exports = PresentContinuousIndefinite;

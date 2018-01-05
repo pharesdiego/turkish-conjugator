@@ -1,12 +1,15 @@
 const {
 	push,
-	strInit
+	strInit,
+	firstLetter,
+	lastLetter,
+	isVowel,
+	isConsonant,
+	getLastVowel
 } = require('./../methods/basics');
 
 const {
-	isLastLetterOfRootAVowel,
 	arrayOfPersonalSuffixes,
-	get4WayHarmonyByRootOf,
 	generateResult,
 	getProperties,
 	getFirstVowel,
@@ -15,7 +18,7 @@ const {
 } = require('./../methods/turkish');
 
 
-// lAST CHECK 3 1 2018
+// lAST CHECK 4 1 2018
 const Gerund = (verb, DEFAULT = getProperties(verb)) => {
 
 	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
@@ -25,10 +28,10 @@ const Gerund = (verb, DEFAULT = getProperties(verb)) => {
 	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isComposed) ? getProperties(DEFAULT.lastPart) : DEFAULT;
 
 
-	let root = (isLastLetterOfRootAVowel(DEFAULT.verb) && DEFAULT.vowelsLength == 1) ? strInit(DEFAULT.root) + DEFAULT.harmony4way : (!isLastLetterOfRootAVowel(DEFAULT.verb) && DEFAULT.vowelsLength >= 1) ? DEFAULT.root : strInit(DEFAULT.root) + lookIn4Ways(getFirstVowel(DEFAULT.verb));
+	let root = (DEFAULT.isNegative || isVowel(lastLetter(DEFAULT.root))) ? strInit(DEFAULT.root) : DEFAULT.root;
 
-
-	let gerundSuffix = (isLastLetterOfRootAVowel(DEFAULT.verb)) ? 'yor' : `${get4WayHarmonyByRootOf(root)}yor`;
+	//	gerundSuffix can be iyor, ıyor, üyor, uyor
+	let gerundSuffix = lookIn4Ways(getLastVowel(root)) + 'yor';
 
 
 	let larOrLer = 'lar';
@@ -38,6 +41,5 @@ const Gerund = (verb, DEFAULT = getProperties(verb)) => {
 	return generateResult(personalSuffixes, firstPart, root, gerundSuffix); 
 
 }
-
 
 module.exports = Gerund;

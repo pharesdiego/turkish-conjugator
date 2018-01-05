@@ -1,6 +1,8 @@
 const {
 	push,
-	strInit
+	strInit,
+	isVowel,
+	lastLetter
 } = require('./../methods/basics');
 
 const {
@@ -12,7 +14,7 @@ const {
 
 } = require('./../methods/turkish');
 
-// LAST CHECK 3 1 2018
+// LAST CHECK 4 1 2018
 const FutureIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 
 	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
@@ -25,7 +27,7 @@ const FutureIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 	// Try with gelmek and yapmak for -(y)ecek and -(y)acak
 	// for 3th person plural we use the suffix (-larmış) or (-lermiş)
 
-	let root = (isLastLetterOfRootAVowel(verb)) ? DEFAULT.root + 'y' : DEFAULT.root;
+	let root = isVowel(lastLetter(DEFAULT.root)) ? DEFAULT.root + 'y' : DEFAULT.root;
 
 	// the final K or ğ is added later because it's more use to add than mutate a letter
 	let futureSuffix = `${DEFAULT.harmony2way}c${DEFAULT.harmony2way}k`;
@@ -44,5 +46,6 @@ const FutureIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 	return generateResult(push(personalSuffixes, larOrLer), firstPart, root, futureSuffix);
 
 }
+
 
 module.exports = FutureIndefinite;

@@ -2,19 +2,19 @@ const {
 	push,
 	firstLetter,
 	isVowel,
+	lastLetter,
 	strInit
 } = require('./../methods/basics');
 
 const {
 
-	isLastLetterOfRootAVowel,
 	arrayOfPersonalSuffixes,
 	generateResult,
 	getProperties
 
 } = require('./../methods/turkish');
 
-// LAST CHECK 3 1 2018
+// LAST CHECK 4 1 2018
 const Future = (verb, DEFAULT = getProperties(verb)) => {
 
 	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
@@ -23,10 +23,12 @@ const Future = (verb, DEFAULT = getProperties(verb)) => {
 	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
 	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isComposed) ? getProperties(DEFAULT.lastPart) : DEFAULT;
 
-	let root = (isLastLetterOfRootAVowel(verb)) ? DEFAULT.root + 'y' : DEFAULT.root;
+	// if the last letter is of the root is a vowel we add the buffer "y" that's part of the future suffix:
+		// the future suffix is (y)ecek (y)acak
+	let root = (isVowel(lastLetter(DEFAULT.root))) ? DEFAULT.root + 'y' : DEFAULT.root;
 
 
-	// the final K or ğ is added later because it's more use to add than mutate a letter
+	// the final k or ğ is added later because it's more easy to add than mutate a letter
 	let futureSuffix = `${DEFAULT.harmony2way}c${DEFAULT.harmony2way}`;
 
 
@@ -48,5 +50,6 @@ const Future = (verb, DEFAULT = getProperties(verb)) => {
 	return generateResult(addMutatedLetter, firstPart, root, futureSuffix);
 
 }
+
 
 module.exports = Future;

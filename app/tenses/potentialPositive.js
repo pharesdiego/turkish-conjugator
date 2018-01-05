@@ -1,10 +1,11 @@
 const {
 	push,
-	strInit
+	strInit,
+	isVowel,
+	lastLetter
 } = require('./../methods/basics');
 
 const {
-	isLastLetterOfRootAVowel,
 	arrayOfPersonalSuffixes,
 	generateResult,
 	getProperties
@@ -25,7 +26,7 @@ const PotentialPositive = (verb, DEFAULT = getProperties(verb)) => {
 	// root + (ebil|abil) + aorist + Personal Suffixes I
 	// yapabilirim, olabilirim, söyleyebilirim (!!söyle yebil er im)
 
-	let abilitySuffix = (isLastLetterOfRootAVowel(verb)) ? `y${DEFAULT.harmony2way}bil` : `${DEFAULT.harmony2way}bil`;
+	let abilitySuffix = isVowel(lastLetter(DEFAULT.root)) ? `y${DEFAULT.harmony2way}bil` : `${DEFAULT.harmony2way}bil`;
 
 	let aoristSuffix = 'ir';
 
