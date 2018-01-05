@@ -13,7 +13,10 @@ const {
 	arrayOfPersonalSuffixes,
 	get4WayHarmonyOf,
 	generateResult,
-	getProperties
+	getProperties,
+	lookIn4Ways,
+	lookIn2Ways,
+	getLastVowel
 
 } = require('./../methods/turkish');
 
@@ -40,10 +43,19 @@ const PresentIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 
 	let aoristSuffix = isVowel(lastLetter(DEFAULT.root)) ? 'r' : (length(DEFAULT.root) <= 3 && !exceptions.includes(DEFAULT.verb)) ? `${DEFAULT.harmony2way}r` : `${DEFAULT.harmony4way}r`;
 
+	// RECHECKS. Aorist time is really complicated and we need to recheck the root harmony
+	// We are recheking by the aorist suffix, so if it's "-er"
+	// recheck4Harmony will be "i"
+	// recheck2Harmony will be "e"
+	// if aoristSuffix is "-r" then we use the default values because there aren't problems
 
-	let larOrLer = `m${DEFAULT.harmony4way}şl${DEFAULT.harmony2way}r`;
+	let recheck4Harmony = (aoristSuffix == 'r') ? DEFAULT.harmony4way : lookIn4Ways(getLastVowel(aoristSuffix));
 
-	let personalSuffixes = arrayOfPersonalSuffixes.I(DEFAULT.harmony4way).map((item) => `m${DEFAULT.harmony4way}ş${item}`);
+	let recheck2Harmony = (aoristSuffix == 'r') ? DEFAULT.harmony2way : lookIn2Ways(getLastVowel(aoristSuffix));
+
+	let larOrLer = `m${recheck4Harmony}şl${recheck2Harmony}r`;
+
+	let personalSuffixes = arrayOfPersonalSuffixes.I(recheck4Harmony).map((item) => `m${recheck4Harmony}ş${item}`);
 
 	return generateResult(push(personalSuffixes, larOrLer), firstPart, DEFAULT.root, aoristSuffix);
 
