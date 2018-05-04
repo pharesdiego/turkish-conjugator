@@ -1,3 +1,5 @@
+const lodash = require('lodash');
+
 const {
 	_,
 	length,
@@ -29,103 +31,130 @@ const {
 	alphabet
 } = require('./../obj');
 
-
-
+const {
+	isNegativeVerb
+} = require('./verbVerification')
+/**
+ * @description This function is used to extract the content before the verb root from a given verb. Ex: ETMEK -> ET
+ * @param {string} str
+ * @returns {string}
+ */
 const verbRoot = str => str.slice(0, -3);
 
+/**
+ * @description This function is used to extract the content before the negative verb root from a given verb. Ex: ETMEMEK -> ET
+ * @param {string} str
+ * @returns {string} 
+ */
 const negativeVerbRoot = str => str.slice(0, -5);
 
-const isMutable = arr => letter => arr.reduce((ref, elem, index) => (elem == letter) ? ref = index : ref, -1);
-
-const mutate = index => mutation[0].to[index];
-
-const lookForHarmonyIn = arr => str => (arr.filter(harmony => harmony.includes(str)));
-
-// I = first type: im, sin, (i), iz, siniz (lar or ler is added later)
-// II = second type: im, in, (i), ik, siniz (lar or ler is added later)
-// IN = first type negative: m, zsin, z, yiz, zsiniz (lar or ler is added later. The -z is not added in first person singular and first person plurar)
+/**
+ * @description This object contains some functions that generates Arrays with personal suffixes that will
+ * be added to the conjugations
+ * I = first type: im, sin, (i), iz, siniz (lar or ler is added later)
+ * II = second type: im, in, (i), ik, siniz (lar or ler is added later)
+ * IN = first type negative: m, zsin, z, yiz, zsiniz (lar or ler is added later. The -z is not added in first person singular and first person plurar)
+ */
 const arrayOfPersonalSuffixes = {
 	I: (i, z = '') => [`${i}m`, `${z}s${i}n`, `${z}`, `${i}z`, `${z}s${i}n${i}z`],
 	II: (i, e = i) => [`${i}m`, `${i}n`, `${i}`, `${i}k`, `${i}n${e}z`],
 	IN: (i, y) => [`m`, `zs${i}n`, `z`, `y${i}z`, `zs${i}n${i}z`]
 }
 
+/**
+ * @description This function is going to take a Verb, get its root, and count the vowels in that root
+ * @param {string} - a verb where to look for vowels
+ * @returns {number} - the quantity of vowels in the verb's root
+ */
 const vowelsQuantity = _(verbRoot, getVowelsStr, length);
 
-const isSingleSyllableVerb = verb => (vowelsQuantity(verb) == 1) ? true : false;
+/**
+ * @description Does this verb have only one syllable?
+ * @param {string} verb
+ * @returns {boolean} - is it one syllable or not?
+ */
+const isSingleSyllableVerb = verb => vowelsQuantity(verb) === 1
 
-// Make Babel issue on Github
-// const getFirstVowel = str => (lastVowel = str.match(/[aeiıouöü]/gi)) ? lastVowel[0] : false;
+/**
+ * Returns the first vowel in a string
+ * @param {string} 
+ * @returns {string}
+ */
+const getFirstVowel = str => (str.match(/[aeiıouöü]/gi) || [ false ] )[0]
 
-const getFirstVowel = str => (/[aeiıouöü]/gi.test(str)) ? str.match(/[aeiıouöü]/gi)[0] : false;
-
+/**
+ * Returns the last vowel in a string
+ * @param {string} 
+ * @returns {string}
+ */
 const getLastVowel = _(reverseStr, getFirstVowel);
 
-const lookIn4Ways = _(lookForHarmonyIn(harmony[0].fourWays), join, lastLetter);
-
-const lookIn2Ways = _(lookForHarmonyIn(harmony[1].twoWays), join, firstLetter);
-
-const get4WayHarmonyOf = _(verbRoot, getLastVowel, lookIn4Ways);
-
-const get2WayHarmonyOf = _(verbRoot, getLastVowel, lookIn2Ways);
-
-const get4WayHarmonyByRootOf = _(getLastVowel, lookIn4Ways);
-
-const get2WayHarmonyByRootOf = _(firstLetter, lookIn2Ways);
-
-const doWeNeedToMutate = arr => _(verbRoot, lastLetter, isMutable(arr));
-
-const isOnMutableList = str => mutableVerbs.includes(str) ? true : false;
-
-const validMutableSingleSyllableVerb = verb => (isOnMutableList(verb) && isSingleSyllableVerb(verb)) ? true : false; 
-
-
-// Sometimes when there isn't a composed verb (so the verb doesn't have spaces) the first part will be empty
-// personalSuffixes is an array like im, sin, , iz, siniz, lar/ler
-// the tenseSuffix is one of the suffix of: aorist, gerund,  future, etc...
-	// it's optional because in negative forms the personalSuffixes may have the tenseSuffix on it
-const generateResult = 
-	(
-		personalSuffixes, 
-		firstPart, 
-		verbRoot, 
-		tenseSuffix = ''
-
-	) => personalSuffixes.map(suffix => `${firstPart + verbRoot + tenseSuffix + suffix}`);
-
-
-// VERIFY
-const hasMinLength = (str, l) => (str.length >= l) ? true : false;
-
-const isVerb = verb => strEndsWith(verb)('mek', 'mak');
-
-const isNegativeVerb = verb => strEndsWith(verb)('memek', 'mamak');
-
-const convertToPositive = (verb) => { let i = get2WayHarmonyOf(verb); return verb.replace(`m${i}m${i}k`, `m${i}k`) };
-
-const convertToNegative = (verb) => { let i = get2WayHarmonyOf(verb); return verb.replace(`m${i}k`, `m${i}m${i}k`) };
-
-const isAlphabeticallyValid = arr => empty(arr.filter(item => !alphabet.includes(item)));
-
-const gotAccepted = verb => {
-
-	verb = lowerCase(verb);
-	
-	if(hasMinLength(verb, 5) && isAlphabeticallyValid(split(verb))){
-
-		if(isNegativeVerb(verb) && hasMinLength(verb, 7)) return convertToPositive(verb);
-
-		if(isVerb(verb)) return verb;
-
-	}
-
-	return false;
-
+const lookFor = {
+	'4 way harmony': vowel => lodash.find(harmony.fourWays, stringOfVowels => {
+		/**
+		 * harmony.fourWays is an array with 'string of vowels' that looks like: ['aı', 'ou', 'ei', 'öü']
+		 * we'll see if one of these string of vowels contains the given @param VOWEL
+		 * stringOfVowels.includes(vowel) will give us one of these strings
+		 * and with slice(-1) we'll get its harmony, because this strings are made for 
+		 * having the harmony letter in the final of the string
+		 * so the 'string of vowel': 'aı' returns -> 'ı'
+		 * THIS PRINCIPLE WILL ALSO BE USED WITH THE '2 way harmony' @function in this object.
+		 */
+		return stringOfVowels.includes(vowel)
+	}).slice(-1),
+	'2 way harmony': vowel => lodash.find(harmony.twoWays, stringOfVowels => stringOfVowels.includes(vowel)).slice(-1)
 }
 
-const whiteSpaces = str => (/\s/g.test(str)) ? str.match(/\s/g).length : false;
+const lookIn4Ways = lookFor['4 way harmony'];
+const lookIn2Ways = lookFor['2 way harmony'];
 
-// kılmak is supported with the natural algorithm, so we don't need to put it here
+/**
+ * @description This function figure out a verb's 4-Way-Harmony 
+ * @param {string} - A verb in its infinitive form (so with -mek, -mak. Ex: Etmek, Bilmek)
+ * @returns {string} - a 1 length string that could be one of these: [ı, u, i, ü] representing the 4-way-harmony
+ */
+const get4WayHarmonyOf = _(verbRoot, getLastVowel, lookIn4Ways);
+
+/**
+ * @description This function figure out a verb's 2-Way-Harmony 
+ * @param {string} - A verb in its infinitive form (so with -mek, -mak. Ex: Etmek, Bilmek)
+ * @returns {string} - a 1 length string that could be one of these: [a, e] representing the 2-way-harmony
+ */
+const get2WayHarmonyOf = _(verbRoot, getLastVowel, lookIn2Ways);
+
+/**
+ * @description This func puts every part of the conjugation together an generates a final array.
+ * @param {Object} props
+ * @prop props.personalSuffixes - an array of personal suffixes generated by one of the @func in the arrayOfPersonalSuffixes Object
+ * @prop props.firstPart - when a verb is composed, we need to extract the firstPart of it, @example:The firstPart of 'Yardım etmek' is: 'Yardım'
+ * @prop props.verbRoot - the root of a verb (a verb without -mek or -mak, @example: Bilmek -> Bil)
+ * @prop props.tenseSuffix - the verb tense suffix, example: aorist, gerund, future, past, potential... This param could be empty because sometimes props.verbRoot already has the tenseSuffix on it (in negative forms of a verb for example)
+ */
+	const generateResult = ({
+		personalSuffixes,
+		firstPart,
+		verbRoot,
+		tenseSuffix
+	}) => {
+		tenseSuffix = tenseSuffix || ''
+		return lodash.map(personalSuffixes, suffix => `${firstPart + verbRoot + tenseSuffix + suffix}`)
+		/**
+		 * @example with verb 'bilmek'
+		 * personalSuffixes will looks like: [ 'im', 'sin', '', 'iz', 'siniz', 'ler' ]
+		 * 	We'll map over each element and generate conjugations
+		 * verbRoot: bil 
+		 * tenseSuffix: ir (when it's Aorist tense)
+		 * RESULT -> [ 'bilirim','bilirsin','bilir','biliriz','bilirsiniz','bilirler' ]
+		 */
+	}
+
+/**
+ * Quantity of white spaces
+ * @param {string} str
+ * @returns {number} - quantity of white spaces in the given string 
+ */
+const whiteSpaces = str => (str.match(/\s/g) || []).length
+
 var regGet = /(geçmek|etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
 var regIs = /^[a-zşüıöğç\s?]{2,}(geçmek|etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
 
@@ -135,31 +164,21 @@ var regIsNeg = /^[a-zşüıöğç\s?]{2,}(geçmemek|etmemek|yapmamak|eylememek|o
 
 const isAuxiliaryComposedVerb = str => regIs.test(str);
 
-const getAuxiliaryComposedVerb = str => regGet.test(str) ? str.match(regGet)[0] : false;
+const isAuxiliaryComposedVerbInNegativeForm = str => regIsNeg.test(str);
+
+const getAuxiliaryComposedVerb = str => (str.match(regGet) || [ false ])[0]
+
+const getAuxiliaryComposedVerbInNegativeForm = str => (str.match(regGetNeg) || [ false ])[0];
 
 const getInitOfComposedVerb = str => str.replace(regGet, '');
 
-
-const isAuxiliaryComposedVerbInNegativeForm = str => regIsNeg.test(str);
-
-const getAuxiliaryComposedVerbInNegativeForm = str => regGetNeg.test(str) ? str.match(regGetNeg)[0] : false;
-
 const getInitOfComposedVerbInNegativeForm = str => str.replace(regGetNeg, '');
-
-
-
-// Conjugations, Times
-
-// Root property explained:
-// IF IT INCLUDES THE VERB ON notMutableVerbs then we negate it and return false, so like: "don't mutate"
-// IF IT'S NOT A SINGLE SYLLABLE VERB AND THE OTHERS CONDITIONS ARE TRUE THEN WE MUTATE
-
 
 const getProperties = verb => ({
 
 	verb: verb,
-
-	root: (doWeNeedToMutate(mutation[0].from)(verb) >= 0 && !notMutableVerbs.includes(verb) && validMutableSingleSyllableVerb(verb)) ? strInit(verbRoot(verb)) + mutate(doWeNeedToMutate(mutation[0].from)(verb)) : verbRoot(verb),
+ 
+	root: mutableVerbs.includes(verb) ? verbRoot(verb).replace('t', 'd') : verbRoot(verb),
 
 	originalRoot: verbRoot(verb),
 
@@ -173,45 +192,41 @@ const getProperties = verb => ({
 
 	harmony2way: get2WayHarmonyOf(verb),
 
-	negativeSuffix: `m${get2WayHarmonyOf(verb)}`,
+	negativeSuffix: 'm' + get2WayHarmonyOf(verb),
 
-	positiveRoot: (isNegativeVerb(verb)) ? negativeVerbRoot(verb) : '',
+	// This is called positiveRoot because if isNegativeVerb we'll use negativeVerbRoot, and this function returns
+	// the positive root of the verb because it removes 'memek' or 'mamak' from the verb
+	positiveRoot: isNegativeVerb(verb) && negativeVerbRoot(verb),
 
 	isNegative: isNegativeVerb(verb),
 
 	isSingleSyllableVerb: isSingleSyllableVerb(verb),
 
-	isComposed: (whiteSpaces(verb)) ? true : false,
+	// if it has white spaces it means it's composed
+	isComposed: Boolean(whiteSpaces(verb)),
 
-	initPart: (whiteSpaces(verb)) ? getStrInit(verb) : '',
+	initPart: Boolean(whiteSpaces(verb)) && getStrInit(verb),
 
-	lastPart: (whiteSpaces(verb)) ? getStrLast(verb) : '',
+	lastPart: Boolean(whiteSpaces(verb)) && getStrLast(verb),
 
 	isAuxiliaryComposedVerb: (isAuxiliaryComposedVerb(verb)),
 
 	auxiliaryVerb: getAuxiliaryComposedVerb(verb),
 
-	initComposedVerb: (isAuxiliaryComposedVerb(verb)) ? getInitOfComposedVerb(verb) : false,
-
+	initComposedVerb: isAuxiliaryComposedVerb(verb) && getInitOfComposedVerb(verb),
 
 	isAuxiliaryComposedVerbInNegativeForm: isAuxiliaryComposedVerbInNegativeForm(verb),
 
 	auxiliaryVerbInNegativeForm: getAuxiliaryComposedVerbInNegativeForm(verb),
 
-	initComposedVerbInNegativeForm: (isAuxiliaryComposedVerbInNegativeForm(verb)) ? getInitOfComposedVerbInNegativeForm(verb) : false,
-
+	initComposedVerbInNegativeForm: isAuxiliaryComposedVerbInNegativeForm(verb) && getInitOfComposedVerbInNegativeForm(verb),
 
 });
 
 
-
 module.exports = {
-
 	verbRoot,
 	negativeVerbRoot,
-	isMutable,
-	mutate,
-	lookForHarmonyIn,
 	arrayOfPersonalSuffixes,
 	vowelsQuantity,
 	getFirstVowel,
@@ -220,18 +235,7 @@ module.exports = {
 	lookIn2Ways,
 	get4WayHarmonyOf,
 	get2WayHarmonyOf,
-	get4WayHarmonyByRootOf,
-	get2WayHarmonyByRootOf,
-	doWeNeedToMutate,
 	generateResult,
-	hasMinLength,
-	isVerb,
-	isNegativeVerb,
-	convertToNegative,
-	convertToPositive,
-	isAlphabeticallyValid,
-	gotAccepted,
 	getProperties,
 	whiteSpaces
-
 }

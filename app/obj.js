@@ -1,17 +1,16 @@
-module.exports.harmony = 
-[
-	{
-		fourWays: ['aı', 'ou', 'ei', 'öü']
-	},
-	{
-		twoWays: ['aıou', 'eiöü']
-	}
-]
+module.exports.harmony = {
+	fourWays: ['aı', 'ou', 'ei', 'öü'],
+	twoWays: ['ıoua', 'iöüe']
+}
 
 module.exports.mutation = 
 [
 	{
 		// FOR AORIST TENSE
+		'p': 'b',
+		't': 'd',
+		'k': 'ğ',
+		'ç': 'c',
 		from: ['p', 't', 'k', 'ç'],
 		to: ['b', 'd', 'ğ', 'c']
 	},
@@ -20,17 +19,20 @@ module.exports.mutation =
 		from: ['p', 't', 'k', 'ç', 's', 'ş', 'h']
 	}
 ];
-
-// We prevent these verbs to mutate its final consonant, it can't be "yabarım" but "yaparım" (so we prevent the mutation from "p" to "b")
-// notMutableVerbs with more than one syllable in the root
+// inmutable terminations: ak, at, et, ok 
+// yakmak, takmak, akmak, bakmak, kakmak, çakmak 
+// kapatmak, açıklatmak, çatmak, adatmak, satmak, aldatmak, anlatmak, atmak
+// kapatırım ---+
+// satarım ---+
+// kokmak -> kokarım
+// sokmak ->  sokarım
+// anlatırım
 module.exports.notMutableVerbs = 
 [
 
-	'bırakmak',
-	'anlatmak'
 ]
 
-
+// There are five verb stems soften their final -t to -d when adding a vowel suffix.
 module.exports.mutableVerbs = [
 	'etmek',
 	'gitmek',
@@ -45,8 +47,6 @@ module.exports.alphabet =
 ]
 
 module.exports.exceptions = [
-
-		
 	'almak',
 	'bilmek',
 	'bulmak',
@@ -60,6 +60,4 @@ module.exports.exceptions = [
 	'vermek',
 	'varmak',
 	'vurmak'
-
-
 ]

@@ -23,8 +23,12 @@ const {
 	convertToPositive,
 	isAlphabeticallyValid,
 	gotAccepted,
+} = require('./app/methods/verbVerification');
+
+const {
 	whiteSpaces
 } = require('./app/methods/turkish');
+
 
 const ALL = (verb, verbN = convertToNegative(verb)) => 
 (
@@ -76,15 +80,19 @@ const Conjugate = {
 
 	it: verb => ALL(verb),
 
-	verify: verb => gotAccepted(verb),
+	verify: {
+		hasMinLength,
+		isVerb,
+		isNegativeVerb,
+		isAlphabeticallyValid,
+		whiteSpaces,
+		gotAccepted
+	},
 
-	hasMinLength,
-	isVerb,
-	isNegativeVerb,
-	convertToPositive,
-	convertToNegative,
-	isAlphabeticallyValid,
-	whiteSpaces
+	utils: {
+		convertToPositive,
+		convertToNegative,
+	}
 }
 
 module.exports = Conjugate;

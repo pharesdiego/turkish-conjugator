@@ -11,7 +11,6 @@ const {
 
 	arrayOfPersonalSuffixes,
 	get4WayHarmonyOf,
-	get2WayHarmonyByRootOf,
 	generateResult,
 	getProperties,
 	getLastVowel,
@@ -28,7 +27,7 @@ const {
 const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 
 	// AORIST IS THE HARDER CONJUGATION IN TURKISH
-
+	console.log(DEFAULT)
 	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
 	// this has an space but it's not longer necessary
 	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isComposed) ? DEFAULT.initPart : '';
@@ -55,40 +54,26 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 	let personalSuffixes = push(arrayOfPersonalSuffixes.I(recheck4Harmony), larOrLer);
 
 	// If it's negative... 
-	let root = DEFAULT.positiveRoot + DEFAULT.negativeSuffix;
+	let negativeRoot = DEFAULT.positiveRoot + DEFAULT.negativeSuffix;
 
 	let larOrLerN = `zl${DEFAULT.harmony2way}r`;
 
 	let personalSuffixesN = push(arrayOfPersonalSuffixes.IN(DEFAULT.harmony4way), larOrLerN);
 
-	return (DEFAULT.isNegative) ? generateResult(personalSuffixesN, firstPart, root) : generateResult(personalSuffixes, firstPart, DEFAULT.root, aoristSuffix);
+	return (DEFAULT.isNegative) ?
+		generateResult({
+			personalSuffixes: personalSuffixesN,
+			verbRoot: negativeRoot,
+			firstPart
+		}) 	
+		: 
+		generateResult({
+			personalSuffixes,
+			firstPart,
+			verbRoot: DEFAULT.root,
+			tenseSuffix: aoristSuffix
+		});
 }
-
-// TEST VERBS
-
-
-/*	{
-		twoWays: ['aıou', 'eiöü']
-	}
-
-
-I HAVE THIS ONE HERE BECAUSE MY KEYBORDS DOESN'T HAVE THIS TURKISH CARACTERS XD
-module.exports.mutation = 
-[
-	{
-		// FOR AORIST TENSE
-		from: ['p', 't', 'k', 'ç'],
-		to: ['b', 'd', 'ğ', 'c']
-	},
-	{
-		// FOR PAST TENSE (IF WE MATCH ANY OF THESE CONSONANTS THEN WE NEED TO MUTATE OR "-D" TO "-T"
-		from: ['p', 't', 'k', 'ç', 's', 'ş', 'h']
-	}
-];
-
-*/
-
-
-
+console.log(Aorist('bilmek'))
 
 module.exports = Aorist;
