@@ -1,6 +1,9 @@
-const lodash = require('lodash');
-
-const _ = (...fns) => arg => lodash.reduce(fns, (ref, fn) => fn(ref), arg);
+/**
+ * This function is used to compose functions
+ * @param {function} fns - a bunch of functions to compose 
+ * @returns {any} - the composition's result
+ */
+const _ = (...fns) => arg => fns.reduce((ref, fn) => fn(ref), arg);
 
 const length = str => str.length;
 
@@ -14,13 +17,13 @@ const push = (arr, ...items) => [...arr, ...items];
 
 const lowerCase = string => string.toLowerCase();
 
-const reverse = arr => lodash.reverse(arr);
+const reverse = arr => arr.reverse();
 
 const reverseStr = _(split, reverse, join);
 
 const lastLetter = str => str.slice(-1);
 
-const firstLetter = str => str.slice(0,1);
+const firstLetter = str => str[0];
 
 /**
  * 
@@ -37,9 +40,10 @@ const isConsonant = str => !isVowel(str);
  * @param {array} arr
  * @returns {array} - an array containing every vowel found in the given array or an empty array if any was found
  */
-const getVowelsArr = arr => lodash.filter(arr, isVowel);
+const getVowelsArr = arr => arr.filter(isVowel);
 
 /**
+ * Get every vowel from a given string
  * @param {string}
  * @returns {string} - this string contains every vowel found in the given string
  */
@@ -59,15 +63,15 @@ const getLastVowel = str => getVowelsStr(str).slice(-1);
  */
 const empty = thing => thing.length === 0;
 
-const strEndsWith = string => (...substrs) => lodash.some(substrs, substr => string.endsWith(substr))
+const strEndsWith = string => (...substrs) => substrs.some(substr => string.endsWith(substr))
 
-const strStarsWith = string => (...substrs) => lodash.some(substrs, substr => string.startsWith(substr))
+const strStarsWith = string => (...substrs) => substrs.some(substr => string.startsWith(substr))
 
 const arrInit = arr => arr.slice(0, -1);
 
 const arrLast = arr => arr.slice(-1);
 
-const addRightSpace = arr => lodash.map(arr, item => item += ' ');
+const addRightSpace = arr => arr.map(item => item += ' ');
 
 /**
  * @description used to get the init part of a Composed verb (init like Haskell). A Composed verb could have 2+ words

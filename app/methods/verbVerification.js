@@ -1,5 +1,3 @@
-const lodash = require('lodash')
-
 const {
   strEndsWith
 } = require('./basics')
@@ -22,7 +20,7 @@ const convertToPositive = (verb) => { let i = get2WayHarmonyOf(verb); return ver
 
 const convertToNegative = (verb) => { let i = get2WayHarmonyOf(verb); return verb.replace(`m${i}k`, `m${i}m${i}k`) };
 
-const isAlphabeticallyValid = arr => lodash.every(arr, letter => alphabet.includes(letter))
+const isAlphabeticallyValid = arr => arr.every(letter => alphabet.includes(letter))
 
 const gotAccepted = verb => {
 

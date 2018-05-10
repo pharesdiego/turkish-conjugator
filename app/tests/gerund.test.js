@@ -7,6 +7,7 @@ describe('Gerund', function(){
 
   describe('Must conjugate properly IRREGULAR VERBS', function(){
     // These verbs are: almak, bilmek, bulmak, durmak, gelmek, görmek, kalmak, olmak, ölmek, sanmak, vermek, vurmak, varmak
+    // iyor, uyor, üyor, ıyor
     it('Every IRREGULAR VERB', function(){
       assert.deepEqual(Gerund('bilmek'), ['biliyorum','biliyorsun','biliyor','biliyoruz','biliyorsunuz','biliyorlar'])
       assert.deepEqual(Gerund('bulmak'), ['buluyorum','buluyorsun','buluyor','buluyoruz','buluyorsunuz','buluyorlar'])
@@ -29,7 +30,7 @@ describe('Gerund', function(){
     it('One syllable verbs', function(){
       assert.deepEqual(Gerund('yemek'), ['yiyorum','yiyorsun','yiyor','yiyoruz','yiyorsunuz','yiyorlar'])
       assert.deepEqual(Gerund('atmak'), ['atıyorum','atıyorsun','atıyor','atıyoruz','atıyorsunuz','atıyorlar'])
-      assert.deepEqual(Gerund('yapmak'), ['yapıyorum','yapıyorsun','yapıyor','yapıyor','yapıyorsunuz','yapıyorlar'])
+      assert.deepEqual(Gerund('yapmak'), ['yapıyorum','yapıyorsun','yapıyor','yapıyoruz','yapıyorsunuz','yapıyorlar'])
       assert.deepEqual(Gerund('sevmek'), ['seviyorum','seviyorsun','seviyor','seviyoruz','seviyorsunuz','seviyorlar'])
     })
     
@@ -69,6 +70,80 @@ describe('Gerund', function(){
       assert.deepEqual(
         Gerund('yemin etmek'),
         ['yemin ediyorum', 'yemin ediyorsun', 'yemin ediyor', 'yemin ediyoruz', 'yemin ediyorsunuz', 'yemin ediyorlar']
+      )
+    })
+  
+  })
+})
+
+
+describe('Gerund Negative', function(){
+
+  describe('Must conjugate properly IRREGULAR VERBS', function(){
+    // These verbs are: almamak, bilmemek, bulmamak, durmamak, gelmemek, görmemek, kalmamak, olmamak, ölmemek, sanmamak, vermemek, vurmamak, varmamak
+    // iyor, uyor, üyor, ıyor
+    it('Every IRREGULAR VERB', function(){
+      assert.deepEqual(Gerund('bilmemek'), ['bilmiyorum','bilmiyorsun','bilmiyor','bilmiyoruz','bilmiyorsunuz','bilmiyorlar'])
+      assert.deepEqual(Gerund('bulmamak'), ['bulmuyorum','bulmuyorsun','bulmuyor','bulmuyoruz','bulmuyorsunuz','bulmuyorlar'])
+      assert.deepEqual(Gerund('durmamak'), ['durmuyorum','durmuyorsun','durmuyor','durmuyoruz','durmuyorsunuz','durmuyorlar'])
+      assert.deepEqual(Gerund('gelmemek'), ['gelmiyorum','gelmiyorsun','gelmiyor','gelmiyoruz','gelmiyorsunuz','gelmiyorlar'])
+      assert.deepEqual(Gerund('görmemek'), ['görmüyorum','görmüyorsun','görmüyor','görmüyoruz','görmüyorsunuz','görmüyorlar'])
+      assert.deepEqual(Gerund('kalmamak'), ['kalmıyorum','kalmıyorsun','kalmıyor','kalmıyoruz','kalmıyorsunuz','kalmıyorlar'])
+      assert.deepEqual(Gerund('sanmamak'), ['sanmıyorum','sanmıyorsun','sanmıyor','sanmıyoruz','sanmıyorsunuz','sanmıyorlar'])
+      assert.deepEqual(Gerund('vermemek'), ['vermiyorum','vermiyorsun','vermiyor','vermiyoruz','vermiyorsunuz','vermiyorlar'])
+      assert.deepEqual(Gerund('vurmamak'), ['vurmuyorum','vurmuyorsun','vurmuyor','vurmuyoruz','vurmuyorsunuz','vurmuyorlar'])
+      assert.deepEqual(Gerund('varmamak'), ['varmıyorum','varmıyorsun','varmıyor','varmıyoruz','varmıyorsunuz','varmıyorlar'])
+      assert.deepEqual(Gerund('almamak'), ['almıyorum','almıyorsun','almıyor','almıyoruz','almıyorsunuz','almıyorlar'])
+      assert.deepEqual(Gerund('ölmemek'), ['ölmüyorum','ölmüyorsun','ölmüyor','ölmüyoruz','ölmüyorsunuz','ölmüyorlar'])
+      assert.deepEqual(Gerund('olmamak'), ['olmuyorum','olmuyorsun','olmuyor','olmuyoruz','olmuyorsunuz','olmuyorlar'])
+    })
+  })
+  
+  describe('Must conjugate properly REGULAR VERBS', function(){
+
+    it('One syllable verbs', function(){
+      assert.deepEqual(Gerund('yememek'), ['yemiyorum','yemiyorsun','yemiyor','yemiyoruz','yemiyorsunuz','yemiyorlar'])
+      assert.deepEqual(Gerund('atmamak'), ['atmıyorum','atmıyorsun','atmıyor','atmıyoruz','atmıyorsunuz','atmıyorlar'])
+      assert.deepEqual(Gerund('yapmamak'), ['yapmıyorum','yapmıyorsun','yapmıyor','yapmıyoruz','yapmıyorsunuz','yapmıyorlar'])
+      assert.deepEqual(Gerund('sevmemek'), ['sevmiyorum','sevmiyorsun','sevmiyor','sevmiyoruz','sevmiyorsunuz','sevmiyorlar'])
+    })
+    
+    it('Two syllable verbs', function(){
+      assert.deepEqual(Gerund('yürümemek'), ['yürümüyorum','yürümüyorsun','yürümüyor','yürümüyoruz','yürümüyorsunuz','yürümüyorlar'])
+      assert.deepEqual(Gerund('istememek'), ['istemiyorum','istemiyorsun','istemiyor','istemiyoruz','istemiyorsunuz','istemiyorlar'])
+      assert.deepEqual(Gerund('ağlamamak'), ['ağlamıyorum', 'ağlamıyorsun', 'ağlamıyor', 'ağlamıyoruz', 'ağlamıyorsunuz', 'ağlamıyorlar'])
+      assert.deepEqual(Gerund('konuşmamak'), ['konuşmuyorum','konuşmuyorsun','konuşmuyor','konuşmuyoruz','konuşmuyorsunuz','konuşmuyorlar'])
+      assert.deepEqual(Gerund('çalışmamak'), ['çalışmıyorum','çalışmıyorsun','çalışmıyor','çalışmıyoruz','çalışmıyorsunuz','çalışmıyorlar'])
+      assert.deepEqual(Gerund('kapatmamak'), ['kapatmıyorum','kapatmıyorsun','kapatmıyor','kapatmıyoruz','kapatmıyorsunuz','kapatmıyorlar'])
+    })
+
+    it('Three syllable verbs', function(){
+      assert.deepEqual(
+        Gerund('değiştirmemek'),
+        ['değiştirmiyorum','değiştirmiyorsun','değiştirmiyor','değiştirmiyoruz','değiştirmiyorsunuz','değiştirmiyorlar']
+      )
+
+      assert.deepEqual(
+        Gerund('sinirlenmemek'),
+        ['sinirlenmiyorum', 'sinirlenmiyorsun', 'sinirlenmiyor', 'sinirlenmiyoruz', 'sinirlenmiyorsunuz', 'sinirlenmiyorlar']
+      )
+    })
+
+    it('Composed verbs', function(){
+      assert.deepEqual(
+        Gerund('affetmemek'),
+        ['affetmiyorum', 'affetmiyorsun', 'affetmiyor', 'affetmiyoruz', 'affetmiyorsunuz', 'affetmiyorlar']
+      )
+    })
+
+    it('Composed verbs with spaces in between', function(){
+      assert.deepEqual(
+        Gerund('devam etmemek'),
+        ['devam etmiyorum', 'devam etmiyorsun', 'devam etmiyor', 'devam etmiyoruz', 'devam etmiyorsunuz', 'devam etmiyorlar']
+      )
+      assert.deepEqual(
+        Gerund('yemin etmemek'),
+        ['yemin etmiyorum', 'yemin etmiyorsun', 'yemin etmiyor', 'yemin etmiyoruz', 'yemin etmiyorsunuz', 'yemin etmiyorlar']
       )
     })
   

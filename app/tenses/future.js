@@ -14,18 +14,17 @@ const {
 
 } = require('./../methods/turkish');
 
-// LAST CHECK 4 1 2018
+// LAST CHECK 10 5 2018
 const Future = (verb, DEFAULT = getProperties(verb)) => {
 
-	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
-	// this has an space but it's not longer necessary
-	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isComposed) ? DEFAULT.initPart : '';
-	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
-	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isComposed) ? getProperties(DEFAULT.lastPart) : DEFAULT;
+	// if the verb is composed in any way, we'll get its firstPart by removing that verb that compose it. Example: Affetmek -> Aff || Yardım etmek -> Yardım
+	let firstPart = DEFAULT.isAuxiliaryComposedVerb ? DEFAULT.initComposedVerb : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? DEFAULT.initComposedVerbInNegativeForm : DEFAULT.isComposed ? DEFAULT.initPart : '';
+
+	DEFAULT = DEFAULT.isAuxiliaryComposedVerb ? getProperties(DEFAULT.auxiliaryVerb) : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT.isComposed ? getProperties(DEFAULT.lastPart) : DEFAULT;
 
 	// if the last letter is of the root is a vowel we add the buffer "y" that's part of the future suffix:
 		// the future suffix is (y)ecek (y)acak
-	let root = (isVowel(lastLetter(DEFAULT.root))) ? DEFAULT.root + 'y' : DEFAULT.root;
+	let root = isVowel(lastLetter(DEFAULT.root)) ? DEFAULT.root + 'y' : DEFAULT.root;
 
 
 	// the final k or ğ is added later because it's more easy to add than mutate a letter
@@ -47,9 +46,16 @@ const Future = (verb, DEFAULT = getProperties(verb)) => {
 	// example: sin -> ksin
 	let addMutatedLetter = personalSuffixes.map(item => isVowel(firstLetter(item)) ? `ğ${item}` : `k${item}`);
 
-	return generateResult(addMutatedLetter, firstPart, root, futureSuffix);
+		//addMutatedLetter, firstPart, root, futureSuffix
+	return generateResult({
+		personalSuffixes: addMutatedLetter,
+		firstPart,
+		verbRoot: root,
+		tenseSuffix: futureSuffix
+	});
 
 }
 
+console.log(Future('affetmek'))
 
 module.exports = Future;

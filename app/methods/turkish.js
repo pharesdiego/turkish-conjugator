@@ -1,5 +1,3 @@
-const lodash = require('lodash');
-
 const {
 	_,
 	length,
@@ -90,7 +88,7 @@ const getFirstVowel = str => (str.match(/[aeiıouöü]/gi) || [ false ] )[0]
 const getLastVowel = _(reverseStr, getFirstVowel);
 
 const lookFor = {
-	'4 way harmony': vowel => lodash.find(harmony.fourWays, stringOfVowels => {
+	'4 way harmony': vowel => harmony.fourWays.find(stringOfVowels => {
 		/**
 		 * harmony.fourWays is an array with 'string of vowels' that looks like: ['aı', 'ou', 'ei', 'öü']
 		 * we'll see if one of these string of vowels contains the given @param VOWEL
@@ -102,7 +100,7 @@ const lookFor = {
 		 */
 		return stringOfVowels.includes(vowel)
 	}).slice(-1),
-	'2 way harmony': vowel => lodash.find(harmony.twoWays, stringOfVowels => stringOfVowels.includes(vowel)).slice(-1)
+	'2 way harmony': vowel => harmony.twoWays.find(stringOfVowels => stringOfVowels.includes(vowel)).slice(-1)
 }
 
 const lookIn4Ways = lookFor['4 way harmony'];
@@ -137,7 +135,7 @@ const get2WayHarmonyOf = _(verbRoot, getLastVowel, lookIn2Ways);
 		tenseSuffix
 	}) => {
 		tenseSuffix = tenseSuffix || ''
-		return lodash.map(personalSuffixes, suffix => `${firstPart + verbRoot + tenseSuffix + suffix}`)
+		return personalSuffixes.map(suffix => `${firstPart + verbRoot + tenseSuffix + suffix}`)
 		/**
 		 * @example with verb 'bilmek'
 		 * personalSuffixes will looks like: [ 'im', 'sin', '', 'iz', 'siniz', 'ler' ]
