@@ -23,12 +23,12 @@ const reverseStr = _(split, reverse, join);
 
 const lastLetter = str => str.slice(-1);
 
-const firstLetter = str => str[0];
+const firstLetter = str => str[0] || '';
 
 /**
- * 
+ * Gives the string wihout the 'Tail' 
  * @param {string} str
- * @returns {string} - the string wihout the 'Tail' 
+ * @returns {string}
  */
 const strInit = str => str.slice(0,-1);
 

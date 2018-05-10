@@ -8,13 +8,9 @@ describe('Future Positive', function(){
 
   describe('Must conjugate properly IRREGULAR VERBS', function(){
     it('Every IRREGULAR VERB', function(){
-      // acağım eceğim
-      // acağız eceğiz
-      // acaksınız eceksiniz
-      // acaklar ecekler
-      assert.deepEqual(Future('almak'), ['alacağım','alacaksın','alacak','alacaksınız','alacağız','alacaklar'])
-      assert.deepEqual(Future('olmak'), [ 'olacağım', 'olacaksın', 'olacak', 'olacaksınız', 'olacağız', 'olacaklar' ])
-      assert.deepEqual(Future('bulmak'), ['bulacağım','bulacaksın','bulacak','bulacaksınız','bulacağız','bulacaklar'])
+      assert.deepEqual(Future('almak'), ['alacağım','alacaksın','alacak','alacağız','alacaksınız','alacaklar'])
+      assert.deepEqual(Future('olmak'), [ 'olacağım', 'olacaksın', 'olacak', 'olacağız', 'olacaksınız', 'olacaklar' ])
+      assert.deepEqual(Future('bulmak'), ['bulacağım','bulacaksın','bulacak','bulacağız','bulacaksınız','bulacaklar'])
 
       assert.deepEqual(Future('ölmek'), ['öleceğim','öleceksin','ölecek','öleceğiz','öleceksiniz','ölecekler'])
       assert.deepEqual(Future('bilmek'), ['bileceğim','bileceksin','bilecek','bileceğiz','bileceksiniz','bilecekler'])
@@ -26,7 +22,6 @@ describe('Future Positive', function(){
   describe('Must conjugate properly REGULAR VERBS', function(){
 
     it('One syllable verbs', function(){
-      // For verbs of one syllable which end in a consonant the positive tense sign is -ar or -er
       assert.deepEqual(Future('yemek'), ['yiyeceğim','yiyeceksin','yiyecek','yiyeceğiz','yiyeceksiniz','yiyecekler'])
       assert.deepEqual(Future('sevmek'), ['seveceğim','seveceksin','sevecek','seveceğiz','seveceksiniz','sevecekler'])
 
@@ -36,11 +31,10 @@ describe('Future Positive', function(){
     })
     
     it('Two syllable verbs', function(){
-      // For verbs consisting of more than one syllable the tense sign is ‑ir ‑ır ‑ür ‑ur.
       assert.deepEqual(Future('yürümek'), ['yürüyeceğim','yürüyeceksin','yürüyecek','yürüyeceğiz','yürüyeceksiniz','yürüyecekler'])
-      assert.deepEqual(Future('istemek'), ['isteyeceğim','isteyeceksin','istecek','isteyeceğiz','isteyeceksiniz','isteyecekler'])
+      assert.deepEqual(Future('istemek'), ['isteyeceğim','isteyeceksin','isteyecek','isteyeceğiz','isteyeceksiniz','isteyecekler'])
 
-      assert.deepEqual(Future('ağlamak'), ['ağlayacağım','ağlayacaksın','ağlayacak','ağlacağız','ağlayacaksınız','ağlayacaklar'])
+      assert.deepEqual(Future('ağlamak'), ['ağlayacağım','ağlayacaksın','ağlayacak','ağlayacağız','ağlayacaksınız','ağlayacaklar'])
       assert.deepEqual(Future('çalışmak'), ['çalışacağım','çalışacaksın','çalışacak','çalışacağız','çalışacaksınız','çalışacaklar'])
       assert.deepEqual(Future('konuşmak'), ['konuşacağım','konuşacaksın','konuşacak','konuşacağız','konuşacaksınız','konuşacaklar'])
       assert.deepEqual(Future('kapatmak'), ['kapatacağım','kapatacaksın','kapatacak','kapatacağız','kapatacaksınız','kapatacaklar'])
@@ -79,69 +73,67 @@ describe('Future Positive', function(){
 
 
 
-// describe('Future Negative', function(){
+describe('Future Negative', function(){
 
-//   describe('Must conjugate properly IRREGULAR VERBS', function(){
-//     it('Every IRREGULAR VERB', function(){
-      
-//       assert.deepEqual(Future('almak'), ['alırım','alırsın','alır','alırız','alırsınız','alırlar'])
-//       assert.deepEqual(Future('bilmek'), ['bilirim','bilirsin','bilir','biliriz','bilirsiniz','bilirler'])
-//       assert.deepEqual(Future('bulmak'), ['bulurum','bulursun','bulur','buluruz','bulursunuz','bulurlar'])
-//       assert.deepEqual(Future('gelmek'), ['gelirim','gelirsin','gelir','geliriz','gelirsiniz','gelirler'])
-//       assert.deepEqual(Future('görmek'), ['görürüm','görürsün','görür','görürüz','görürsünüz','görürler'])
-//       assert.deepEqual(Future('olmak'), [ 'olurum', 'olursun', 'olur', 'oluruz', 'olursunuz', 'olurlar' ])
-//       assert.deepEqual(Future('ölmek'), ['ölürüm','ölürsün','ölür','ölürüz','ölürsünüz','ölürler'])
-//     })
-//   })
+  describe('Must conjugate properly IRREGULAR VERBS', function(){
+    it('Every IRREGULAR VERB', function(){
+      assert.deepEqual(Future('almamak'), ['almayacağım','almayacaksın','almayacak','almayacağız','almayacaksınız','almayacaklar'])
+      assert.deepEqual(Future('olmamak'), [ 'olmayacağım', 'olmayacaksın', 'olmayacak', 'olmayacağız', 'olmayacaksınız', 'olmayacaklar' ])
+      assert.deepEqual(Future('bulmamak'), ['bulmayacağım','bulmayacaksın','bulmayacak','bulmayacağız','bulmayacaksınız','bulmayacaklar'])
+
+      assert.deepEqual(Future('ölmemek'), ['ölmeyeceğim','ölmeyeceksin','ölmeyecek','ölmeyeceğiz','ölmeyeceksiniz','ölmeyecekler'])
+      assert.deepEqual(Future('bilmemek'), ['bilmeyeceğim','bilmeyeceksin','bilmeyecek','bilmeyeceğiz','bilmeyeceksiniz','bilmeyecekler'])
+      assert.deepEqual(Future('gelmemek'), ['gelmeyeceğim','gelmeyeceksin','gelmeyecek','gelmeyeceğiz','gelmeyeceksiniz','gelmeyecekler'])
+      assert.deepEqual(Future('görmemek'), ['görmeyeceğim','görmeyeceksin','görmeyecek','görmeyeceğiz','görmeyeceksiniz','görmeyecekler'])
+    })
+  })
   
-//   describe('Must conjugate properly REGULAR VERBS', function(){
+  describe('Must conjugate properly REGULAR VERBS', function(){
 
-//     it('One syllable verbs', function(){
-//       assert.deepEqual(Future('sevmemek'), ['sevmem','sevmezsin','sevmez','sevmeyiz','sevmezsiniz','sevmezler'])
-//       assert.deepEqual(Future('yememek'), ['yemem','yemezsin','yemez','yemeyiz','yemezsiniz','yemezler'])
+    it('One syllable verbs', function(){
+      assert.deepEqual(Future('yememek'), ['yemeyeceğim','yemeyeceksin','yemeyecek','yemeyeceğiz','yemeyeceksiniz','yemeyecekler'])
+      assert.deepEqual(Future('sevmemek'), ['sevmeyeceğim','sevmeyeceksin','sevmeyecek','sevmeyeceğiz','sevmeyeceksiniz','sevmeyecekler'])
 
-//       assert.deepEqual(Future('atmamak'), ['atmam','atmazsın','atmaz','atmayız','atmazsınız','atmazlar'])
-//       assert.deepEqual(Future('kokmamak'), ['kokmam','kokmazsın','kokmaz','kokmayız','kokmazsınız','kokmazlar'])
-//       assert.deepEqual(Future('yapmamak'), ['yapmam','yapmazsın','yapmaz','yapmayız','yapmazsınız','yapmazlar'])
-//     })
+      assert.deepEqual(Future('atmamak'), ['atmayacağım','atmayacaksın','atmayacak','atmayacağız','atmayacaksınız','atmayacaklar'])
+      assert.deepEqual(Future('kokmamak'), ['kokmayacağım','kokmayacaksın','kokmayacak','kokmayacağız','kokmayacaksınız','kokmayacaklar'])
+      assert.deepEqual(Future('yapmamak'), ['yapmayacağım','yapmayacaksın','yapmayacak','yapmayacağız','yapmayacaksınız','yapmayacaklar'])
+    })
     
-//     it('Two syllable verbs', function(){
-//       assert.deepEqual(Future('çalışmamak'), ['çalışmam','çalışmazsın','çalışmaz','çalışmayız','çalışmazsınız','çalışmazlar'])
-//       assert.deepEqual(Future('konuşmamak'), ['konuşmam','konuşmazsın','konuşmaz','konuşmayız','konuşmazsınız','konuşmazlar'])
-//       assert.deepEqual(Future('kapatmamak'), ['kapatmam','kapatmazsın','kapatmaz','kapatmayız','kapatmazsınız','kapatmazlar'])
-//       assert.deepEqual(Future('anlatmamak'), ['anlatmam','anlatmazsın','anlatmaz','anlatmayız','anlatmazsınız','anlatmazlar'])
-//       assert.deepEqual(Future('ağlamamak'), ['ağlamam', 'ağlamazsın', 'ağlamaz', 'ağlamayız', 'ağlamazsınız', 'ağlamazlar'])
-      
-//       assert.deepEqual(Future('yürümemek'), ['yürümem','yürümezsin','yürümez','yürümeyiz','yürümezsiniz','yürümezler'])
-//       assert.deepEqual(Future('istememek'), ['istemem','istemezsin','istemez','istemeyiz','istemezsiniz','istemezler'])
-//     })
+    it('Two syllable verbs', function(){
+      assert.deepEqual(Future('yürümemek'), ['yürümeyeceğim','yürümeyeceksin','yürümeyecek','yürümeyeceğiz','yürümeyeceksiniz','yürümeyecekler'])
+      assert.deepEqual(Future('istememek'), ['istemeyeceğim','istemeyeceksin','istemeyecek','istemeyeceğiz','istemeyeceksiniz','istemeyecekler'])
+      assert.deepEqual(Future('çalışmamak'), ['çalışmayacağım','çalışmayacaksın','çalışmayacak','çalışmayacağız','çalışmayacaksınız','çalışmayacaklar'])
+      assert.deepEqual(Future('konuşmamak'), ['konuşmayacağım','konuşmayacaksın','konuşmayacak','konuşmayacağız','konuşmayacaksınız','konuşmayacaklar'])
+      assert.deepEqual(Future('kapatmamak'), ['kapatmayacağım','kapatmayacaksın','kapatmayacak','kapatmayacağız','kapatmayacaksınız','kapatmayacaklar'])
+      assert.deepEqual(Future('anlatmamak'), ['anlatmayacağım','anlatmayacaksın','anlatmayacak','anlatmayacağız','anlatmayacaksınız','anlatmayacaklar'])
+    })
 
-//     it('Three syllable verbs', function(){
-//       assert.deepEqual(
-//         Future('değiştirmemek'),
-//         ['değiştirmem','değiştirmezsin','değiştirmez','değiştirmeyiz','değiştirmezsiniz','değiştirmezler']
-//       )
+    it('Three syllable verbs', function(){
+      assert.deepEqual(
+        Future('değiştirmemek'),
+        ['değiştirmeyeceğim','değiştirmeyeceksin','değiştirmeyecek','değiştirmeyeceğiz','değiştirmeyeceksiniz','değiştirmeyecekler']
+      )
 
-//       assert.deepEqual(
-//         Future('sinirlenmemek'),
-//         ['sinirlenmem', 'sinirlenmezsin', 'sinirlenmez', 'sinirlenmeyiz', 'sinirlenmezsiniz', 'sinirlenmezler']
-//       )
-//     })
+      assert.deepEqual(
+        Future('sinirlenmemek'),
+        ['sinirlenmeyeceğim', 'sinirlenmeyeceksin', 'sinirlenmeyecek', 'sinirlenmeyeceğiz', 'sinirlenmeyeceksiniz', 'sinirlenmeyecekler']
+      )
+    })
 
-//     it('Composed verbs', function(){
-//       assert.deepEqual(Future('affetmemek'), ['affetmem', 'affetmezsin', 'affetmez', 'affetmeyiz', 'affetmezsiniz', 'affetmezler'])
-//     })
+    it('Composed verbs', function(){
+      assert.deepEqual(Future('affetmemek'), ['affetmeyeceğim', 'affetmeyeceksin', 'affetmeyecek', 'affetmeyeceğiz', 'affetmeyeceksiniz', 'affetmeyecekler'])
+    })
 
-//     it('Composed verbs with spaces in between', function(){
-//       assert.deepEqual(
-//         Future('devam etmemek'),
-//         ['devam etmem', 'devam etmezsin', 'devam etmez', 'devam etmeyiz', 'devam etmezsiniz', 'devam etmezler']
-//       )
-//       assert.deepEqual(
-//         Future('yemin etmemek'),
-//         ['yemin etmem', 'yemin etmezsin', 'yemin etmez', 'yemin etmeyiz', 'yemin etmezsiniz', 'yemin etmezler']
-//       )
-//     })
+    it('Composed verbs with spaces in between', function(){
+      assert.deepEqual(
+        Future('devam etmemek'),
+        ['devam etmeyeceğim', 'devam etmeyeceksin', 'devam etmeyecek', 'devam etmeyeceğiz', 'devam etmeyeceksiniz', 'devam etmeyecekler']
+      )
+      assert.deepEqual(
+        Future('yemin etmemek'),
+        ['yemin etmeyeceğim', 'yemin etmeyeceksin', 'yemin etmeyecek', 'yemin etmeyeceğiz', 'yemin etmeyeceksiniz', 'yemin etmeyecekler']
+      )
+    })
   
-//   })
-// })
+  })
+})
