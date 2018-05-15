@@ -25,9 +25,12 @@ const Gerund = (verb, DEFAULT = getProperties(verb)) => {
 
 	let root = DEFAULT.isNegative || isVowel(lastLetter(DEFAULT.root)) ? strInit(DEFAULT.root) : DEFAULT.root;
 
-	//	gerundSuffix could be iyor, ıyor, üyor, uyor
-	// length(root) > 1 because if ROOT uses the function strInit in its definition with a verb like demek or yemek, the root will be only 'y' in yemek and 'd' in demek
-	let gerundSuffix = lookIn4Ways(getLastVowel( length(root) > 1 ? root : DEFAULT.root )) + 'yor';
+	// gerundSuffix could be iyor, ıyor, üyor, uyor
+	// because of ROOT being just a letter sometimes, like when the verb is 'yemek'
+	// it's just 'y', so we check if the root length is === 1, it means we need
+	// to use the DEFAULT.root that will have the necessary vowel for
+	// lookIn4Ways
+	let gerundSuffix = lookIn4Ways(getLastVowel( length(root) === 1 ? DEFAULT.root : root )) + 'yor';
 
 	let larOrLer = 'lar';
 

@@ -20,11 +20,13 @@ const PotentialPositive = (verb, DEFAULT = getProperties(verb)) => {
 
 	DEFAULT = DEFAULT.isAuxiliaryComposedVerb ? getProperties(DEFAULT.auxiliaryVerb) : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT.isComposed ? getProperties(DEFAULT.lastPart) : DEFAULT;
 
-	//gel + (y)ebil + ir + im
+	let root = lastLetter(DEFAULT.root) === 'e' && DEFAULT.vowelsLength === 1 ? strInit(DEFAULT.root) + 'i' : DEFAULT.root;
+
+	// gel + (y)ebil + ir + im
 	// root + (ebil|abil) + aorist + Personal Suffixes I
 	// yapabilirim, olabilirim, söyleyebilirim (!!söyle yebil er im)
 
-	let abilitySuffix = ( isVowel(lastLetter(DEFAULT.root)) ? 'y' : '' ) + DEFAULT.harmony2way + 'bil';
+	let abilitySuffix = ( isVowel(lastLetter(root)) ? 'y' : '' ) + DEFAULT.harmony2way + 'bil';
 
 	let aoristSuffix = 'ir';
 
@@ -35,11 +37,9 @@ const PotentialPositive = (verb, DEFAULT = getProperties(verb)) => {
 	return generateResult({
 		personalSuffixes: push(personalSuffixes, larOrLer),
 		firstPart,
-		verbRoot: DEFAULT.root + abilitySuffix,
+		verbRoot: root + abilitySuffix,
 		tenseSuffix: aoristSuffix
 	})
 }
-
-console.log(PotentialPositive('demek'))
 
 module.exports = PotentialPositive;

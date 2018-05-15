@@ -13,7 +13,6 @@ const {
 } = require('./../methods/turkish');
 
 // LAST CHECK 15 5 2018
-// CANNOT, CAN'T
 const PotentialNegative = (verb, DEFAULT = getProperties(verb)) => {
 
 	// if the verb is composed in any way, we'll get its firstPart by removing that verb that compose it. Example: Affetmek -> Aff || Yardım etmek -> Yardım

@@ -24,22 +24,18 @@ const FutureIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 
 	// this use: verb root + future suffix + -miş- OR -mış- + Personal Suffix I
 	// Try with gelmek and yapmak for -(y)ecek and -(y)acak
-	// for 3th person plural we use the suffix (-larmış) or (-lermiş)
+	let root = lastLetter(DEFAULT.root) === 'e' && DEFAULT.vowelsLength === 1 ? strInit(DEFAULT.root) + 'i' : DEFAULT.root;
 
-	let root = ( isVowel(lastLetter(DEFAULT.root)) ? 'y' : '' ) + DEFAULT.root;
-	console.log(root)
-	// the final K or ğ is added later because it's more use to add than mutate a letter
-	let futureSuffix = DEFAULT.harmony2way + 'c' + DEFAULT.harmony2way;
+	let rootConstruction = root + ( isVowel(lastLetter(DEFAULT.root)) ? 'y' : '' );
 
-	// we need to know which suffix is maked on "futureSuffix" for making the harmony
+	let futureSuffix = DEFAULT.harmony2way + 'c' + DEFAULT.harmony2way + 'k';
+
+	// we need to know which suffix is on "futureSuffix" for making the harmony
 	// if it's "ece" then the harmony is "i"
 	// if it's "aca" then the harmony is "ı"
-	// in this case we add the "k" at the final immediatly because we already know that the next thing will be the "m" of "miş"
 	let harmonyByFutureSuffix = futureSuffix === 'ecek' ? 'i' : 'ı';
 
-
-	// let larOrLer = `l${DEFAULT.harmony2way}rm${harmonyByFutureSuffix}ş`;
-	let larOrLer = 'l' + DEFAULT.harmony2way + 'rm' + harmonyByFutureSuffix + 'ş';
+	let larOrLer = ('m' + harmonyByFutureSuffix + 'ş') + ('l' + DEFAULT.harmony2way + 'r');
 
 	let personalSuffixes = arrayOfPersonalSuffixes.I(harmonyByFutureSuffix)
 																												.map(suffix => 'm' + harmonyByFutureSuffix + 'ş' + suffix);
@@ -47,11 +43,9 @@ const FutureIndefinite = (verb, DEFAULT = getProperties(verb)) => {
 	return generateResult({
 		personalSuffixes: push(personalSuffixes, larOrLer),
 		firstPart,
-		verbRoot: root,
+		verbRoot: rootConstruction,
 		tenseSuffix: futureSuffix
 	})
 }
-
-console.log(FutureIndefinite('yemek'))
 
 module.exports = FutureIndefinite;
