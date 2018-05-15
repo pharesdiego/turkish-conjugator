@@ -56,7 +56,7 @@ const negativeVerbRoot = str => str.slice(0, -5);
 const arrayOfPersonalSuffixes = {
 	I: (i, z = '') => [`${i}m`, `${z}s${i}n`, `${z}`, `${i}z`, `${z}s${i}n${i}z`],
 	II: (i, e = i) => [`${i}m`, `${i}n`, `${i}`, `${i}k`, `${i}n${e}z`],
-	IN: (i, y) => [`m`, `zs${i}n`, `z`, `y${i}z`, `zs${i}n${i}z`]
+	IN: (i) => [`m`, `zs${i}n`, `z`, `y${i}z`, `zs${i}n${i}z`]
 }
 
 /**

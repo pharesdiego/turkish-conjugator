@@ -1,9 +1,8 @@
 const {
 	push,
 	lastLetter,
-	isVowel
-} = require('./../methods/basics');
-const {
+	isVowel,
+	length,
 	strInit
 } = require('./../methods/basics');
 
@@ -11,18 +10,16 @@ const {
 	arrayOfPersonalSuffixes,
 	generateResult,
 	getProperties
-
 } = require('./../methods/turkish');
 
-// LAST CHECK 4 1 2018
+// LAST CHECK 15 5 2018
 // CANNOT, CAN'T
 const PotentialNegative = (verb, DEFAULT = getProperties(verb)) => {
 
-	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
-	// this has an space but it's not longer necessary
-	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isComposed) ? DEFAULT.initPart : '';
-	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
-	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isComposed) ? getProperties(DEFAULT.lastPart) : DEFAULT;
+	// if the verb is composed in any way, we'll get its firstPart by removing that verb that compose it. Example: Affetmek -> Aff || Yardım etmek -> Yardım
+	let firstPart = DEFAULT.isAuxiliaryComposedVerb ? DEFAULT.initComposedVerb : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? DEFAULT.initComposedVerbInNegativeForm : DEFAULT.isComposed ? DEFAULT.initPart : '';
+
+	DEFAULT = DEFAULT.isAuxiliaryComposedVerb ? getProperties(DEFAULT.auxiliaryVerb) : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT.isComposed ? getProperties(DEFAULT.lastPart) : DEFAULT;
 
 
 	// the description of this tense is:
@@ -43,18 +40,21 @@ const PotentialNegative = (verb, DEFAULT = getProperties(verb)) => {
 	// at the final we add the negativeSuffix, that is dedused by adding the second harmony to a "m"
 		// the result could be "ma" or "me"
 
+	let root = lastLetter(DEFAULT.root) === 'e' && length(DEFAULT.root) === 2 ? strInit(DEFAULT.root) + 'i' : DEFAULT.root;
 
+	let negativeConstruction = root + (isVowel(lastLetter(DEFAULT.root)) ? 'y' : '') + DEFAULT.harmony2way + DEFAULT.negativeSuffix;
+	
+	let personalSuffixes = arrayOfPersonalSuffixes.IN(
+		DEFAULT.verbSuffix === 'mak' ? 'ı' : 'i'
+	);
 
+	let larOrLer = 'zl' + DEFAULT.harmony2way + 'r';
 
-	let root = DEFAULT.root + (isVowel(lastLetter(DEFAULT.root)) ? `y${DEFAULT.harmony2way}` : DEFAULT.harmony2way)  + DEFAULT.negativeSuffix;
-
-
-	let personalSuffixes = arrayOfPersonalSuffixes.IN(DEFAULT.harmony4way);
-
-
-	let larOrLer = `zl${DEFAULT.harmony2way}r`;
-
-	return generateResult(push(personalSuffixes, larOrLer), firstPart, root);
+	return generateResult({
+		personalSuffixes: push(personalSuffixes, larOrLer),
+		firstPart,
+		verbRoot: negativeConstruction
+	})
 
 }
 
