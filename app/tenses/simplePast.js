@@ -1,7 +1,6 @@
 const {
 	push,
-	getLastPart,
-	getFirstPart
+	lastLetter
 } = require('./../methods/basics');
 
 const {
@@ -15,27 +14,28 @@ const {
 
 const {
 	mutation
-} = require('./../obj');
+} = require('./../rules');
 
-// LAST CHECK 3 1 2018
+// LAST CHECK 17 5 2018
 const SimplePast = (verb, DEFAULT = getProperties(verb)) => {
 
-	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
-	// this has an space but it's not longer necessary
-	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isComposed) ? DEFAULT.initPart : '';
-	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
-	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isComposed) ? getProperties(DEFAULT.lastPart) : DEFAULT;
+	// if the verb is composed in any way, we'll get its firstPart by removing that verb that compose it. Example: Affetmek -> Aff || Yardım etmek -> Yardım
+	let firstPart = DEFAULT.isAuxiliaryComposedVerb ? DEFAULT.initComposedVerb : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? DEFAULT.initComposedVerbInNegativeForm : DEFAULT.isComposed ? DEFAULT.initPart : '';
+
+	DEFAULT = DEFAULT.isAuxiliaryComposedVerb ? getProperties(DEFAULT.auxiliaryVerb) : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT.isComposed ? getProperties(DEFAULT.lastPart) : DEFAULT;
 
 	// We need to mutate the pastRoot from 'p', 't', 'k', 'ç', 's', 'ş', 'h' to 't'
-
-	let root = (doWeNeedToMutate(mutation[1].from)(verb) >= 0) ? DEFAULT.originalRoot + 't' : DEFAULT.root + 'd';
-
-	let larOrLer = `${DEFAULT.harmony4way}l${DEFAULT.harmony2way}r`;
+	let root = mutation[0].from.includes(lastLetter(DEFAULT.originalRoot)) ? DEFAULT.originalRoot + 't' : DEFAULT.root + 'd';
+	// this creates larOrLer like: iler, ular... for third person plural
+	let larOrLer = DEFAULT.harmony4way + 'l' + DEFAULT.harmony2way + 'r';
 
 	let personalSuffixes = push(arrayOfPersonalSuffixes.II(DEFAULT.harmony4way), larOrLer);
 
-	return generateResult(personalSuffixes, firstPart, root);
+	return generateResult({
+		personalSuffixes,
+		firstPart,
+		verbRoot: root
+	})
 }
-
 
 module.exports = SimplePast;

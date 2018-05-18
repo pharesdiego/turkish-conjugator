@@ -22,7 +22,7 @@ const {
 
 const {
 	exceptions
-} = require('./../obj');
+} = require('./../rules');
 
 
 // LAST CHECK 15 5 2018

@@ -6,31 +6,10 @@ module.exports.harmony = {
 module.exports.mutation = 
 [
 	{
-		// FOR AORIST TENSE
-		'p': 'b',
-		't': 'd',
-		'k': 'ğ',
-		'ç': 'c',
-		from: ['p', 't', 'k', 'ç'],
-		to: ['b', 'd', 'ğ', 'c']
-	},
-	{
 		// FOR PAST TENSE (IF WE MATCH ANY OF THESE CONSONANTS THEN WE NEED TO MUTATE OR "-D" TO "-T"
 		from: ['p', 't', 'k', 'ç', 's', 'ş', 'h']
 	}
 ];
-// inmutable terminations: ak, at, et, ok 
-// yakmak, takmak, akmak, bakmak, kakmak, çakmak 
-// kapatmak, açıklatmak, çatmak, adatmak, satmak, aldatmak, anlatmak, atmak
-// kapatırım ---+
-// satarım ---+
-// kokmak -> kokarım
-// sokmak ->  sokarım
-// anlatırım
-module.exports.notMutableVerbs = 
-[
-
-]
 
 // There are five verb stems soften their final -t to -d when adding a vowel suffix.
 module.exports.mutableVerbs = [

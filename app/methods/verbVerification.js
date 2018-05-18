@@ -8,7 +8,7 @@ const {
 
 const {
   alphabet
-} = require('./../obj')
+} = require('./../rules')
 
 const hasMinLength = (str, l) => str.length >= l;
 

@@ -23,11 +23,9 @@ const {
 
 const {
 	harmony,
-	mutation,
-	notMutableVerbs,
 	mutableVerbs,
 	alphabet
-} = require('./../obj');
+} = require('./../rules');
 
 const {
 	isNegativeVerb
