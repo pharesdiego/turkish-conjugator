@@ -113,8 +113,6 @@ const ALL = (verb, verbN = convertToNegative(verb)) => [
 	}
 ];
 
-console.log(JSON.stringify(ALL('gelmek'), null, 2))
-
 const Conjugate = {
 
 	it: verb => ALL(verb),
