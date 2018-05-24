@@ -11,7 +11,7 @@ const bundle = {
 
 	module: {
 
-		loaders: [
+		rules: [
 
 			{
 				test:/\.js$/,
@@ -42,7 +42,7 @@ const npmPackage = {
 
 	module: {
 
-		loaders: [
+		rules: [
 
 			{
 				test:/\.js$/,
