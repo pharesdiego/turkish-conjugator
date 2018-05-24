@@ -24,7 +24,8 @@ const {
 const {
 	harmony,
 	mutableVerbs,
-	alphabet
+	alphabet,
+	compositionExceptions
 } = require('./../rules');
 
 const {
@@ -133,7 +134,7 @@ const get2WayHarmonyOf = _(verbRoot, getLastVowel, lookIn2Ways);
 		tenseSuffix
 	}) => {
 		tenseSuffix = tenseSuffix || ''
-		return personalSuffixes.map(suffix => `${firstPart + verbRoot + tenseSuffix + suffix}`)
+		return personalSuffixes.map(suffix => firstPart + verbRoot + tenseSuffix + suffix)
 		/**
 		 * @example with verb 'bilmek'
 		 * personalSuffixes will looks like: [ 'im', 'sin', '', 'iz', 'siniz', 'ler' ]
@@ -205,7 +206,7 @@ const getProperties = verb => ({
 
 	lastPart: Boolean(whiteSpaces(verb)) && getStrLast(verb),
 
-	isAuxiliaryComposedVerb: (isAuxiliaryComposedVerb(verb)),
+	isAuxiliaryComposedVerb: isAuxiliaryComposedVerb(verb) && !compositionExceptions.includes(verb),
 
 	auxiliaryVerb: getAuxiliaryComposedVerb(verb),
 

@@ -37,5 +37,4 @@ const SimplePast = (verb, DEFAULT = getProperties(verb)) => {
 		verbRoot: root
 	})
 }
-
 module.exports = SimplePast;

@@ -30,51 +30,90 @@ const {
 } = require('./app/methods/turkish');
 
 
-const ALL = (verb, verbN = convertToNegative(verb)) => 
-(
+const ALL = (verb, verbN = convertToNegative(verb)) => [
 	{
-		aorist:{
+		tense: 'aorist',
+		title: 'Aorist',
+		conjugation: {
 			positive: Aorist(verb),
 			negative: Aorist(verbN)
-		},
-		gerund:{
+		}
+	},
+	{
+		tense: 'gerund',
+		title: 'Gerund',
+		conjugation: {
 			positive: Gerund(verb),
 			negative: Gerund(verbN)
-		},
-		future:{
+		}
+	},
+	{
+		tense: 'future',
+		title: 'Future',
+		conjugation: {
 			positive: Future(verb),
 			negative: Future(verbN)
-		},
-		simplePast:{
+		}
+	},
+	{
+		tense: 'simple-past',
+		title: 'Simple Past',
+		conjugation: {
 			positive: SimplePast(verb),
 			negative: SimplePast(verbN)
-		},
-		misPast:{
+		}
+	},
+	{
+		tense: 'mis-past',
+		title: 'Miş Past',
+		conjugation: {
 			positive: MisPast(verb),
 			negative: MisPast(verbN)
-		},
-		pastContinuous:{
+		}
+	},
+	{
+		tense: 'past-continuous',
+		title: 'Past Continuous',
+		conjugation: {
 			positive: PastContinuous(verb),
 			negative: PastContinuous(verbN)
-		},
-		presentIndefinite:{
+		}
+	},
+	{
+		tense: 'present-indefinite',
+		title: 'Present Indefinite',
+		conjugation: {
 			positive: PresentIndefinite(verb),
 			negative: PresentIndefinite(verbN)
-		},
-		gerundIndefinite:{
+		}
+	},
+	{
+		tense: 'present-continuous-indefinite',
+		title: 'Gerund Indefinite',
+		conjugation: {
 			positive: PresentContinuousIndefinite(verb),
 			negative: PresentContinuousIndefinite(verbN)
-		},
-		futureIndefinite:{
+		}
+	},
+	{
+		tense: 'future-indefinite',
+		title: 'Future Indefinite',
+		conjugation: {
 			positive: FutureIndefinite(verb),
 			negative: FutureIndefinite(verbN)
-		},
-		potential:{
+		}
+	},
+	{
+		tense: 'potential',
+		title: 'Potential',
+		conjugation: {
 			positive: PotentialPositive(verb),
 			negative: PotentialNegative(verb)
 		}
 	}
-)
+];
+
+console.log(JSON.stringify(ALL('gelmek'), null, 2))
 
 const Conjugate = {
 

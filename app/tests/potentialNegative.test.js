@@ -24,6 +24,11 @@ describe('Potential Negative', function(){
     )
 
     assert.deepEqual(
+      PotentialNegative('uyumak'),
+      ['uyuyamam', 'uyuyamazsın', 'uyuyamaz', 'uyuyamayız', 'uyuyamazsınız', 'uyuyamazlar']
+    )
+
+    assert.deepEqual(
       PotentialNegative('sormak'),
       ['soramam', 'soramazsın', 'soramaz', 'soramayız', 'soramazsınız', 'soramazlar']
     )

@@ -21,11 +21,10 @@ const {
 
 const {
 	exceptions
-} = require('./../obj');
+} = require('./../rules');
 
 // lAST CHECK 3 5 2018
 const Aorist = (verb, DEFAULT = getProperties(verb)) => {
-
 	// if the verb is composed in any way, we'll get its firstPart by removing that verb that compose it. Example: Affetmek -> Aff || Yardım etmek -> Yardım
 	let firstPart = DEFAULT.isAuxiliaryComposedVerb ? DEFAULT.initComposedVerb : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? DEFAULT.initComposedVerbInNegativeForm : DEFAULT.isComposed ? DEFAULT.initPart : '';
 
@@ -66,5 +65,4 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 			tenseSuffix: aoristSuffix
 		});
 }
-
 module.exports = Aorist;

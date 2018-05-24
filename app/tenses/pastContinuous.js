@@ -3,7 +3,8 @@ const {
 	strInit,
 	isVowel,
 	lastLetter,
-	getLastVowel
+	getLastVowel,
+	length
 } = require('./../methods/basics');
 
 const {
@@ -16,29 +17,31 @@ const {
 } = require('./../methods/turkish');
 
 
-// LAST CHECK 4 1 2018
+// LAST CHECK 24 5 2018
 const PastContinuous = (verb, DEFAULT = getProperties(verb)) => {
 
-	// if it's two or MORE Words verb then we get the first part (like haskell: init part)
-	// this has an space but it's not longer necessary
-	let firstPart = (DEFAULT.isAuxiliaryComposedVerb) ? DEFAULT.initComposedVerb : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? DEFAULT.initComposedVerbInNegativeForm : (DEFAULT.isComposed) ? DEFAULT.initPart : '';
-	// and change the default for getting the properties of the real verb, so the last part that is usually "etmek"
-	DEFAULT = (DEFAULT.isAuxiliaryComposedVerb) ? getProperties(DEFAULT.auxiliaryVerb) : (DEFAULT.isComposed && DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isAuxiliaryComposedVerbInNegativeForm) ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : (DEFAULT.isComposed) ? getProperties(DEFAULT.lastPart) : DEFAULT;
+	// if the verb is composed in any way, we'll get its firstPart by removing that verb that compose it. Example: Affetmek -> Aff || Yardım etmek -> Yardım
+	let firstPart = DEFAULT.isAuxiliaryComposedVerb ? DEFAULT.initComposedVerb : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? DEFAULT.initComposedVerbInNegativeForm : DEFAULT.isComposed ? DEFAULT.initPart : '';
 
+	DEFAULT = DEFAULT.isAuxiliaryComposedVerb ? getProperties(DEFAULT.auxiliaryVerb) : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT.isComposed ? getProperties(DEFAULT.lastPart) : DEFAULT;
 
-	let root = (DEFAULT.isNegative || isVowel(lastLetter(DEFAULT.root))) ? strInit(DEFAULT.root) : DEFAULT.root;
+	let root = DEFAULT.isNegative || isVowel(lastLetter(DEFAULT.root)) ? strInit(DEFAULT.root) : DEFAULT.root;
 
-	//	gerundSuffix can be iyor,ıyor, üyor, uyor
-	let gerundSuffix = lookIn4Ways(getLastVowel(root)) + 'yor';
+	let gerundSuffix = lookIn4Ways(getLastVowel( length(root) === 1 ? DEFAULT.root : root )) + 'yor';
 		
 	// The suffix (-lardu, (du is from Past Suffix, but it's always 'dı' because of vowel harmony)) is  
 	// an special case in the Past Continuous 
 
-	let larOrLer = `lardı`;
+	let larOrLer = `dular`;
 
 	let personalSuffixes = push(arrayOfPersonalSuffixes.II('du', 'u'), larOrLer);
 
-	return generateResult(personalSuffixes, firstPart, root, gerundSuffix);
+	return generateResult({
+		personalSuffixes,
+		firstPart,
+		verbRoot: root,
+		tenseSuffix: gerundSuffix
+	});
 
 }
 

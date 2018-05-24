@@ -2,9 +2,9 @@ const {
   strEndsWith
 } = require('./basics')
 
-const {
-  get2WayHarmonyOf
-} = require('./turkish')
+// const {
+//   get2WayHarmonyOf
+// } = require('./turkish')
 
 const {
   alphabet
@@ -16,11 +16,11 @@ const isVerb = verb => strEndsWith(verb)('mek', 'mak');
 
 const isNegativeVerb = verb => strEndsWith(verb)('memek', 'mamak');
 
-const convertToPositive = (verb) => { let i = get2WayHarmonyOf(verb); return verb.replace(`m${i}m${i}k`, `m${i}k`) };
+const convertToPositive = verb => verb.replace(/\w{5}$/, m => m[0] + m[1] + 'k');
 
-const convertToNegative = (verb) => { let i = get2WayHarmonyOf(verb); return verb.replace(`m${i}k`, `m${i}m${i}k`) };
+const convertToNegative = verb => verb.replace(/\w{3}$/, m => m[0] + m[1] + m[0] + m[1] +'k');
 
-const isAlphabeticallyValid = arr => arr.every(letter => alphabet.includes(letter))
+const isAlphabeticallyValid = arr => arr.every(letter => alphabet.includes(letter));
 
 const gotAccepted = verb => {
 
