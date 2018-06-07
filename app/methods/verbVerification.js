@@ -1,10 +1,7 @@
 const {
-  strEndsWith
+  strEndsWith,
+  lowerCase
 } = require('./basics')
-
-// const {
-//   get2WayHarmonyOf
-// } = require('./turkish')
 
 const {
   alphabet
@@ -20,13 +17,13 @@ const convertToPositive = verb => verb.replace(/\w{5}$/, m => m[0] + m[1] + 'k')
 
 const convertToNegative = verb => verb.replace(/\w{3}$/, m => m[0] + m[1] + m[0] + m[1] +'k');
 
-const isAlphabeticallyValid = arr => arr.every(letter => alphabet.includes(letter));
+const isAlphabeticallyValid = str => str.split('').every(letter => alphabet.includes(letter));
 
-const gotAccepted = verb => {
+const isTurkishVerb = verb => {
 
 	verb = lowerCase(verb);
 	
-	if(hasMinLength(verb, 5) && isAlphabeticallyValid(split(verb))){
+	if(hasMinLength(verb, 5) && isAlphabeticallyValid(verb)){
 
 		if(isNegativeVerb(verb) && hasMinLength(verb, 7)) return convertToPositive(verb);
 
@@ -45,5 +42,5 @@ module.exports = {
   convertToNegative,
   convertToPositive,
   isAlphabeticallyValid,
-  gotAccepted
+  isTurkishVerb
 }

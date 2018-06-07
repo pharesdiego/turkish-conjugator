@@ -16,19 +16,13 @@ const {
 
 
 const {
-	hasMinLength,
 	isVerb,
 	isNegativeVerb,
 	convertToNegative,
 	convertToPositive,
 	isAlphabeticallyValid,
-	gotAccepted,
+	isTurkishVerb,
 } = require('./app/methods/verbVerification');
-
-const {
-	whiteSpaces
-} = require('./app/methods/turkish');
-
 
 const ALL = (verb, verbN = convertToNegative(verb)) => [
 	{
@@ -118,12 +112,10 @@ const Conjugate = {
 	it: verb => ALL(verb),
 
 	verify: {
-		hasMinLength,
 		isVerb,
 		isNegativeVerb,
 		isAlphabeticallyValid,
-		whiteSpaces,
-		gotAccepted
+		isTurkishVerb
 	},
 
 	utils: {
