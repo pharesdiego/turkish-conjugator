@@ -38,7 +38,8 @@ module.exports.exceptions = [
 	'sanmak',
 	'vermek',
 	'varmak',
-	'vurmak'
+	'vurmak',
+	'denmek'
 ]
 // Etmek isn't a composition of göz
 // so we avoid to turn 't' into a 'd'

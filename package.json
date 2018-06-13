@@ -1,6 +1,6 @@
 {
   "name": "turkish-conjugator",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Turkish conjugator for students!",
   "main": "index.js",
   "scripts": {

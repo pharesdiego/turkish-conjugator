@@ -29,7 +29,7 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 	let firstPart = DEFAULT.isAuxiliaryComposedVerb ? DEFAULT.initComposedVerb : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? DEFAULT.initComposedVerbInNegativeForm : DEFAULT.isComposed ? DEFAULT.initPart : '';
 
 	DEFAULT = DEFAULT.isAuxiliaryComposedVerb ? getProperties(DEFAULT.auxiliaryVerb) : DEFAULT.isAuxiliaryComposedVerbInNegativeForm ? getProperties(DEFAULT.auxiliaryVerbInNegativeForm) : DEFAULT.isComposed ? getProperties(DEFAULT.lastPart) : DEFAULT;
-	
+
 	let aoristSuffix = isVowel(lastLetter(DEFAULT.root)) ? 'r' : exceptions.includes(DEFAULT.verb) || length(DEFAULT.root) > 3 ? DEFAULT.harmony4way + 'r' : DEFAULT.harmony2way + 'r';
 	// RECHECKS. Aorist time is really complicated and we need to recheck the root harmony
 	// We are recheking by the aorist suffix, so if it's "-er"
@@ -47,9 +47,9 @@ const Aorist = (verb, DEFAULT = getProperties(verb)) => {
 	// If it's negative... 
 	let negativeRoot = DEFAULT.positiveRoot + DEFAULT.negativeSuffix;
 
-	let larOrLerN = 'zl' + DEFAULT.harmony2way + 'r'
+	let larOrLerNegative = 'zl' + DEFAULT.harmony2way + 'r'
 
-	let personalSuffixesN = push(arrayOfPersonalSuffixes.IN(DEFAULT.harmony4way), larOrLerN);
+	let personalSuffixesN = push(arrayOfPersonalSuffixes.IN(DEFAULT.harmony4way), larOrLerNegative);
 
 	return (DEFAULT.isNegative) ?
 		generateResult({

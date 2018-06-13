@@ -35,6 +35,7 @@ describe('Aorist Positive', function(){
       assert.deepEqual(Aorist('yapmak'), ['yaparım','yaparsın','yapar','yaparız','yaparsınız','yaparlar'])
       assert.deepEqual(Aorist('atmak'), ['atarım','atarsın','atar','atarız','atarsınız','atarlar'])
       assert.deepEqual(Aorist('kokmak'), ['kokarım','kokarsın','kokar','kokarız','kokarsınız','kokarlar'])
+      assert.deepEqual(Aorist('denmek'), ['denirim','denirsin','denir','deniriz','denirsiniz','denirler'])
     })
     
     it('Two syllable verbs', function(){
