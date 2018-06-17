@@ -9,8 +9,6 @@ const {
 	arrayOfPersonalSuffixes,
 	generateResult,
 	getProperties,
-	getLastVowel
-
 } = require('./../methods/turkish');
 
 const {

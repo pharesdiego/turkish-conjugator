@@ -4,12 +4,9 @@ const {
 } = require('./../methods/basics');
 
 const {
-
 	arrayOfPersonalSuffixes,
 	generateResult,
 	getProperties,
-	doWeNeedToMutate
-
 } = require('./../methods/turkish');
 
 const {

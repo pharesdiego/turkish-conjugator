@@ -3,11 +3,9 @@ const {
 } = require('./../methods/basics');
 
 const {
-
 	arrayOfPersonalSuffixes,
 	generateResult,
 	getProperties
-
 } = require('./../methods/turkish');
 
 // LAST CHECK 15 5 2018

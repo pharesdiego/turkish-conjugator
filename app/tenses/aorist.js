@@ -1,16 +1,12 @@
 const {
 	push,
 	lastLetter,
-	firstLetter,
 	isVowel,
-	strInit,
 	length
 } = require('./../methods/basics');
 
 const {
-
 	arrayOfPersonalSuffixes,
-	get4WayHarmonyOf,
 	generateResult,
 	getProperties,
 	getLastVowel,

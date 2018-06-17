@@ -1,6 +1,7 @@
 const {
   strEndsWith,
-  lowerCase
+  lowerCase,
+  getVowelsStr
 } = require('./basics')
 
 const {
@@ -23,7 +24,9 @@ const isTurkishVerb = verb => {
 
 	verb = lowerCase(verb);
 	
-	if(hasMinLength(verb, 5) && isAlphabeticallyValid(verb)){
+	if(hasMinLength(verb, 5) && isAlphabeticallyValid(verb) && getVowelsStr(verb).length > 1){
+    
+    if(/\bm(e|a)k?m(e|a)k\b/.test(verb)) return false;
 
 		if(isNegativeVerb(verb) && hasMinLength(verb, 7)) return convertToPositive(verb);
 

@@ -1,22 +1,12 @@
 const {
+	map
+} = require('./utils');
+
+const {
 	_,
 	length,
-	split,
-	splitWords,
-	join,
-	push,
-	lowerCase,
-	reverse,
 	reverseStr,
-	lastLetter,
-	firstLetter,
-	strInit,
-	isVowel,
-	getVowelsArr,
 	getVowelsStr,
-	getLastPart,
-	empty,
-	strEndsWith,
 	getStrLast,
 	getStrInit
 } = require('./basics');
@@ -24,7 +14,6 @@ const {
 const {
 	harmony,
 	mutableVerbs,
-	alphabet,
 	compositionExceptions
 } = require('./../rules');
 
@@ -43,7 +32,7 @@ const verbRoot = str => str.slice(0, -3);
  * @param {string} str
  * @returns {string} 
  */
-const negativeVerbRoot = str => str.slice(0, -5);
+const getPositiveVerbRootFromNegativeVerb = str => str.slice(0, -5);
 
 /**
  * @description This object contains some functions that generates Arrays with personal suffixes that will
@@ -134,7 +123,7 @@ const get2WayHarmonyOf = _(verbRoot, getLastVowel, lookIn2Ways);
 		tenseSuffix
 	}) => {
 		tenseSuffix = tenseSuffix || ''
-		return personalSuffixes.map(suffix => firstPart + verbRoot + tenseSuffix + suffix)
+		return map(personalSuffixes, suffix => firstPart + verbRoot + tenseSuffix + suffix);
 		/**
 		 * @example with verb 'bilmek'
 		 * personalSuffixes will looks like: [ 'im', 'sin', '', 'iz', 'siniz', 'ler' ]
@@ -191,9 +180,7 @@ const getProperties = verb => ({
 
 	negativeSuffix: 'm' + get2WayHarmonyOf(verb),
 
-	// This is called positiveRoot because if isNegativeVerb we'll use negativeVerbRoot, and this function returns
-	// the positive root of the verb because it removes 'memek' or 'mamak' from the verb
-	positiveRoot: isNegativeVerb(verb) && negativeVerbRoot(verb),
+	positiveRoot: isNegativeVerb(verb) && getPositiveVerbRootFromNegativeVerb(verb),
 
 	isNegative: isNegativeVerb(verb),
 
@@ -223,7 +210,7 @@ const getProperties = verb => ({
 
 module.exports = {
 	verbRoot,
-	negativeVerbRoot,
+	getPositiveVerbRootFromNegativeVerb,
 	arrayOfPersonalSuffixes,
 	vowelsQuantity,
 	getFirstVowel,

@@ -8,12 +8,10 @@ const {
 } = require('./../methods/basics');
 
 const {
-
 	arrayOfPersonalSuffixes,
 	generateResult,
 	getProperties,
 	lookIn4Ways
-
 } = require('./../methods/turkish');
 
 

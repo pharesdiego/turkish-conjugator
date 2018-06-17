@@ -6,12 +6,9 @@ const {
 } = require('./../methods/basics');
 
 const {
-
-	isLastLetterOfRootAVowel,
 	arrayOfPersonalSuffixes,
 	generateResult,
 	getProperties
-
 } = require('./../methods/turkish');
 
 // LAST CHECK 24 5 2018

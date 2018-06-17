@@ -1,9 +1,15 @@
+const {
+	map,
+	reduce,
+	filter
+} = require('./utils');
+
 /**
  * This function is used to compose functions
  * @param {function} fns - a bunch of functions to compose 
  * @returns {any} - the composition's result
  */
-const _ = (...fns) => arg => fns.reduce((ref, fn) => fn(ref), arg);
+const _ = (...fns) => arg => reduce(fns, (ref, fn) => fn(ref), arg);
 
 const length = str => str.length;
 
@@ -34,13 +40,12 @@ const strInit = str => str.slice(0,-1);
 
 const isVowel = str => /[aeiıouöüI]/gi.test(str)
 
-const isConsonant = str => !isVowel(str);
 /**
  * 
  * @param {array} arr
  * @returns {array} - an array containing every vowel found in the given array or an empty array if any was found
  */
-const getVowelsArr = arr => arr.filter(isVowel);
+const getVowelsArr = arr => filter(arr, isVowel);
 
 /**
  * Get every vowel from a given string
@@ -71,7 +76,7 @@ const arrInit = arr => arr.slice(0, -1);
 
 const arrLast = arr => arr.slice(-1);
 
-const addRightSpace = arr => arr.map(item => item += ' ');
+const addRightSpace = arr => map(arr, item => item += ' ');
 
 /**
  * @description used to get the init part of a Composed verb (init like Haskell). A Composed verb could have 2+ words
