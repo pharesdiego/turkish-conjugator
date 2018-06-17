@@ -1,12 +1,12 @@
 {
   "name": "turkish-conjugator",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Turkish conjugator for students!",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
     "dev": "webpack",
-    "tests": "mocha --recursive ./app/tests/"
+    "tests": "mocha --recursive ./src/tests/"
   },
   "author": {
     "name": "Diego Phares <pharesdiego@gmail.com>",
