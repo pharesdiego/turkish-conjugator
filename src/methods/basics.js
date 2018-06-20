@@ -97,6 +97,8 @@ module.exports = {
 	split,
 	splitWords,
 	join,
+	arrLast,
+	arrInit,
 	push,
 	lowerCase,
 	reverse,
@@ -112,5 +114,5 @@ module.exports = {
 	strStarsWith,
 	getStrInit,
 	getStrLast,
-	getLastVowel
+	getLastVowel,
 }

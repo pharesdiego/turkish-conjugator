@@ -135,11 +135,11 @@ const get2WayHarmonyOf = _(verbRoot, getLastVowel, lookIn2Ways);
 	}
 
 /**
- * Quantity of white spaces
+ * Verify if a string has more than 0 white spaces on it
  * @param {string} str
- * @returns {number} - quantity of white spaces in the given string 
+ * @returns {boolean} 
  */
-const whiteSpaces = str => (str.match(/\s/g) || []).length
+const whiteSpaces = str => str.split(' ').length > 1;
 
 var regGet = /(geçmek|etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
 var regIs = /^[a-zşüıöğç\s?]{2,}(geçmek|etmek|yapmak|eylemek|olmak|vermek|kalmak|edilmek|demek|dilemek|gelmek|bulunmak|söylemek|durmak)$/;
