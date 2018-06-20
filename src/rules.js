@@ -44,5 +44,9 @@ module.exports.exceptions = [
 // Etmek isn't a composition of göz
 // so we avoid to turn 't' into a 'd'
 module.exports.compositionExceptions = [
-	'gözetmek'
+	'gözetmek',
+	'esnetmek',
+	'gülümsetmek',
+	'ilerletmek',
+	'izletmek'
 ]

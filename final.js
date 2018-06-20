@@ -12,7 +12,7 @@ const {
 	PotentialNegative,
 	PotentialPositive
 
-} = require('./app/tenses/all');
+} = require('./src/tenses/all');
 
 
 const {
@@ -22,7 +22,7 @@ const {
 	convertToPositive,
 	isAlphabeticallyValid,
 	isTurkishVerb,
-} = require('./app/methods/verbVerification');
+} = require('./src/methods/verbVerification');
 
 const ALL = (verb, verbN = convertToNegative(verb)) => [
 	{
