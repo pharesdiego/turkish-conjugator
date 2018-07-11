@@ -125,7 +125,7 @@ const isTurkishVerb = Conjugate.verify.isTurkishVerb('gelmek');
 if(isTurkishVerb) {
   Conjugate.it(isTurkishVerb);
 } else {
-  // Show up an error message or wait until user types a correct Turkish verb.
+  // Show up an invalid Turkish verb message.
 }
 ```
 
