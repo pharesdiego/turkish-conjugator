@@ -71,7 +71,7 @@ This is an object containing methods to validate if a given string is a correct 
 
 *Arguments:*
 
-**verb** ***(string)*** : A Turkish verb like: gelmek, izin vermek, istemek, yaşamak...
+**verb** ***(string)*** : A Turkish verb in any form like: gelmek, izin vermek, istememek, yaşamamak...
 
 *Returns:*
 
@@ -91,7 +91,7 @@ This method **returns a boolean** indicating whether a verb is a negative. For e
 
 *Arguments:*
 
-**verb** ***(string)*** : A Turkish verb in any form like: gelmek, izin vermek, istememek, yaşamamak..
+**verb** ***(string)*** : A Turkish verb in any form like: gelmek, izin vermek, istememek, yaşamamak...
 
 *Returns:*
 
