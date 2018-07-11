@@ -56,7 +56,7 @@ There will be 10 objects and each of them will contain the tense, the title and 
   }
 }
 ```
-[Here you can see a full example of the output.](https://www.mocky.io/v2/5b4620843200008500301b38)
+[Here you can see a full example of the output for Conjugate.it('gelmek')](https://www.mocky.io/v2/5b4620843200008500301b38)
 
 These are the supported tenses:
 
