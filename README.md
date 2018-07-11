@@ -119,7 +119,7 @@ This method **returns a boolean or a string**. if the given verb is invalid and 
 
 `Conjugate.verify.isTurkishVerb('gelmekk') // false`
 
-At [Konjüsh](https://pharesdiego.github.io/konjush/) this method is used as input for `Conjugate.it` in this way:
+At [Konjüsh](https://pharesdiego.github.io/konjush/) this method's result is used as input for `Conjugate.it` in this way:
 ```
 const isTurkishVerb = Conjugate.verify.isTurkishVerb('gelmek');
 if(isTurkishVerb) {
