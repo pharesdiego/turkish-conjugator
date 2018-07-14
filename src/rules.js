@@ -48,5 +48,6 @@ module.exports.compositionExceptions = [
 	'esnetmek',
 	'gülümsetmek',
 	'ilerletmek',
-	'izletmek'
+	'izletmek',
+	'ağlatmak'
 ]

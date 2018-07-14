@@ -109,7 +109,7 @@ const ALL = (verb, verbN = convertToNegative(verb)) => [
 
 const Conjugate = {
 
-	it: verb => ALL(verb),
+	it: verb => ALL(verb.toLowerCase()),
 
 	verify: {
 		isVerb,

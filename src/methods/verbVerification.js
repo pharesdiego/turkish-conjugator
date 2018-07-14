@@ -2,7 +2,6 @@ const {
   strEndsWith,
   lowerCase,
   getVowelsStr,
-  arrLast,
   arrInit,
   join,
   _
@@ -14,34 +13,35 @@ const {
 
 const hasMinLength = (str, l) => str.length >= l;
 
-const isVerb = verb => strEndsWith(verb)('mek', 'mak');
+const isVerb = verb => strEndsWith(verb.toLowerCase())('mek', 'mak');
 
-const isNegativeVerb = verb => strEndsWith(verb)('memek', 'mamak');
+const isNegativeVerb = verb => strEndsWith(verb.toLowerCase())('memek', 'mamak');
 
-const convertToPositive = verb => verb.replace(/\w{5}$/, m => m[0] + m[1] + 'k');
+const convertToPositive = verb => verb.toLowerCase().replace(/\w{5}$/, m => m[0] + m[1] + 'k');
 
-const convertToNegative = verb => verb.replace(/\w{3}$/, m => m[0] + m[1] + m[0] + m[1] +'k');
+const convertToNegative = verb => verb.toLowerCase().replace(/\w{3}$/, m => m[0] + m[1] + m[0] + m[1] +'k');
 
-const isAlphabeticallyValid = str => str.split('').every(letter => alphabet.includes(letter));
+const isAlphabeticallyValid = str => str.toLowerCase().split('').every(letter => alphabet.includes(letter));
 
 const splitSpace = str => str.split(' ');
 
-const isComposed = str => str.split(' ').length > 1;
+const isComposed = str => splitSpace(str).length > 1;
 
-const splitSpaceGetArrInitAndStrVowels = _(splitSpace, arrInit, join, getVowelsStr);
+const getVowelsFromInitOfComposedVerb = _(splitSpace, arrInit, join, getVowelsStr);
 
 const isTurkishVerb = verb => {
 
   verb = lowerCase(verb);
-  
+
 	if(hasMinLength(verb, 5)){
 
-    if(isComposed(verb) ? splitSpaceGetArrInitAndStrVowels(verb).length > 1 : true){
+    if((isComposed(verb) ? getVowelsFromInitOfComposedVerb(verb) : getVowelsStr(verb)).length > 1){
 
       if(isAlphabeticallyValid(verb)){
 
-        if(hasMinLength(arrLast(verb.split(' '))[0], 5)){
+        if(splitSpace(verb).every(str => hasMinLength(str, 3))){
           
+          // match strings like: memek, mamak, mamek, memak, mekmek...
           if(/\bm(e|a)k?m(e|a)k\b/.test(verb)) return false;
   
           if(isNegativeVerb(verb) && hasMinLength(verb, 7)) return convertToPositive(verb);
