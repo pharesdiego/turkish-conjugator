@@ -5,11 +5,11 @@ const {
   arrInit,
   join,
   _
-} = require('./basics')
+} = require('./basics');
 
 const {
   alphabet
-} = require('./../rules')
+} = require('./../rules');
 
 const hasMinLength = (str, l) => str.length >= l;
 
@@ -21,6 +21,12 @@ const convertToPositive = verb => verb.toLowerCase().replace(/\w{5}$/, m => m[0]
 
 const convertToNegative = verb => verb.toLowerCase().replace(/\w{3}$/, m => m[0] + m[1] + m[0] + m[1] +'k');
 
+/**
+ * @description determines whether a string is alphabetically valid using the Turkish alphabet.
+ * @param {string} str
+ * Complexity: O(n^2). n^2 is a nightmare, but since the alphabet's length is only 30, using a hash table
+ * in order to have a O(1) complexity is just going to over complicate this simple problem.
+ */
 const isAlphabeticallyValid = str => str.toLowerCase().split('').every(letter => alphabet.includes(letter));
 
 const splitSpace = str => str.split(' ');
@@ -35,6 +41,7 @@ const isTurkishVerb = verb => {
 
 	if(hasMinLength(verb, 5)){
 
+    // getting vowels from a composed verb is different from a normal verb.
     if((isComposed(verb) ? getVowelsFromInitOfComposedVerb(verb) : getVowelsStr(verb)).length > 1){
 
       if(isAlphabeticallyValid(verb)){

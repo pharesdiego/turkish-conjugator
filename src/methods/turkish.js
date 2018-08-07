@@ -66,7 +66,7 @@ const isSingleSyllableVerb = verb => vowelsQuantity(verb) === 1
  * @param {string} 
  * @returns {string}
  */
-const getFirstVowel = str => (str.match(/[aeiıouöü]/gi) || [ false ] )[0]
+const getFirstVowel = str => (str.match(/[aeiıouöü]/i) || [ false ] )[0]
 
 /**
  * Returns the last vowel in a string
@@ -120,9 +120,8 @@ const get2WayHarmonyOf = _(verbRoot, getLastVowel, lookIn2Ways);
 		personalSuffixes,
 		firstPart,
 		verbRoot,
-		tenseSuffix
+		tenseSuffix = ''
 	}) => {
-		tenseSuffix = tenseSuffix || ''
 		return map(personalSuffixes, suffix => firstPart + verbRoot + tenseSuffix + suffix);
 		/**
 		 * @example with verb 'bilmek'
