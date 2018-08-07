@@ -25,11 +25,11 @@
 
 *Arguments:*
 
-**verb** ***(string)*** : A Turkish verb like: gelmek, izin vermek, istemek, yaşamak...
+**verb** ***(string)*** : A Turkish verb in its positive form like: gelmek, izin vermek, istemek, yaşamak...
 
 *Returns:*
 
-This method **returns an array** containing objects with the following structure:
+This method **returns an array of objects** with the following structure:
 ```
 [
   {
