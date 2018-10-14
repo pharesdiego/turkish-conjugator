@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack -p",
     "dev": "webpack",
-    "tests": "mocha --recursive ./src/tests/"
+    "tests": "mocha --recursive ./src/tests/",
+    "prettier": "prettier --single-quote --arrow-parens always --write \"**/*.js\""
   },
   "author": {
     "name": "Diego Phares <pharesdiego@gmail.com>",
@@ -29,6 +30,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "mocha": "^5.1.1",
+    "prettier": "^1.14.3",
     "webpack": "^3.10.0"
   }
 }

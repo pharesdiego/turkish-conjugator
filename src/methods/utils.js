@@ -1,19 +1,19 @@
 const map = (array, iteratee) => {
   var index = -1,
-      length = array == null ? 0 : array.length,
-      result = Array(length);
+    length = array == null ? 0 : array.length,
+    result = Array(length);
 
   while (++index < length) {
     result[index] = iteratee(array[index], index, array);
   }
   return result;
-}
+};
 
 const filter = (array, predicate) => {
   var index = -1,
-      length = array == null ? 0 : array.length,
-      resIndex = 0,
-      result = [];
+    length = array == null ? 0 : array.length,
+    resIndex = 0,
+    result = [];
 
   while (++index < length) {
     var value = array[index];
@@ -22,12 +22,11 @@ const filter = (array, predicate) => {
     }
   }
   return result;
-}
-
+};
 
 const reduce = (array, iteratee, accumulator, initAccum) => {
   var index = -1,
-      length = array == null ? 0 : array.length;
+    length = array == null ? 0 : array.length;
 
   if (initAccum && length) {
     accumulator = array[++index];
@@ -36,10 +35,10 @@ const reduce = (array, iteratee, accumulator, initAccum) => {
     accumulator = iteratee(accumulator, array[index], index, array);
   }
   return accumulator;
-}
+};
 
 module.exports = {
   map,
   filter,
   reduce
-}
+};
