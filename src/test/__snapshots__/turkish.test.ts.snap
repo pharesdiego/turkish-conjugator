@@ -1,0 +1,4753 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(affetmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(affetmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(almak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(almamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(alışmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(alışmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(anlamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(anlamamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(anlaşmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(anlaşmak) 2`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(anlaşmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(anlaşmamak) 2`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(aramak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(aramamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(atmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(atmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(ağlamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(ağlamamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(bakmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(bakmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(benzemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(benzemek) 2`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(benzememek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(benzememek) 2`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(bilmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(bilmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(bulmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(bulmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(büyümek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(büyümemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(denmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(denmek) 2`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(denmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(denmemek) 2`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(değiştirmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(değiştirmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(dövmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(dövmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(düşünmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(düşünmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(gelmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(gelmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(getirmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(getirmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(girmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(girmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(gitmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(gitmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(görmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(görmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(istemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(istememek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(izlemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(izlememek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(içmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(içmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kalmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kalmak) 2`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kalmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kalmamak) 2`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kapatmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kapatmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kaybetmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kaybetmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kokmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kokmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(konuşmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(konuşmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kullanmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(kullanmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(nefret etmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(nefret etmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(okumak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(okumamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(olmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(olmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(oynamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(oynamamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(pişmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(pişmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(sanmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(sanmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(sevmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(sevmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(sinirlenmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(sinirlenmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(tutmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(tutmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(uyumak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(uyumamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(vermek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(vermemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(vurmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(vurmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(yapmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(yapmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(yazmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(yazmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(yemin etmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(yemin etmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(yenmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(yenmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(çalışmak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(çalışmamak) 1`] = `"a"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(ölmek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(ölmemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(özlemek) 1`] = `"e"`;
+
+exports[`>>> get2WayHarmonyOf <<< get2WayHarmonyOf(özlememek) 1`] = `"e"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(affetmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(affetmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(almak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(almamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(alışmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(alışmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(anlamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(anlamamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(anlaşmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(anlaşmak) 2`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(anlaşmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(anlaşmamak) 2`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(aramak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(aramamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(atmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(atmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(ağlamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(ağlamamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(bakmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(bakmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(benzemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(benzemek) 2`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(benzememek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(benzememek) 2`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(bilmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(bilmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(bulmak) 1`] = `"u"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(bulmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(büyümek) 1`] = `"ü"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(büyümemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(denmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(denmek) 2`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(denmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(denmemek) 2`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(değiştirmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(değiştirmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(dövmek) 1`] = `"ü"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(dövmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(düşünmek) 1`] = `"ü"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(düşünmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(gelmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(gelmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(getirmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(getirmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(girmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(girmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(gitmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(gitmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(görmek) 1`] = `"ü"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(görmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(istemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(istememek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(izlemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(izlememek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(içmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(içmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kalmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kalmak) 2`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kalmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kalmamak) 2`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kapatmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kapatmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kaybetmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kaybetmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kokmak) 1`] = `"u"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kokmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(konuşmak) 1`] = `"u"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(konuşmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kullanmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(kullanmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(nefret etmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(nefret etmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(okumak) 1`] = `"u"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(okumamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(olmak) 1`] = `"u"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(olmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(oynamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(oynamamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(pişmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(pişmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(sanmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(sanmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(sevmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(sevmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(sinirlenmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(sinirlenmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(tutmak) 1`] = `"u"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(tutmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(uyumak) 1`] = `"u"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(uyumamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(vermek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(vermemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(vurmak) 1`] = `"u"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(vurmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(yapmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(yapmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(yazmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(yazmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(yemin etmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(yemin etmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(yenmek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(yenmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(çalışmak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(çalışmamak) 1`] = `"ı"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(ölmek) 1`] = `"ü"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(ölmemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(özlemek) 1`] = `"i"`;
+
+exports[`>>> get4WayHarmonyOf <<< get4WayHarmonyOf(özlememek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(affetmek) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(affetmemek) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(almak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(almamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(alışmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(alışmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(anlamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(anlamamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(anlaşmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(anlaşmak) 2`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(anlaşmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(anlaşmamak) 2`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(aramak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(aramamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(atmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(atmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(ağlamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(ağlamamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(bakmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(bakmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(benzemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(benzemek) 2`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(benzememek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(benzememek) 2`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(bilmek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(bilmemek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(bulmak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(bulmamak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(büyümek) 1`] = `"ü"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(büyümemek) 1`] = `"ü"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(denmek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(denmek) 2`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(denmemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(denmemek) 2`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(değiştirmek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(değiştirmemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(dövmek) 1`] = `"ö"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(dövmemek) 1`] = `"ö"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(düşünmek) 1`] = `"ü"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(düşünmemek) 1`] = `"ü"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(gelmek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(gelmemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(getirmek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(getirmemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(girmek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(girmemek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(gitmek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(gitmemek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(görmek) 1`] = `"ö"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(görmemek) 1`] = `"ö"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(istemek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(istememek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(izlemek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(izlememek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(içmek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(içmemek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kalmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kalmak) 2`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kalmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kalmamak) 2`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kapatmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kapatmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kaybetmek) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kaybetmemek) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kokmak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kokmamak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(konuşmak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(konuşmamak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kullanmak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(kullanmamak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(nefret etmek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(nefret etmemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(okumak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(okumamak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(olmak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(olmamak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(oynamak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(oynamamak) 1`] = `"o"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(pişmek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(pişmemek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(sanmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(sanmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(sevmek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(sevmemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(sinirlenmek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(sinirlenmemek) 1`] = `"i"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(tutmak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(tutmamak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(uyumak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(uyumamak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(vermek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(vermemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(vurmak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(vurmamak) 1`] = `"u"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(yapmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(yapmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(yazmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(yazmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(yemin etmek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(yemin etmemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(yenmek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(yenmemek) 1`] = `"e"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(çalışmak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(çalışmamak) 1`] = `"a"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(ölmek) 1`] = `"ö"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(ölmemek) 1`] = `"ö"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(özlemek) 1`] = `"ö"`;
+
+exports[`>>> getFirstVowel <<< getFirstVowel(özlememek) 1`] = `"ö"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(affetmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(affetmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(almak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(almamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(alışmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(alışmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(anlamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(anlamamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(anlaşmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(anlaşmak) 2`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(anlaşmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(anlaşmamak) 2`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(aramak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(aramamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(atmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(atmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(ağlamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(ağlamamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(bakmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(bakmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(benzemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(benzemek) 2`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(benzememek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(benzememek) 2`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(bilmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(bilmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(bulmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(bulmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(büyümek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(büyümemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(denmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(denmek) 2`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(denmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(denmemek) 2`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(değiştirmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(değiştirmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(dövmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(dövmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(düşünmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(düşünmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(gelmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(gelmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(getirmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(getirmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(girmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(girmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(gitmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(gitmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(görmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(görmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(istemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(istememek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(izlemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(izlememek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(içmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(içmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kalmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kalmak) 2`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kalmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kalmamak) 2`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kapatmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kapatmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kaybetmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kaybetmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kokmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kokmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(konuşmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(konuşmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kullanmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(kullanmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(nefret etmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(nefret etmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(okumak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(okumamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(olmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(olmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(oynamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(oynamamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(pişmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(pişmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(sanmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(sanmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(sevmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(sevmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(sinirlenmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(sinirlenmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(tutmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(tutmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(uyumak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(uyumamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(vermek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(vermemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(vurmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(vurmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(yapmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(yapmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(yazmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(yazmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(yemin etmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(yemin etmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(yenmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(yenmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(çalışmak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(çalışmamak) 1`] = `"a"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(ölmek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(ölmemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(özlemek) 1`] = `"e"`;
+
+exports[`>>> getLastVowel <<< getLastVowel(özlememek) 1`] = `"e"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(affetmek) 1`] = `"aff"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(affetmemek) 1`] = `"affet"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(almak) 1`] = `""`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(almamak) 1`] = `"al"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(alışmak) 1`] = `"al"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(alışmamak) 1`] = `"alış"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(anlamak) 1`] = `"an"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(anlamamak) 1`] = `"anla"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(anlaşmak) 1`] = `"anl"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(anlaşmak) 2`] = `"anl"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(anlaşmamak) 1`] = `"anlaş"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(anlaşmamak) 2`] = `"anlaş"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(aramak) 1`] = `"a"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(aramamak) 1`] = `"ara"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(atmak) 1`] = `""`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(atmamak) 1`] = `"at"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(ağlamak) 1`] = `"ağ"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(ağlamamak) 1`] = `"ağla"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(bakmak) 1`] = `"b"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(bakmamak) 1`] = `"bak"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(benzemek) 1`] = `"ben"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(benzemek) 2`] = `"ben"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(benzememek) 1`] = `"benze"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(benzememek) 2`] = `"benze"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(bilmek) 1`] = `"b"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(bilmemek) 1`] = `"bil"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(bulmak) 1`] = `"b"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(bulmamak) 1`] = `"bul"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(büyümek) 1`] = `"bü"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(büyümemek) 1`] = `"büyü"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(denmek) 1`] = `"d"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(denmek) 2`] = `"d"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(denmemek) 1`] = `"den"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(denmemek) 2`] = `"den"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(değiştirmek) 1`] = `"değişt"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(değiştirmemek) 1`] = `"değiştir"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(dövmek) 1`] = `"d"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(dövmemek) 1`] = `"döv"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(düşünmek) 1`] = `"düş"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(düşünmemek) 1`] = `"düşün"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(gelmek) 1`] = `"g"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(gelmemek) 1`] = `"gel"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(getirmek) 1`] = `"get"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(getirmemek) 1`] = `"getir"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(girmek) 1`] = `"g"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(girmemek) 1`] = `"gir"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(gitmek) 1`] = `"g"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(gitmemek) 1`] = `"git"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(görmek) 1`] = `"g"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(görmemek) 1`] = `"gör"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(istemek) 1`] = `"is"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(istememek) 1`] = `"iste"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(izlemek) 1`] = `"iz"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(izlememek) 1`] = `"izle"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(içmek) 1`] = `""`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(içmemek) 1`] = `"iç"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kalmak) 1`] = `"k"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kalmak) 2`] = `"k"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kalmamak) 1`] = `"kal"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kalmamak) 2`] = `"kal"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kapatmak) 1`] = `"kap"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kapatmamak) 1`] = `"kapat"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kaybetmek) 1`] = `"kayb"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kaybetmemek) 1`] = `"kaybet"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kokmak) 1`] = `"k"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kokmamak) 1`] = `"kok"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(konuşmak) 1`] = `"kon"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(konuşmamak) 1`] = `"konuş"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kullanmak) 1`] = `"kull"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(kullanmamak) 1`] = `"kullan"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(nefret etmek) 1`] = `"nefret "`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(nefret etmemek) 1`] = `"nefret et"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(okumak) 1`] = `"o"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(okumamak) 1`] = `"oku"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(olmak) 1`] = `""`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(olmamak) 1`] = `"ol"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(oynamak) 1`] = `"oy"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(oynamamak) 1`] = `"oyna"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(pişmek) 1`] = `"p"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(pişmemek) 1`] = `"piş"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(sanmak) 1`] = `"s"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(sanmamak) 1`] = `"san"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(sevmek) 1`] = `"s"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(sevmemek) 1`] = `"sev"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(sinirlenmek) 1`] = `"sinirl"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(sinirlenmemek) 1`] = `"sinirlen"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(tutmak) 1`] = `"t"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(tutmamak) 1`] = `"tut"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(uyumak) 1`] = `"u"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(uyumamak) 1`] = `"uyu"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(vermek) 1`] = `"v"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(vermemek) 1`] = `"ver"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(vurmak) 1`] = `"v"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(vurmamak) 1`] = `"vur"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(yapmak) 1`] = `"y"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(yapmamak) 1`] = `"yap"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(yazmak) 1`] = `"y"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(yazmamak) 1`] = `"yaz"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(yemin etmek) 1`] = `"yemin "`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(yemin etmemek) 1`] = `"yemin et"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(yenmek) 1`] = `"y"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(yenmemek) 1`] = `"yen"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(çalışmak) 1`] = `"çal"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(çalışmamak) 1`] = `"çalış"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(ölmek) 1`] = `""`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(ölmemek) 1`] = `"öl"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(özlemek) 1`] = `"öz"`;
+
+exports[`>>> getPositiveVerbRootFromNegativeVerb <<< getPositiveVerbRootFromNegativeVerb(özlememek) 1`] = `"özle"`;
+
+exports[`>>> getProperties <<< getProperties(affetmek) 1`] = `
+Object {
+  "__originalVerb": "affetmek",
+  "auxiliaryVerb": "etmek",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "aff",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "et",
+  "positiveRoot": "",
+  "root": "ed",
+  "verb": "etmek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(affetmemek) 1`] = `
+Object {
+  "__originalVerb": "affetmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "etmemek",
+  "firstPart": "aff",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "etme",
+  "positiveRoot": "et",
+  "root": "etme",
+  "verb": "etmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(almak) 1`] = `
+Object {
+  "__originalVerb": "almak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "al",
+  "positiveRoot": "",
+  "root": "al",
+  "verb": "almak",
+  "verbSuffix": "mak",
+  "verbVowels": "a",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(almamak) 1`] = `
+Object {
+  "__originalVerb": "almamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "alma",
+  "positiveRoot": "al",
+  "root": "alma",
+  "verb": "almamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(alışmak) 1`] = `
+Object {
+  "__originalVerb": "alışmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "alış",
+  "positiveRoot": "",
+  "root": "alış",
+  "verb": "alışmak",
+  "verbSuffix": "mak",
+  "verbVowels": "aı",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(alışmamak) 1`] = `
+Object {
+  "__originalVerb": "alışmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "alışma",
+  "positiveRoot": "alış",
+  "root": "alışma",
+  "verb": "alışmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aıa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(anlamak) 1`] = `
+Object {
+  "__originalVerb": "anlamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "anla",
+  "positiveRoot": "",
+  "root": "anla",
+  "verb": "anlamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(anlamamak) 1`] = `
+Object {
+  "__originalVerb": "anlamamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "anlama",
+  "positiveRoot": "anla",
+  "root": "anlama",
+  "verb": "anlamamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aaa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(anlaşmak) 1`] = `
+Object {
+  "__originalVerb": "anlaşmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "anlaş",
+  "positiveRoot": "",
+  "root": "anlaş",
+  "verb": "anlaşmak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(anlaşmak) 2`] = `
+Object {
+  "__originalVerb": "anlaşmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "anlaş",
+  "positiveRoot": "",
+  "root": "anlaş",
+  "verb": "anlaşmak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(anlaşmamak) 1`] = `
+Object {
+  "__originalVerb": "anlaşmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "anlaşma",
+  "positiveRoot": "anlaş",
+  "root": "anlaşma",
+  "verb": "anlaşmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aaa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(anlaşmamak) 2`] = `
+Object {
+  "__originalVerb": "anlaşmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "anlaşma",
+  "positiveRoot": "anlaş",
+  "root": "anlaşma",
+  "verb": "anlaşmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aaa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(aramak) 1`] = `
+Object {
+  "__originalVerb": "aramak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "ara",
+  "positiveRoot": "",
+  "root": "ara",
+  "verb": "aramak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(aramamak) 1`] = `
+Object {
+  "__originalVerb": "aramamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "arama",
+  "positiveRoot": "ara",
+  "root": "arama",
+  "verb": "aramamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aaa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(atmak) 1`] = `
+Object {
+  "__originalVerb": "atmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "at",
+  "positiveRoot": "",
+  "root": "at",
+  "verb": "atmak",
+  "verbSuffix": "mak",
+  "verbVowels": "a",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(atmamak) 1`] = `
+Object {
+  "__originalVerb": "atmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "atma",
+  "positiveRoot": "at",
+  "root": "atma",
+  "verb": "atmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(ağlamak) 1`] = `
+Object {
+  "__originalVerb": "ağlamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "ağla",
+  "positiveRoot": "",
+  "root": "ağla",
+  "verb": "ağlamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(ağlamamak) 1`] = `
+Object {
+  "__originalVerb": "ağlamamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "ağlama",
+  "positiveRoot": "ağla",
+  "root": "ağlama",
+  "verb": "ağlamamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aaa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(bakmak) 1`] = `
+Object {
+  "__originalVerb": "bakmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "bak",
+  "positiveRoot": "",
+  "root": "bak",
+  "verb": "bakmak",
+  "verbSuffix": "mak",
+  "verbVowels": "a",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(bakmamak) 1`] = `
+Object {
+  "__originalVerb": "bakmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "bakma",
+  "positiveRoot": "bak",
+  "root": "bakma",
+  "verb": "bakmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(benzemek) 1`] = `
+Object {
+  "__originalVerb": "benzemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "benze",
+  "positiveRoot": "",
+  "root": "benze",
+  "verb": "benzemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(benzemek) 2`] = `
+Object {
+  "__originalVerb": "benzemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "benze",
+  "positiveRoot": "",
+  "root": "benze",
+  "verb": "benzemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(benzememek) 1`] = `
+Object {
+  "__originalVerb": "benzememek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "benzeme",
+  "positiveRoot": "benze",
+  "root": "benzeme",
+  "verb": "benzememek",
+  "verbSuffix": "mek",
+  "verbVowels": "eee",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(benzememek) 2`] = `
+Object {
+  "__originalVerb": "benzememek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "benzeme",
+  "positiveRoot": "benze",
+  "root": "benzeme",
+  "verb": "benzememek",
+  "verbSuffix": "mek",
+  "verbVowels": "eee",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(bilmek) 1`] = `
+Object {
+  "__originalVerb": "bilmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "bil",
+  "positiveRoot": "",
+  "root": "bil",
+  "verb": "bilmek",
+  "verbSuffix": "mek",
+  "verbVowels": "i",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(bilmemek) 1`] = `
+Object {
+  "__originalVerb": "bilmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "bilme",
+  "positiveRoot": "bil",
+  "root": "bilme",
+  "verb": "bilmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ie",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(bulmak) 1`] = `
+Object {
+  "__originalVerb": "bulmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "u",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "bul",
+  "positiveRoot": "",
+  "root": "bul",
+  "verb": "bulmak",
+  "verbSuffix": "mak",
+  "verbVowels": "u",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(bulmamak) 1`] = `
+Object {
+  "__originalVerb": "bulmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "bulma",
+  "positiveRoot": "bul",
+  "root": "bulma",
+  "verb": "bulmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "ua",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(büyümek) 1`] = `
+Object {
+  "__originalVerb": "büyümek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "ü",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "büyü",
+  "positiveRoot": "",
+  "root": "büyü",
+  "verb": "büyümek",
+  "verbSuffix": "mek",
+  "verbVowels": "üü",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(büyümemek) 1`] = `
+Object {
+  "__originalVerb": "büyümemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "büyüme",
+  "positiveRoot": "büyü",
+  "root": "büyüme",
+  "verb": "büyümemek",
+  "verbSuffix": "mek",
+  "verbVowels": "üüe",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(denmek) 1`] = `
+Object {
+  "__originalVerb": "denmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "den",
+  "positiveRoot": "",
+  "root": "den",
+  "verb": "denmek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(denmek) 2`] = `
+Object {
+  "__originalVerb": "denmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "den",
+  "positiveRoot": "",
+  "root": "den",
+  "verb": "denmek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(denmemek) 1`] = `
+Object {
+  "__originalVerb": "denmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "denme",
+  "positiveRoot": "den",
+  "root": "denme",
+  "verb": "denmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(denmemek) 2`] = `
+Object {
+  "__originalVerb": "denmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "denme",
+  "positiveRoot": "den",
+  "root": "denme",
+  "verb": "denmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(değiştirmek) 1`] = `
+Object {
+  "__originalVerb": "değiştirmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "değiştir",
+  "positiveRoot": "",
+  "root": "değiştir",
+  "verb": "değiştirmek",
+  "verbSuffix": "mek",
+  "verbVowels": "eii",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(değiştirmemek) 1`] = `
+Object {
+  "__originalVerb": "değiştirmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "değiştirme",
+  "positiveRoot": "değiştir",
+  "root": "değiştirme",
+  "verb": "değiştirmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "eiie",
+  "vowelsLength": 4,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(dövmek) 1`] = `
+Object {
+  "__originalVerb": "dövmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "ü",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "döv",
+  "positiveRoot": "",
+  "root": "döv",
+  "verb": "dövmek",
+  "verbSuffix": "mek",
+  "verbVowels": "ö",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(dövmemek) 1`] = `
+Object {
+  "__originalVerb": "dövmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "dövme",
+  "positiveRoot": "döv",
+  "root": "dövme",
+  "verb": "dövmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "öe",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(düşünmek) 1`] = `
+Object {
+  "__originalVerb": "düşünmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "ü",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "düşün",
+  "positiveRoot": "",
+  "root": "düşün",
+  "verb": "düşünmek",
+  "verbSuffix": "mek",
+  "verbVowels": "üü",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(düşünmemek) 1`] = `
+Object {
+  "__originalVerb": "düşünmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "düşünme",
+  "positiveRoot": "düşün",
+  "root": "düşünme",
+  "verb": "düşünmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "üüe",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(gelmek) 1`] = `
+Object {
+  "__originalVerb": "gelmek",
+  "auxiliaryVerb": "gelmek",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "gel",
+  "positiveRoot": "",
+  "root": "gel",
+  "verb": "gelmek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(gelmemek) 1`] = `
+Object {
+  "__originalVerb": "gelmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "gelmemek",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "gelme",
+  "positiveRoot": "gel",
+  "root": "gelme",
+  "verb": "gelmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(getirmek) 1`] = `
+Object {
+  "__originalVerb": "getirmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "getir",
+  "positiveRoot": "",
+  "root": "getir",
+  "verb": "getirmek",
+  "verbSuffix": "mek",
+  "verbVowels": "ei",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(getirmemek) 1`] = `
+Object {
+  "__originalVerb": "getirmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "getirme",
+  "positiveRoot": "getir",
+  "root": "getirme",
+  "verb": "getirmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "eie",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(girmek) 1`] = `
+Object {
+  "__originalVerb": "girmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "gir",
+  "positiveRoot": "",
+  "root": "gir",
+  "verb": "girmek",
+  "verbSuffix": "mek",
+  "verbVowels": "i",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(girmemek) 1`] = `
+Object {
+  "__originalVerb": "girmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "girme",
+  "positiveRoot": "gir",
+  "root": "girme",
+  "verb": "girmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ie",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(gitmek) 1`] = `
+Object {
+  "__originalVerb": "gitmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "git",
+  "positiveRoot": "",
+  "root": "gid",
+  "verb": "gitmek",
+  "verbSuffix": "mek",
+  "verbVowels": "i",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(gitmemek) 1`] = `
+Object {
+  "__originalVerb": "gitmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "gitme",
+  "positiveRoot": "git",
+  "root": "gitme",
+  "verb": "gitmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ie",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(görmek) 1`] = `
+Object {
+  "__originalVerb": "görmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "ü",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "gör",
+  "positiveRoot": "",
+  "root": "gör",
+  "verb": "görmek",
+  "verbSuffix": "mek",
+  "verbVowels": "ö",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(görmemek) 1`] = `
+Object {
+  "__originalVerb": "görmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "görme",
+  "positiveRoot": "gör",
+  "root": "görme",
+  "verb": "görmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "öe",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(istemek) 1`] = `
+Object {
+  "__originalVerb": "istemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "iste",
+  "positiveRoot": "",
+  "root": "iste",
+  "verb": "istemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ie",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(istememek) 1`] = `
+Object {
+  "__originalVerb": "istememek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "isteme",
+  "positiveRoot": "iste",
+  "root": "isteme",
+  "verb": "istememek",
+  "verbSuffix": "mek",
+  "verbVowels": "iee",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(izlemek) 1`] = `
+Object {
+  "__originalVerb": "izlemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "izle",
+  "positiveRoot": "",
+  "root": "izle",
+  "verb": "izlemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ie",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(izlememek) 1`] = `
+Object {
+  "__originalVerb": "izlememek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "izleme",
+  "positiveRoot": "izle",
+  "root": "izleme",
+  "verb": "izlememek",
+  "verbSuffix": "mek",
+  "verbVowels": "iee",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(içmek) 1`] = `
+Object {
+  "__originalVerb": "içmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "iç",
+  "positiveRoot": "",
+  "root": "iç",
+  "verb": "içmek",
+  "verbSuffix": "mek",
+  "verbVowels": "i",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(içmemek) 1`] = `
+Object {
+  "__originalVerb": "içmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "içme",
+  "positiveRoot": "iç",
+  "root": "içme",
+  "verb": "içmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ie",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kalmak) 1`] = `
+Object {
+  "__originalVerb": "kalmak",
+  "auxiliaryVerb": "kalmak",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kal",
+  "positiveRoot": "",
+  "root": "kal",
+  "verb": "kalmak",
+  "verbSuffix": "mak",
+  "verbVowels": "a",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kalmak) 2`] = `
+Object {
+  "__originalVerb": "kalmak",
+  "auxiliaryVerb": "kalmak",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kal",
+  "positiveRoot": "",
+  "root": "kal",
+  "verb": "kalmak",
+  "verbSuffix": "mak",
+  "verbVowels": "a",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kalmamak) 1`] = `
+Object {
+  "__originalVerb": "kalmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "kalmamak",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kalma",
+  "positiveRoot": "kal",
+  "root": "kalma",
+  "verb": "kalmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kalmamak) 2`] = `
+Object {
+  "__originalVerb": "kalmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "kalmamak",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kalma",
+  "positiveRoot": "kal",
+  "root": "kalma",
+  "verb": "kalmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kapatmak) 1`] = `
+Object {
+  "__originalVerb": "kapatmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kapat",
+  "positiveRoot": "",
+  "root": "kapat",
+  "verb": "kapatmak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kapatmamak) 1`] = `
+Object {
+  "__originalVerb": "kapatmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kapatma",
+  "positiveRoot": "kapat",
+  "root": "kapatma",
+  "verb": "kapatmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aaa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kaybetmek) 1`] = `
+Object {
+  "__originalVerb": "kaybetmek",
+  "auxiliaryVerb": "etmek",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "kayb",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "et",
+  "positiveRoot": "",
+  "root": "ed",
+  "verb": "etmek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kaybetmemek) 1`] = `
+Object {
+  "__originalVerb": "kaybetmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "etmemek",
+  "firstPart": "kayb",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "etme",
+  "positiveRoot": "et",
+  "root": "etme",
+  "verb": "etmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kokmak) 1`] = `
+Object {
+  "__originalVerb": "kokmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "u",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kok",
+  "positiveRoot": "",
+  "root": "kok",
+  "verb": "kokmak",
+  "verbSuffix": "mak",
+  "verbVowels": "o",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kokmamak) 1`] = `
+Object {
+  "__originalVerb": "kokmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kokma",
+  "positiveRoot": "kok",
+  "root": "kokma",
+  "verb": "kokmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "oa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(konuşmak) 1`] = `
+Object {
+  "__originalVerb": "konuşmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "u",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "konuş",
+  "positiveRoot": "",
+  "root": "konuş",
+  "verb": "konuşmak",
+  "verbSuffix": "mak",
+  "verbVowels": "ou",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(konuşmamak) 1`] = `
+Object {
+  "__originalVerb": "konuşmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "konuşma",
+  "positiveRoot": "konuş",
+  "root": "konuşma",
+  "verb": "konuşmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "oua",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kullanmak) 1`] = `
+Object {
+  "__originalVerb": "kullanmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kullan",
+  "positiveRoot": "",
+  "root": "kullan",
+  "verb": "kullanmak",
+  "verbSuffix": "mak",
+  "verbVowels": "ua",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(kullanmamak) 1`] = `
+Object {
+  "__originalVerb": "kullanmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "kullanma",
+  "positiveRoot": "kullan",
+  "root": "kullanma",
+  "verb": "kullanmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "uaa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(nefret etmek) 1`] = `
+Object {
+  "__originalVerb": "nefret etmek",
+  "auxiliaryVerb": "etmek",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "nefret ",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "et",
+  "positiveRoot": "",
+  "root": "ed",
+  "verb": "etmek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(nefret etmemek) 1`] = `
+Object {
+  "__originalVerb": "nefret etmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "etmemek",
+  "firstPart": "nefret ",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "etme",
+  "positiveRoot": "et",
+  "root": "etme",
+  "verb": "etmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(okumak) 1`] = `
+Object {
+  "__originalVerb": "okumak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "u",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "oku",
+  "positiveRoot": "",
+  "root": "oku",
+  "verb": "okumak",
+  "verbSuffix": "mak",
+  "verbVowels": "ou",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(okumamak) 1`] = `
+Object {
+  "__originalVerb": "okumamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "okuma",
+  "positiveRoot": "oku",
+  "root": "okuma",
+  "verb": "okumamak",
+  "verbSuffix": "mak",
+  "verbVowels": "oua",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(olmak) 1`] = `
+Object {
+  "__originalVerb": "olmak",
+  "auxiliaryVerb": "olmak",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "u",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "ol",
+  "positiveRoot": "",
+  "root": "ol",
+  "verb": "olmak",
+  "verbSuffix": "mak",
+  "verbVowels": "o",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(olmamak) 1`] = `
+Object {
+  "__originalVerb": "olmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "olmamak",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "olma",
+  "positiveRoot": "ol",
+  "root": "olma",
+  "verb": "olmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "oa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(oynamak) 1`] = `
+Object {
+  "__originalVerb": "oynamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "oyna",
+  "positiveRoot": "",
+  "root": "oyna",
+  "verb": "oynamak",
+  "verbSuffix": "mak",
+  "verbVowels": "oa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(oynamamak) 1`] = `
+Object {
+  "__originalVerb": "oynamamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "oynama",
+  "positiveRoot": "oyna",
+  "root": "oynama",
+  "verb": "oynamamak",
+  "verbSuffix": "mak",
+  "verbVowels": "oaa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(pişmek) 1`] = `
+Object {
+  "__originalVerb": "pişmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "piş",
+  "positiveRoot": "",
+  "root": "piş",
+  "verb": "pişmek",
+  "verbSuffix": "mek",
+  "verbVowels": "i",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(pişmemek) 1`] = `
+Object {
+  "__originalVerb": "pişmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "pişme",
+  "positiveRoot": "piş",
+  "root": "pişme",
+  "verb": "pişmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ie",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(sanmak) 1`] = `
+Object {
+  "__originalVerb": "sanmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "san",
+  "positiveRoot": "",
+  "root": "san",
+  "verb": "sanmak",
+  "verbSuffix": "mak",
+  "verbVowels": "a",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(sanmamak) 1`] = `
+Object {
+  "__originalVerb": "sanmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "sanma",
+  "positiveRoot": "san",
+  "root": "sanma",
+  "verb": "sanmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(sevmek) 1`] = `
+Object {
+  "__originalVerb": "sevmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "sev",
+  "positiveRoot": "",
+  "root": "sev",
+  "verb": "sevmek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(sevmemek) 1`] = `
+Object {
+  "__originalVerb": "sevmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "sevme",
+  "positiveRoot": "sev",
+  "root": "sevme",
+  "verb": "sevmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(sinirlenmek) 1`] = `
+Object {
+  "__originalVerb": "sinirlenmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "sinirlen",
+  "positiveRoot": "",
+  "root": "sinirlen",
+  "verb": "sinirlenmek",
+  "verbSuffix": "mek",
+  "verbVowels": "iie",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(sinirlenmemek) 1`] = `
+Object {
+  "__originalVerb": "sinirlenmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "sinirlenme",
+  "positiveRoot": "sinirlen",
+  "root": "sinirlenme",
+  "verb": "sinirlenmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "iiee",
+  "vowelsLength": 4,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(tutmak) 1`] = `
+Object {
+  "__originalVerb": "tutmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "u",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "tut",
+  "positiveRoot": "",
+  "root": "tut",
+  "verb": "tutmak",
+  "verbSuffix": "mak",
+  "verbVowels": "u",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(tutmamak) 1`] = `
+Object {
+  "__originalVerb": "tutmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "tutma",
+  "positiveRoot": "tut",
+  "root": "tutma",
+  "verb": "tutmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "ua",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(uyumak) 1`] = `
+Object {
+  "__originalVerb": "uyumak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "u",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "uyu",
+  "positiveRoot": "",
+  "root": "uyu",
+  "verb": "uyumak",
+  "verbSuffix": "mak",
+  "verbVowels": "uu",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(uyumamak) 1`] = `
+Object {
+  "__originalVerb": "uyumamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "uyuma",
+  "positiveRoot": "uyu",
+  "root": "uyuma",
+  "verb": "uyumamak",
+  "verbSuffix": "mak",
+  "verbVowels": "uua",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(vermek) 1`] = `
+Object {
+  "__originalVerb": "vermek",
+  "auxiliaryVerb": "vermek",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "ver",
+  "positiveRoot": "",
+  "root": "ver",
+  "verb": "vermek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(vermemek) 1`] = `
+Object {
+  "__originalVerb": "vermemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "vermemek",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "verme",
+  "positiveRoot": "ver",
+  "root": "verme",
+  "verb": "vermemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(vurmak) 1`] = `
+Object {
+  "__originalVerb": "vurmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "u",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "vur",
+  "positiveRoot": "",
+  "root": "vur",
+  "verb": "vurmak",
+  "verbSuffix": "mak",
+  "verbVowels": "u",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(vurmamak) 1`] = `
+Object {
+  "__originalVerb": "vurmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "vurma",
+  "positiveRoot": "vur",
+  "root": "vurma",
+  "verb": "vurmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "ua",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(yapmak) 1`] = `
+Object {
+  "__originalVerb": "yapmak",
+  "auxiliaryVerb": "yapmak",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "yap",
+  "positiveRoot": "",
+  "root": "yap",
+  "verb": "yapmak",
+  "verbSuffix": "mak",
+  "verbVowels": "a",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(yapmamak) 1`] = `
+Object {
+  "__originalVerb": "yapmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "yapmamak",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "yapma",
+  "positiveRoot": "yap",
+  "root": "yapma",
+  "verb": "yapmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(yazmak) 1`] = `
+Object {
+  "__originalVerb": "yazmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "yaz",
+  "positiveRoot": "",
+  "root": "yaz",
+  "verb": "yazmak",
+  "verbSuffix": "mak",
+  "verbVowels": "a",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(yazmamak) 1`] = `
+Object {
+  "__originalVerb": "yazmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "yazma",
+  "positiveRoot": "yaz",
+  "root": "yazma",
+  "verb": "yazmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aa",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(yemin etmek) 1`] = `
+Object {
+  "__originalVerb": "yemin etmek",
+  "auxiliaryVerb": "etmek",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "yemin ",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "et",
+  "positiveRoot": "",
+  "root": "ed",
+  "verb": "etmek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(yemin etmemek) 1`] = `
+Object {
+  "__originalVerb": "yemin etmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "etmemek",
+  "firstPart": "yemin ",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "etme",
+  "positiveRoot": "et",
+  "root": "etme",
+  "verb": "etmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(yenmek) 1`] = `
+Object {
+  "__originalVerb": "yenmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "yen",
+  "positiveRoot": "",
+  "root": "yen",
+  "verb": "yenmek",
+  "verbSuffix": "mek",
+  "verbVowels": "e",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(yenmemek) 1`] = `
+Object {
+  "__originalVerb": "yenmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "yenme",
+  "positiveRoot": "yen",
+  "root": "yenme",
+  "verb": "yenmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "ee",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(çalışmak) 1`] = `
+Object {
+  "__originalVerb": "çalışmak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "çalış",
+  "positiveRoot": "",
+  "root": "çalış",
+  "verb": "çalışmak",
+  "verbSuffix": "mak",
+  "verbVowels": "aı",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(çalışmamak) 1`] = `
+Object {
+  "__originalVerb": "çalışmamak",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "a",
+  "harmony4way": "ı",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "ma",
+  "originalRoot": "çalışma",
+  "positiveRoot": "çalış",
+  "root": "çalışma",
+  "verb": "çalışmamak",
+  "verbSuffix": "mak",
+  "verbVowels": "aıa",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(ölmek) 1`] = `
+Object {
+  "__originalVerb": "ölmek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "ü",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": true,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "öl",
+  "positiveRoot": "",
+  "root": "öl",
+  "verb": "ölmek",
+  "verbSuffix": "mek",
+  "verbVowels": "ö",
+  "vowelsLength": 1,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(ölmemek) 1`] = `
+Object {
+  "__originalVerb": "ölmemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "ölme",
+  "positiveRoot": "öl",
+  "root": "ölme",
+  "verb": "ölmemek",
+  "verbSuffix": "mek",
+  "verbVowels": "öe",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(özlemek) 1`] = `
+Object {
+  "__originalVerb": "özlemek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": false,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "özle",
+  "positiveRoot": "",
+  "root": "özle",
+  "verb": "özlemek",
+  "verbSuffix": "mek",
+  "verbVowels": "öe",
+  "vowelsLength": 2,
+}
+`;
+
+exports[`>>> getProperties <<< getProperties(özlememek) 1`] = `
+Object {
+  "__originalVerb": "özlememek",
+  "auxiliaryVerb": "",
+  "auxiliaryVerbInNegativeForm": "",
+  "firstPart": "",
+  "harmony2way": "e",
+  "harmony4way": "i",
+  "initComposedVerb": "",
+  "initComposedVerbInNegativeForm": "",
+  "initPart": "",
+  "isAuxiliaryComposedVerb": false,
+  "isAuxiliaryComposedVerbInNegativeForm": false,
+  "isComposed": false,
+  "isNegative": true,
+  "isSingleSyllableVerb": false,
+  "lastPart": "",
+  "negativeSuffix": "me",
+  "originalRoot": "özleme",
+  "positiveRoot": "özle",
+  "root": "özleme",
+  "verb": "özlememek",
+  "verbSuffix": "mek",
+  "verbVowels": "öee",
+  "vowelsLength": 3,
+}
+`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(affetmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(affetmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(almak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(almamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(alışmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(alışmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(anlamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(anlamamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(anlaşmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(anlaşmak) 2`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(anlaşmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(anlaşmamak) 2`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(aramak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(aramamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(atmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(atmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(ağlamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(ağlamamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(bakmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(bakmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(benzemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(benzemek) 2`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(benzememek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(benzememek) 2`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(bilmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(bilmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(bulmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(bulmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(büyümek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(büyümemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(denmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(denmek) 2`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(denmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(denmemek) 2`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(değiştirmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(değiştirmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(dövmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(dövmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(düşünmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(düşünmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(gelmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(gelmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(getirmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(getirmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(girmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(girmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(gitmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(gitmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(görmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(görmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(istemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(istememek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(izlemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(izlememek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(içmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(içmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kalmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kalmak) 2`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kalmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kalmamak) 2`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kapatmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kapatmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kaybetmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kaybetmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kokmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kokmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(konuşmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(konuşmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kullanmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(kullanmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(nefret etmek) 1`] = `true`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(nefret etmemek) 1`] = `true`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(okumak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(okumamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(olmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(olmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(oynamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(oynamamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(pişmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(pişmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(sanmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(sanmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(sevmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(sevmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(sinirlenmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(sinirlenmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(tutmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(tutmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(uyumak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(uyumamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(vermek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(vermemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(vurmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(vurmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(yapmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(yapmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(yazmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(yazmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(yemin etmek) 1`] = `true`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(yemin etmemek) 1`] = `true`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(yenmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(yenmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(çalışmak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(çalışmamak) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(ölmek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(ölmemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(özlemek) 1`] = `false`;
+
+exports[`>>> hasWhiteSpaces <<< hasWhiteSpaces(özlememek) 1`] = `false`;
+
+exports[`>>> verbRoot <<< verbRoot(affetmek) 1`] = `"affet"`;
+
+exports[`>>> verbRoot <<< verbRoot(affetmemek) 1`] = `"affetme"`;
+
+exports[`>>> verbRoot <<< verbRoot(almak) 1`] = `"al"`;
+
+exports[`>>> verbRoot <<< verbRoot(almamak) 1`] = `"alma"`;
+
+exports[`>>> verbRoot <<< verbRoot(alışmak) 1`] = `"alış"`;
+
+exports[`>>> verbRoot <<< verbRoot(alışmamak) 1`] = `"alışma"`;
+
+exports[`>>> verbRoot <<< verbRoot(anlamak) 1`] = `"anla"`;
+
+exports[`>>> verbRoot <<< verbRoot(anlamamak) 1`] = `"anlama"`;
+
+exports[`>>> verbRoot <<< verbRoot(anlaşmak) 1`] = `"anlaş"`;
+
+exports[`>>> verbRoot <<< verbRoot(anlaşmak) 2`] = `"anlaş"`;
+
+exports[`>>> verbRoot <<< verbRoot(anlaşmamak) 1`] = `"anlaşma"`;
+
+exports[`>>> verbRoot <<< verbRoot(anlaşmamak) 2`] = `"anlaşma"`;
+
+exports[`>>> verbRoot <<< verbRoot(aramak) 1`] = `"ara"`;
+
+exports[`>>> verbRoot <<< verbRoot(aramamak) 1`] = `"arama"`;
+
+exports[`>>> verbRoot <<< verbRoot(atmak) 1`] = `"at"`;
+
+exports[`>>> verbRoot <<< verbRoot(atmamak) 1`] = `"atma"`;
+
+exports[`>>> verbRoot <<< verbRoot(ağlamak) 1`] = `"ağla"`;
+
+exports[`>>> verbRoot <<< verbRoot(ağlamamak) 1`] = `"ağlama"`;
+
+exports[`>>> verbRoot <<< verbRoot(bakmak) 1`] = `"bak"`;
+
+exports[`>>> verbRoot <<< verbRoot(bakmamak) 1`] = `"bakma"`;
+
+exports[`>>> verbRoot <<< verbRoot(benzemek) 1`] = `"benze"`;
+
+exports[`>>> verbRoot <<< verbRoot(benzemek) 2`] = `"benze"`;
+
+exports[`>>> verbRoot <<< verbRoot(benzememek) 1`] = `"benzeme"`;
+
+exports[`>>> verbRoot <<< verbRoot(benzememek) 2`] = `"benzeme"`;
+
+exports[`>>> verbRoot <<< verbRoot(bilmek) 1`] = `"bil"`;
+
+exports[`>>> verbRoot <<< verbRoot(bilmemek) 1`] = `"bilme"`;
+
+exports[`>>> verbRoot <<< verbRoot(bulmak) 1`] = `"bul"`;
+
+exports[`>>> verbRoot <<< verbRoot(bulmamak) 1`] = `"bulma"`;
+
+exports[`>>> verbRoot <<< verbRoot(büyümek) 1`] = `"büyü"`;
+
+exports[`>>> verbRoot <<< verbRoot(büyümemek) 1`] = `"büyüme"`;
+
+exports[`>>> verbRoot <<< verbRoot(denmek) 1`] = `"den"`;
+
+exports[`>>> verbRoot <<< verbRoot(denmek) 2`] = `"den"`;
+
+exports[`>>> verbRoot <<< verbRoot(denmemek) 1`] = `"denme"`;
+
+exports[`>>> verbRoot <<< verbRoot(denmemek) 2`] = `"denme"`;
+
+exports[`>>> verbRoot <<< verbRoot(değiştirmek) 1`] = `"değiştir"`;
+
+exports[`>>> verbRoot <<< verbRoot(değiştirmemek) 1`] = `"değiştirme"`;
+
+exports[`>>> verbRoot <<< verbRoot(dövmek) 1`] = `"döv"`;
+
+exports[`>>> verbRoot <<< verbRoot(dövmemek) 1`] = `"dövme"`;
+
+exports[`>>> verbRoot <<< verbRoot(düşünmek) 1`] = `"düşün"`;
+
+exports[`>>> verbRoot <<< verbRoot(düşünmemek) 1`] = `"düşünme"`;
+
+exports[`>>> verbRoot <<< verbRoot(gelmek) 1`] = `"gel"`;
+
+exports[`>>> verbRoot <<< verbRoot(gelmemek) 1`] = `"gelme"`;
+
+exports[`>>> verbRoot <<< verbRoot(getirmek) 1`] = `"getir"`;
+
+exports[`>>> verbRoot <<< verbRoot(getirmemek) 1`] = `"getirme"`;
+
+exports[`>>> verbRoot <<< verbRoot(girmek) 1`] = `"gir"`;
+
+exports[`>>> verbRoot <<< verbRoot(girmemek) 1`] = `"girme"`;
+
+exports[`>>> verbRoot <<< verbRoot(gitmek) 1`] = `"git"`;
+
+exports[`>>> verbRoot <<< verbRoot(gitmemek) 1`] = `"gitme"`;
+
+exports[`>>> verbRoot <<< verbRoot(görmek) 1`] = `"gör"`;
+
+exports[`>>> verbRoot <<< verbRoot(görmemek) 1`] = `"görme"`;
+
+exports[`>>> verbRoot <<< verbRoot(istemek) 1`] = `"iste"`;
+
+exports[`>>> verbRoot <<< verbRoot(istememek) 1`] = `"isteme"`;
+
+exports[`>>> verbRoot <<< verbRoot(izlemek) 1`] = `"izle"`;
+
+exports[`>>> verbRoot <<< verbRoot(izlememek) 1`] = `"izleme"`;
+
+exports[`>>> verbRoot <<< verbRoot(içmek) 1`] = `"iç"`;
+
+exports[`>>> verbRoot <<< verbRoot(içmemek) 1`] = `"içme"`;
+
+exports[`>>> verbRoot <<< verbRoot(kalmak) 1`] = `"kal"`;
+
+exports[`>>> verbRoot <<< verbRoot(kalmak) 2`] = `"kal"`;
+
+exports[`>>> verbRoot <<< verbRoot(kalmamak) 1`] = `"kalma"`;
+
+exports[`>>> verbRoot <<< verbRoot(kalmamak) 2`] = `"kalma"`;
+
+exports[`>>> verbRoot <<< verbRoot(kapatmak) 1`] = `"kapat"`;
+
+exports[`>>> verbRoot <<< verbRoot(kapatmamak) 1`] = `"kapatma"`;
+
+exports[`>>> verbRoot <<< verbRoot(kaybetmek) 1`] = `"kaybet"`;
+
+exports[`>>> verbRoot <<< verbRoot(kaybetmemek) 1`] = `"kaybetme"`;
+
+exports[`>>> verbRoot <<< verbRoot(kokmak) 1`] = `"kok"`;
+
+exports[`>>> verbRoot <<< verbRoot(kokmamak) 1`] = `"kokma"`;
+
+exports[`>>> verbRoot <<< verbRoot(konuşmak) 1`] = `"konuş"`;
+
+exports[`>>> verbRoot <<< verbRoot(konuşmamak) 1`] = `"konuşma"`;
+
+exports[`>>> verbRoot <<< verbRoot(kullanmak) 1`] = `"kullan"`;
+
+exports[`>>> verbRoot <<< verbRoot(kullanmamak) 1`] = `"kullanma"`;
+
+exports[`>>> verbRoot <<< verbRoot(nefret etmek) 1`] = `"nefret et"`;
+
+exports[`>>> verbRoot <<< verbRoot(nefret etmemek) 1`] = `"nefret etme"`;
+
+exports[`>>> verbRoot <<< verbRoot(okumak) 1`] = `"oku"`;
+
+exports[`>>> verbRoot <<< verbRoot(okumamak) 1`] = `"okuma"`;
+
+exports[`>>> verbRoot <<< verbRoot(olmak) 1`] = `"ol"`;
+
+exports[`>>> verbRoot <<< verbRoot(olmamak) 1`] = `"olma"`;
+
+exports[`>>> verbRoot <<< verbRoot(oynamak) 1`] = `"oyna"`;
+
+exports[`>>> verbRoot <<< verbRoot(oynamamak) 1`] = `"oynama"`;
+
+exports[`>>> verbRoot <<< verbRoot(pişmek) 1`] = `"piş"`;
+
+exports[`>>> verbRoot <<< verbRoot(pişmemek) 1`] = `"pişme"`;
+
+exports[`>>> verbRoot <<< verbRoot(sanmak) 1`] = `"san"`;
+
+exports[`>>> verbRoot <<< verbRoot(sanmamak) 1`] = `"sanma"`;
+
+exports[`>>> verbRoot <<< verbRoot(sevmek) 1`] = `"sev"`;
+
+exports[`>>> verbRoot <<< verbRoot(sevmemek) 1`] = `"sevme"`;
+
+exports[`>>> verbRoot <<< verbRoot(sinirlenmek) 1`] = `"sinirlen"`;
+
+exports[`>>> verbRoot <<< verbRoot(sinirlenmemek) 1`] = `"sinirlenme"`;
+
+exports[`>>> verbRoot <<< verbRoot(tutmak) 1`] = `"tut"`;
+
+exports[`>>> verbRoot <<< verbRoot(tutmamak) 1`] = `"tutma"`;
+
+exports[`>>> verbRoot <<< verbRoot(uyumak) 1`] = `"uyu"`;
+
+exports[`>>> verbRoot <<< verbRoot(uyumamak) 1`] = `"uyuma"`;
+
+exports[`>>> verbRoot <<< verbRoot(vermek) 1`] = `"ver"`;
+
+exports[`>>> verbRoot <<< verbRoot(vermemek) 1`] = `"verme"`;
+
+exports[`>>> verbRoot <<< verbRoot(vurmak) 1`] = `"vur"`;
+
+exports[`>>> verbRoot <<< verbRoot(vurmamak) 1`] = `"vurma"`;
+
+exports[`>>> verbRoot <<< verbRoot(yapmak) 1`] = `"yap"`;
+
+exports[`>>> verbRoot <<< verbRoot(yapmamak) 1`] = `"yapma"`;
+
+exports[`>>> verbRoot <<< verbRoot(yazmak) 1`] = `"yaz"`;
+
+exports[`>>> verbRoot <<< verbRoot(yazmamak) 1`] = `"yazma"`;
+
+exports[`>>> verbRoot <<< verbRoot(yemin etmek) 1`] = `"yemin et"`;
+
+exports[`>>> verbRoot <<< verbRoot(yemin etmemek) 1`] = `"yemin etme"`;
+
+exports[`>>> verbRoot <<< verbRoot(yenmek) 1`] = `"yen"`;
+
+exports[`>>> verbRoot <<< verbRoot(yenmemek) 1`] = `"yenme"`;
+
+exports[`>>> verbRoot <<< verbRoot(çalışmak) 1`] = `"çalış"`;
+
+exports[`>>> verbRoot <<< verbRoot(çalışmamak) 1`] = `"çalışma"`;
+
+exports[`>>> verbRoot <<< verbRoot(ölmek) 1`] = `"öl"`;
+
+exports[`>>> verbRoot <<< verbRoot(ölmemek) 1`] = `"ölme"`;
+
+exports[`>>> verbRoot <<< verbRoot(özlemek) 1`] = `"özle"`;
+
+exports[`>>> verbRoot <<< verbRoot(özlememek) 1`] = `"özleme"`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(affetmek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(affetmemek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(almak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(almamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(alışmak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(alışmamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(anlamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(anlamamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(anlaşmak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(anlaşmak) 2`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(anlaşmamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(anlaşmamak) 2`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(aramak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(aramamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(atmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(atmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(ağlamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(ağlamamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(bakmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(bakmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(benzemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(benzemek) 2`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(benzememek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(benzememek) 2`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(bilmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(bilmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(bulmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(bulmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(büyümek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(büyümemek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(denmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(denmek) 2`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(denmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(denmemek) 2`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(değiştirmek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(değiştirmemek) 1`] = `4`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(dövmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(dövmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(düşünmek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(düşünmemek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(gelmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(gelmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(getirmek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(getirmemek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(girmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(girmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(gitmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(gitmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(görmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(görmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(istemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(istememek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(izlemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(izlememek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(içmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(içmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kalmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kalmak) 2`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kalmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kalmamak) 2`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kapatmak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kapatmamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kaybetmek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kaybetmemek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kokmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kokmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(konuşmak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(konuşmamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kullanmak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(kullanmamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(nefret etmek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(nefret etmemek) 1`] = `4`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(okumak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(okumamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(olmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(olmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(oynamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(oynamamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(pişmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(pişmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(sanmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(sanmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(sevmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(sevmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(sinirlenmek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(sinirlenmemek) 1`] = `4`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(tutmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(tutmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(uyumak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(uyumamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(vermek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(vermemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(vurmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(vurmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(yapmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(yapmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(yazmak) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(yazmamak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(yemin etmek) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(yemin etmemek) 1`] = `4`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(yenmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(yenmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(çalışmak) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(çalışmamak) 1`] = `3`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(ölmek) 1`] = `1`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(ölmemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(özlemek) 1`] = `2`;
+
+exports[`>>> vowelsQuantity <<< vowelsQuantity(özlememek) 1`] = `3`;

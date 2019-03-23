@@ -1,0 +1,2977 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(affetmek) 1`] = `"affetmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(affetmemek) 1`] = `"affetmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(almak) 1`] = `"almamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(almamak) 1`] = `"almamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(alışmak) 1`] = `"alışmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(alışmamak) 1`] = `"alışmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(anlamak) 1`] = `"anlamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(anlamamak) 1`] = `"anlamamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(anlaşmak) 1`] = `"anlaşmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(anlaşmak) 2`] = `"anlaşmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(anlaşmamak) 1`] = `"anlaşmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(anlaşmamak) 2`] = `"anlaşmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(aramak) 1`] = `"aramamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(aramamak) 1`] = `"aramamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(atmak) 1`] = `"atmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(atmamak) 1`] = `"atmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(ağlamak) 1`] = `"ağlamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(ağlamamak) 1`] = `"ağlamamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(bakmak) 1`] = `"bakmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(bakmamak) 1`] = `"bakmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(benzemek) 1`] = `"benzememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(benzemek) 2`] = `"benzememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(benzememek) 1`] = `"benzemememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(benzememek) 2`] = `"benzemememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(bilmek) 1`] = `"bilmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(bilmemek) 1`] = `"bilmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(bulmak) 1`] = `"bulmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(bulmamak) 1`] = `"bulmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(büyümek) 1`] = `"büyümemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(büyümemek) 1`] = `"büyümememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(denmek) 1`] = `"denmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(denmek) 2`] = `"denmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(denmemek) 1`] = `"denmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(denmemek) 2`] = `"denmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(değiştirmek) 1`] = `"değiştirmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(değiştirmemek) 1`] = `"değiştirmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(dövmek) 1`] = `"dövmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(dövmemek) 1`] = `"dövmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(düşünmek) 1`] = `"düşünmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(düşünmemek) 1`] = `"düşünmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(gelmek) 1`] = `"gelmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(gelmemek) 1`] = `"gelmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(getirmek) 1`] = `"getirmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(getirmemek) 1`] = `"getirmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(girmek) 1`] = `"girmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(girmemek) 1`] = `"girmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(gitmek) 1`] = `"gitmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(gitmemek) 1`] = `"gitmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(görmek) 1`] = `"görmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(görmemek) 1`] = `"görmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(istemek) 1`] = `"istememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(istememek) 1`] = `"istemememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(izlemek) 1`] = `"izlememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(izlememek) 1`] = `"izlemememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(içmek) 1`] = `"içmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(içmemek) 1`] = `"içmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kalmak) 1`] = `"kalmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kalmak) 2`] = `"kalmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kalmamak) 1`] = `"kalmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kalmamak) 2`] = `"kalmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kapatmak) 1`] = `"kapatmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kapatmamak) 1`] = `"kapatmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kaybetmek) 1`] = `"kaybetmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kaybetmemek) 1`] = `"kaybetmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kokmak) 1`] = `"kokmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kokmamak) 1`] = `"kokmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(konuşmak) 1`] = `"konuşmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(konuşmamak) 1`] = `"konuşmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kullanmak) 1`] = `"kullanmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(kullanmamak) 1`] = `"kullanmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(nefret etmek) 1`] = `"nefret etmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(nefret etmemek) 1`] = `"nefret etmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(okumak) 1`] = `"okumamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(okumamak) 1`] = `"okumamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(olmak) 1`] = `"olmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(olmamak) 1`] = `"olmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(oynamak) 1`] = `"oynamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(oynamamak) 1`] = `"oynamamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(pişmek) 1`] = `"pişmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(pişmemek) 1`] = `"pişmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(sanmak) 1`] = `"sanmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(sanmamak) 1`] = `"sanmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(sevmek) 1`] = `"sevmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(sevmemek) 1`] = `"sevmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(sinirlenmek) 1`] = `"sinirlenmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(sinirlenmemek) 1`] = `"sinirlenmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(tutmak) 1`] = `"tutmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(tutmamak) 1`] = `"tutmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(uyumak) 1`] = `"uyumamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(uyumamak) 1`] = `"uyumamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(vermek) 1`] = `"vermemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(vermemek) 1`] = `"vermememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(vurmak) 1`] = `"vurmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(vurmamak) 1`] = `"vurmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(yapmak) 1`] = `"yapmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(yapmamak) 1`] = `"yapmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(yazmak) 1`] = `"yazmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(yazmamak) 1`] = `"yazmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(yemin etmek) 1`] = `"yemin etmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(yemin etmemek) 1`] = `"yemin etmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(yenmek) 1`] = `"yenmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(yenmemek) 1`] = `"yenmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(çalışmak) 1`] = `"çalışmamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(çalışmamak) 1`] = `"çalışmamamak"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(ölmek) 1`] = `"ölmemek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(ölmemek) 1`] = `"ölmememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(özlemek) 1`] = `"özlememek"`;
+
+exports[`>>> convertToNegative, with CORRECT verbs <<< convertToNegative(özlememek) 1`] = `"özlemememek"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative( ) 1`] = `" "`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative($) 1`] = `"$"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative($mamk) 1`] = `"$mammmk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative() 1`] = `""`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(<<<) 1`] = `"<<<"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(<<<<>>>>) 1`] = `"<<<<>>>>"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(>>>) 1`] = `">>>"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(VERB) 1`] = `"vermrk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(WRONG) 1`] = `"wronmnk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(affetmek࠴) 1`] = `"affetmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(affetmemekᵌ) 1`] = `"affetmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(almak ) 1`] = `"almakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(almamakᔘ) 1`] = `"almamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(alışmakᇸ) 1`] = `"alışmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(alışmamak✐) 1`] = `"alışmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(anlamak໘) 1`] = `"anlamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(anlamamak⏰) 1`] = `"anlamamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(anlaşmak๴) 1`] = `"anlaşmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(anlaşmakᆔ) 1`] = `"anlaşmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(anlaşmamak⎌) 1`] = `"anlaşmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(anlaşmamak⚬) 1`] = `"anlaşmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(aramakඬ) 1`] = `"aramakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(aramamak⋄) 1`] = `"aramamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(atmakь) 1`] = `"atmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(atmamakᥤ) 1`] = `"atmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(ağlamakո) 1`] = `"ağlamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(ağlamamak᪐) 1`] = `"ağlamamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(bakmakྠ) 1`] = `"bakmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(bakmamakⒸ) 1`] = `"bakmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(benzemekൈ) 1`] = `"benzemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(benzemekᏬ) 1`] = `"benzemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(benzememek≠) 1`] = `"benzememekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(benzememek⤄) 1`] = `"benzememekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(bilmekÈ) 1`] = `"bilmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(bilmemekᗠ) 1`] = `"bilmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(bulmakࣼ) 1`] = `"bulmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(bulmamakḔ) 1`] = `"bulmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(büyümek೤) 1`] = `"büyümekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(büyümemek⇼) 1`] = `"büyümemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(denmekԔ) 1`] = `"denmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(denmek࢘) 1`] = `"denmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(denmemekᨬ) 1`] = `"denmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(denmemekᶰ) 1`] = `"denmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(değiştirmek܈) 1`] = `"değiştirmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(değiştirmemekᰠ) 1`] = `"değiştirmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(dövmekฐ) 1`] = `"dövmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(dövmemek⌨) 1`] = `"dövmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(düşünmekᄰ) 1`] = `"düşünmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(düşünmemek♈) 1`] = `"düşünmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(gelmekd) 1`] = `"gelmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(gelmemekᕼ) 1`] = `"gelmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(getirmekင) 1`] = `"getirmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(getirmemek├) 1`] = `"getirmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(girmek༼) 1`] = `"girmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(girmemek⑔) 1`] = `"girmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(gitmek჌) 1`] = `"gitmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(gitmemek◤) 1`] = `"gitmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(görmekĬ) 1`] = `"görmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(görmemekᙄ) 1`] = `"görmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(istemekـ) 1`] = `"istemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(istememek᭘) 1`] = `"istememekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(izlemekᎈ) 1`] = `"izlemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(izlememek⢠) 1`] = `"izlememekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(içmekಀ) 1`] = `"içmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(içmemek↘) 1`] = `"içmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kalmakƐ) 1`] = `"kalmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kalmakॠ) 1`] = `"kalmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kalmamakᚨ) 1`] = `"kalmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kalmamakṸ) 1`] = `"kalmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kapatmakቜ) 1`] = `"kapatmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kapatmamak❴) 1`] = `"kapatmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kaybetmekઌ) 1`] = `"kaybetmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kaybetmemekᾤ) 1`] = `"kaybetmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kokmakҰ) 1`] = `"kokmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kokmamakᧈ) 1`] = `"kokmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(konuşmakڤ) 1`] = `"konuşmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(konuşmamakᮼ) 1`] = `"konuşmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kullanmakၨ) 1`] = `"kullanmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(kullanmamak▀) 1`] = `"kullanmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(mak) 1`] = `"mamak"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(mamak) 1`] = `"mamamak"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(me$k) 1`] = `"me$k"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(mek) 1`] = `"memek"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(memek) 1`] = `"mememek"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(nefret etmek̠) 1`] = `"nefret etmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(nefret etmemekᠸ) 1`] = `"nefret etmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(okumakᑐ) 1`] = `"okumakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(okumamak⥨) 1`] = `"okumamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(olmakǴ) 1`] = `"olmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(olmamakᜌ) 1`] = `"olmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(oynamakዀ) 1`] = `"oynamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(oynamamak⟘) 1`] = `"oynamamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(pişmekᒴ) 1`] = `"pişmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(pişmemek⧌) 1`] = `"pişmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(sanmakʼ) 1`] = `"sanmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(sanmamak។) 1`] = `"sanmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(sevmek΄) 1`] = `"sevmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(sevmemekᢜ) 1`] = `"sevmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(sinirlenmekݬ) 1`] = `"sinirlenmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(sinirlenmemekᲄ) 1`] = `"sinirlenmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(tutmakజ) 1`] = `"tutmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(tutmamakℴ) 1`] = `"tutmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(uyumakஸ) 1`] = `"uyumakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(uyumamak⃐) 1`] = `"uyumamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(vermekਨ) 1`] = `"vermekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(vermemekὀ) 1`] = `"vermemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(vurmakৄ) 1`] = `"vurmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(vurmamakỜ) 1`] = `"vurmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(yapmakϨ) 1`] = `"yapmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(yapmamakᤀ) 1`] = `"yapmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(yazmak୔) 1`] = `"yazmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(yazmamak⁬) 1`] = `"yazmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(yemin etmekߐ) 1`] = `"yemin etmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(yemin etmemek᳨) 1`] = `"yemin etmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(yenmekጤ) 1`] = `"yenmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(yenmemek⠼) 1`] = `"yenmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(çalışmakל) 1`] = `"çalışmakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(çalışmamak᫴) 1`] = `"çalışmamakmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(ölmekɘ) 1`] = `"ölmekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(ölmemekᝰ) 1`] = `"ölmemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(özlemek૰) 1`] = `"özlemekmkk"`;
+
+exports[`>>> convertToNegative, with WRONG verbs <<< convertToNegative(özlememek ) 1`] = `"özlememekmkk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(affetmek) 1`] = `"affetk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(affetmemek) 1`] = `"affetmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(almak) 1`] = `"alk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(almamak) 1`] = `"almak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(alışmak) 1`] = `"alışk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(alışmamak) 1`] = `"alışmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(anlamak) 1`] = `"anlak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(anlamamak) 1`] = `"anlamak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(anlaşmak) 1`] = `"anlaşk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(anlaşmak) 2`] = `"anlaşk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(anlaşmamak) 1`] = `"anlaşmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(anlaşmamak) 2`] = `"anlaşmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(aramak) 1`] = `"arak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(aramamak) 1`] = `"aramak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(atmak) 1`] = `"atk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(atmamak) 1`] = `"atmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(ağlamak) 1`] = `"ağlak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(ağlamamak) 1`] = `"ağlamak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(bakmak) 1`] = `"bakk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(bakmamak) 1`] = `"bakmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(benzemek) 1`] = `"benzek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(benzemek) 2`] = `"benzek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(benzememek) 1`] = `"benzemek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(benzememek) 2`] = `"benzemek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(bilmek) 1`] = `"bilk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(bilmemek) 1`] = `"bilmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(bulmak) 1`] = `"bulk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(bulmamak) 1`] = `"bulmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(büyümek) 1`] = `"büyük"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(büyümemek) 1`] = `"büyümek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(denmek) 1`] = `"denk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(denmek) 2`] = `"denk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(denmemek) 1`] = `"denmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(denmemek) 2`] = `"denmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(değiştirmek) 1`] = `"değiştirk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(değiştirmemek) 1`] = `"değiştirmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(dövmek) 1`] = `"dövk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(dövmemek) 1`] = `"dövmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(düşünmek) 1`] = `"düşünk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(düşünmemek) 1`] = `"düşünmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(gelmek) 1`] = `"gelk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(gelmemek) 1`] = `"gelmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(getirmek) 1`] = `"getirk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(getirmemek) 1`] = `"getirmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(girmek) 1`] = `"girk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(girmemek) 1`] = `"girmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(gitmek) 1`] = `"gitk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(gitmemek) 1`] = `"gitmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(görmek) 1`] = `"görk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(görmemek) 1`] = `"görmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(istemek) 1`] = `"istek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(istememek) 1`] = `"istemek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(izlemek) 1`] = `"izlek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(izlememek) 1`] = `"izlemek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(içmek) 1`] = `"içk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(içmemek) 1`] = `"içmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kalmak) 1`] = `"kalk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kalmak) 2`] = `"kalk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kalmamak) 1`] = `"kalmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kalmamak) 2`] = `"kalmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kapatmak) 1`] = `"kapatk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kapatmamak) 1`] = `"kapatmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kaybetmek) 1`] = `"kaybetk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kaybetmemek) 1`] = `"kaybetmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kokmak) 1`] = `"kokk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kokmamak) 1`] = `"kokmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(konuşmak) 1`] = `"konuşk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(konuşmamak) 1`] = `"konuşmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kullanmak) 1`] = `"kullank"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(kullanmamak) 1`] = `"kullanmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(nefret etmek) 1`] = `"nefret etk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(nefret etmemek) 1`] = `"nefret etmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(okumak) 1`] = `"okuk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(okumamak) 1`] = `"okumak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(olmak) 1`] = `"olk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(olmamak) 1`] = `"olmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(oynamak) 1`] = `"oynak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(oynamamak) 1`] = `"oynamak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(pişmek) 1`] = `"pişk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(pişmemek) 1`] = `"pişmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(sanmak) 1`] = `"sank"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(sanmamak) 1`] = `"sanmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(sevmek) 1`] = `"sevk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(sevmemek) 1`] = `"sevmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(sinirlenmek) 1`] = `"sinirlenk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(sinirlenmemek) 1`] = `"sinirlenmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(tutmak) 1`] = `"tutk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(tutmamak) 1`] = `"tutmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(uyumak) 1`] = `"uyuk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(uyumamak) 1`] = `"uyumak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(vermek) 1`] = `"verk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(vermemek) 1`] = `"vermek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(vurmak) 1`] = `"vurk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(vurmamak) 1`] = `"vurmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(yapmak) 1`] = `"yapk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(yapmamak) 1`] = `"yapmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(yazmak) 1`] = `"yazk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(yazmamak) 1`] = `"yazmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(yemin etmek) 1`] = `"yemin etk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(yemin etmemek) 1`] = `"yemin etmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(yenmek) 1`] = `"yenk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(yenmemek) 1`] = `"yenmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(çalışmak) 1`] = `"çalışk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(çalışmamak) 1`] = `"çalışmak"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(ölmek) 1`] = `"ölk"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(ölmemek) 1`] = `"ölmek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(özlemek) 1`] = `"özlek"`;
+
+exports[`>>> convertToPositive, with CORRECT verbs <<< convertToPositive(özlememek) 1`] = `"özlemek"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive( ) 1`] = `" "`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive($) 1`] = `"$"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive($mamk) 1`] = `"$mk"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive() 1`] = `""`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(<<<) 1`] = `"<<<"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(<<<<>>>>) 1`] = `"<<<<>>>>"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(>>>) 1`] = `">>>"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(VERB) 1`] = `"vk"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(WRONG) 1`] = `"wrk"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(affetmek࠴) 1`] = `"affetmek࠴"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(affetmemekᵌ) 1`] = `"affetmemekᵌ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(almak ) 1`] = `"almak "`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(almamakᔘ) 1`] = `"almamakᔘ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(alışmakᇸ) 1`] = `"alışmakᇸ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(alışmamak✐) 1`] = `"alışmamak✐"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(anlamak໘) 1`] = `"anlamak໘"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(anlamamak⏰) 1`] = `"anlamamak⏰"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(anlaşmak๴) 1`] = `"anlaşmak๴"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(anlaşmakᆔ) 1`] = `"anlaşmakᆔ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(anlaşmamak⎌) 1`] = `"anlaşmamak⎌"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(anlaşmamak⚬) 1`] = `"anlaşmamak⚬"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(aramakඬ) 1`] = `"aramakඬ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(aramamak⋄) 1`] = `"aramamak⋄"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(atmakь) 1`] = `"atmakь"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(atmamakᥤ) 1`] = `"atmamakᥤ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(ağlamakո) 1`] = `"ağlamakո"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(ağlamamak᪐) 1`] = `"ağlamamak᪐"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(bakmakྠ) 1`] = `"bakmakྠ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(bakmamakⒸ) 1`] = `"bakmamakⓒ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(benzemekൈ) 1`] = `"benzemekൈ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(benzemekᏬ) 1`] = `"benzemekꮼ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(benzememek≠) 1`] = `"benzememek≠"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(benzememek⤄) 1`] = `"benzememek⤄"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(bilmekÈ) 1`] = `"bilmekè"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(bilmemekᗠ) 1`] = `"bilmemekᗠ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(bulmakࣼ) 1`] = `"bulmakࣼ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(bulmamakḔ) 1`] = `"bulmamakḕ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(büyümek೤) 1`] = `"büyümek೤"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(büyümemek⇼) 1`] = `"büyümemek⇼"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(denmekԔ) 1`] = `"denmekԕ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(denmek࢘) 1`] = `"denmek࢘"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(denmemekᨬ) 1`] = `"denmemekᨬ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(denmemekᶰ) 1`] = `"denmemekᶰ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(değiştirmek܈) 1`] = `"değiştirmek܈"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(değiştirmemekᰠ) 1`] = `"değiştirmemekᰠ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(dövmekฐ) 1`] = `"dövmekฐ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(dövmemek⌨) 1`] = `"dövmemek⌨"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(düşünmekᄰ) 1`] = `"düşünmekᄰ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(düşünmemek♈) 1`] = `"düşünmemek♈"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(gelmekd) 1`] = `"gelmk"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(gelmemekᕼ) 1`] = `"gelmemekᕼ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(getirmekင) 1`] = `"getirmekင"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(getirmemek├) 1`] = `"getirmemek├"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(girmek༼) 1`] = `"girmek༼"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(girmemek⑔) 1`] = `"girmemek⑔"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(gitmek჌) 1`] = `"gitmek჌"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(gitmemek◤) 1`] = `"gitmemek◤"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(görmekĬ) 1`] = `"görmekĭ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(görmemekᙄ) 1`] = `"görmemekᙄ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(istemekـ) 1`] = `"istemekـ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(istememek᭘) 1`] = `"istememek᭘"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(izlemekᎈ) 1`] = `"izlemekᎈ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(izlememek⢠) 1`] = `"izlememek⢠"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(içmekಀ) 1`] = `"içmekಀ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(içmemek↘) 1`] = `"içmemek↘"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kalmakƐ) 1`] = `"kalmakɛ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kalmakॠ) 1`] = `"kalmakॠ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kalmamakᚨ) 1`] = `"kalmamakᚨ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kalmamakṸ) 1`] = `"kalmamakṹ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kapatmakቜ) 1`] = `"kapatmakቜ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kapatmamak❴) 1`] = `"kapatmamak❴"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kaybetmekઌ) 1`] = `"kaybetmekઌ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kaybetmemekᾤ) 1`] = `"kaybetmemekᾤ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kokmakҰ) 1`] = `"kokmakұ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kokmamakᧈ) 1`] = `"kokmamakᧈ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(konuşmakڤ) 1`] = `"konuşmakڤ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(konuşmamakᮼ) 1`] = `"konuşmamakᮼ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kullanmakၨ) 1`] = `"kullanmakၨ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(kullanmamak▀) 1`] = `"kullanmamak▀"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(mak) 1`] = `"k"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(mamak) 1`] = `"mak"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(me$k) 1`] = `"me$k"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(mek) 1`] = `"k"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(memek) 1`] = `"mek"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(nefret etmek̠) 1`] = `"nefret etmek̠"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(nefret etmemekᠸ) 1`] = `"nefret etmemekᠸ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(okumakᑐ) 1`] = `"okumakᑐ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(okumamak⥨) 1`] = `"okumamak⥨"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(olmakǴ) 1`] = `"olmakǵ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(olmamakᜌ) 1`] = `"olmamakᜌ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(oynamakዀ) 1`] = `"oynamakዀ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(oynamamak⟘) 1`] = `"oynamamak⟘"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(pişmekᒴ) 1`] = `"pişmekᒴ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(pişmemek⧌) 1`] = `"pişmemek⧌"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(sanmakʼ) 1`] = `"sanmakʼ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(sanmamak។) 1`] = `"sanmamak។"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(sevmek΄) 1`] = `"sevmek΄"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(sevmemekᢜ) 1`] = `"sevmemekᢜ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(sinirlenmekݬ) 1`] = `"sinirlenmekݬ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(sinirlenmemekᲄ) 1`] = `"sinirlenmemekᲄ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(tutmakజ) 1`] = `"tutmakజ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(tutmamakℴ) 1`] = `"tutmamakℴ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(uyumakஸ) 1`] = `"uyumakஸ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(uyumamak⃐) 1`] = `"uyumamak⃐"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(vermekਨ) 1`] = `"vermekਨ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(vermemekὀ) 1`] = `"vermemekὀ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(vurmakৄ) 1`] = `"vurmakৄ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(vurmamakỜ) 1`] = `"vurmamakờ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(yapmakϨ) 1`] = `"yapmakϩ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(yapmamakᤀ) 1`] = `"yapmamakᤀ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(yazmak୔) 1`] = `"yazmak୔"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(yazmamak⁬) 1`] = `"yazmamak⁬"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(yemin etmekߐ) 1`] = `"yemin etmekߐ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(yemin etmemek᳨) 1`] = `"yemin etmemek᳨"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(yenmekጤ) 1`] = `"yenmekጤ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(yenmemek⠼) 1`] = `"yenmemek⠼"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(çalışmakל) 1`] = `"çalışmakל"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(çalışmamak᫴) 1`] = `"çalışmamak᫴"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(ölmekɘ) 1`] = `"ölmekɘ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(ölmemekᝰ) 1`] = `"ölmemekᝰ"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(özlemek૰) 1`] = `"özlemek૰"`;
+
+exports[`>>> convertToPositive, with WRONG verbs <<< convertToPositive(özlememek ) 1`] = `"özlememek "`;
+
+exports[`>>> hasMinLength <<< hasMinLength(affetmek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(affetmemek, 10) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(almak, 0) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(almamak, 54) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(alışmak, 46) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(alışmamak, 100) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(anlamak, 38) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(anlamamak, 92) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(anlaşmak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(anlaşmak, 8) 2`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(anlaşmamak, 10) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(anlaşmamak, 10) 2`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(aramak, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(aramamak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(atmak, 5) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(atmamak, 7) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(ağlamak, 14) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(ağlamamak, 68) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(bakmak, 40) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(bakmamak, 94) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(benzemek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(benzemek, 34) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(benzememek, 10) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(benzememek, 88) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(bilmek, 2) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(bilmemek, 56) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(bulmak, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(bulmamak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(büyümek, 7) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(büyümemek, 9) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(denmek, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(denmek, 22) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(denmemek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(denmemek, 76) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(değiştirmek, 18) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(değiştirmemek, 72) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(dövmek, 36) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(dövmemek, 90) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(düşünmek, 44) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(düşünmemek, 98) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(gelmek, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(gelmemek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(getirmek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(getirmemek, 10) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(girmek, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(girmemek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(gitmek, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(gitmemek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(görmek, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(görmemek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(istemek, 16) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(istememek, 70) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(izlemek, 50) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(izlememek, 104) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(içmek, 32) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(içmemek, 86) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kalmak, 4) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kalmak, 24) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kalmamak, 58) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kalmamak, 78) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kapatmak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kapatmamak, 10) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kaybetmek, 9) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kaybetmemek, 11) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kokmak, 12) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kokmamak, 66) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(konuşmak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(konuşmamak, 10) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kullanmak, 42) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(kullanmamak, 96) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(nefret etmek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(nefret etmemek, 62) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(okumak, 52) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(okumamak, 106) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(olmak, 5) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(olmamak, 7) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(oynamak, 48) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(oynamamak, 102) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(pişmek, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(pişmemek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(sanmak, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(sanmamak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(sevmek, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(sevmemek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(sinirlenmek, 11) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(sinirlenmemek, 13) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(tutmak, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(tutmamak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(uyumak, 30) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(uyumamak, 84) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(vermek, 26) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(vermemek, 80) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(vurmak, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(vurmamak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(yapmak, 10) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(yapmamak, 64) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(yazmak, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(yazmamak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(yemin etmek, 20) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(yemin etmemek, 74) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(yenmek, 6) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(yenmemek, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(çalışmak, 8) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(çalışmamak, 10) 1`] = `true`;
+
+exports[`>>> hasMinLength <<< hasMinLength(ölmek, 6) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(ölmemek, 60) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(özlemek, 28) 1`] = `false`;
+
+exports[`>>> hasMinLength <<< hasMinLength(özlememek, 82) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(affetmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(affetmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(almak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(almamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(alışmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(alışmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(anlamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(anlamamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(anlaşmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(anlaşmak) 2`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(anlaşmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(anlaşmamak) 2`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(aramak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(aramamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(atmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(atmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(ağlamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(ağlamamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(bakmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(bakmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(benzemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(benzemek) 2`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(benzememek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(benzememek) 2`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(bilmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(bilmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(bulmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(bulmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(büyümek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(büyümemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(denmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(denmek) 2`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(denmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(denmemek) 2`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(değiştirmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(değiştirmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(dövmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(dövmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(düşünmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(düşünmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(gelmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(gelmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(getirmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(getirmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(girmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(girmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(gitmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(gitmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(görmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(görmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(istemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(istememek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(izlemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(izlememek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(içmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(içmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kalmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kalmak) 2`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kalmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kalmamak) 2`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kapatmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kapatmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kaybetmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kaybetmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kokmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kokmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(konuşmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(konuşmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kullanmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(kullanmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(nefret etmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(nefret etmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(okumak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(okumamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(olmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(olmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(oynamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(oynamamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(pişmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(pişmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(sanmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(sanmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(sevmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(sevmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(sinirlenmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(sinirlenmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(tutmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(tutmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(uyumak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(uyumamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(vermek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(vermemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(vurmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(vurmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(yapmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(yapmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(yazmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(yazmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(yemin etmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(yemin etmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(yenmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(yenmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(çalışmak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(çalışmamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(ölmek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(ölmemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(özlemek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with CORRECT verbs <<< isAlphabeticallyValid(özlememek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid( ) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid($) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid($mamk) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid() 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(<<<) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(<<<<>>>>) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(>>>) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(VERB) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(WRONG) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(affetmek࠴) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(affetmemekᵌ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(almak ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(almamakᔘ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(alışmakᇸ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(alışmamak✐) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(anlamak໘) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(anlamamak⏰) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(anlaşmak๴) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(anlaşmakᆔ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(anlaşmamak⎌) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(anlaşmamak⚬) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(aramakඬ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(aramamak⋄) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(atmakь) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(atmamakᥤ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(ağlamakո) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(ağlamamak᪐) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(bakmakྠ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(bakmamakⒸ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(benzemekൈ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(benzemekᏬ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(benzememek≠) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(benzememek⤄) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(bilmekÈ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(bilmemekᗠ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(bulmakࣼ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(bulmamakḔ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(büyümek೤) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(büyümemek⇼) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(denmekԔ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(denmek࢘) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(denmemekᨬ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(denmemekᶰ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(değiştirmek܈) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(değiştirmemekᰠ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(dövmekฐ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(dövmemek⌨) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(düşünmekᄰ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(düşünmemek♈) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(gelmekd) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(gelmemekᕼ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(getirmekင) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(getirmemek├) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(girmek༼) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(girmemek⑔) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(gitmek჌) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(gitmemek◤) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(görmekĬ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(görmemekᙄ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(istemekـ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(istememek᭘) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(izlemekᎈ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(izlememek⢠) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(içmekಀ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(içmemek↘) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kalmakƐ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kalmakॠ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kalmamakᚨ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kalmamakṸ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kapatmakቜ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kapatmamak❴) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kaybetmekઌ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kaybetmemekᾤ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kokmakҰ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kokmamakᧈ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(konuşmakڤ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(konuşmamakᮼ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kullanmakၨ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(kullanmamak▀) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(mak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(mamak) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(me$k) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(mek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(memek) 1`] = `true`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(nefret etmek̠) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(nefret etmemekᠸ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(okumakᑐ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(okumamak⥨) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(olmakǴ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(olmamakᜌ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(oynamakዀ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(oynamamak⟘) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(pişmekᒴ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(pişmemek⧌) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(sanmakʼ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(sanmamak។) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(sevmek΄) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(sevmemekᢜ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(sinirlenmekݬ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(sinirlenmemekᲄ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(tutmakజ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(tutmamakℴ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(uyumakஸ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(uyumamak⃐) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(vermekਨ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(vermemekὀ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(vurmakৄ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(vurmamakỜ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(yapmakϨ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(yapmamakᤀ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(yazmak୔) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(yazmamak⁬) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(yemin etmekߐ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(yemin etmemek᳨) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(yenmekጤ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(yenmemek⠼) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(çalışmakל) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(çalışmamak᫴) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(ölmekɘ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(ölmemekᝰ) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(özlemek૰) 1`] = `false`;
+
+exports[`>>> isAlphabeticallyValid, with WRONG verbs <<< isAlphabeticallyValid(özlememek ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(affetmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(affetmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(almak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(almamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(alışmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(alışmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(anlamak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(anlamamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(anlaşmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(anlaşmak) 2`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(anlaşmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(anlaşmamak) 2`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(aramak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(aramamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(atmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(atmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(ağlamak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(ağlamamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(bakmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(bakmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(benzemek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(benzemek) 2`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(benzememek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(benzememek) 2`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(bilmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(bilmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(bulmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(bulmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(büyümek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(büyümemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(denmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(denmek) 2`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(denmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(denmemek) 2`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(değiştirmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(değiştirmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(dövmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(dövmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(düşünmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(düşünmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(gelmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(gelmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(getirmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(getirmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(girmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(girmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(gitmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(gitmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(görmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(görmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(istemek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(istememek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(izlemek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(izlememek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(içmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(içmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kalmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kalmak) 2`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kalmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kalmamak) 2`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kapatmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kapatmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kaybetmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kaybetmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kokmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kokmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(konuşmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(konuşmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kullanmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(kullanmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(nefret etmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(nefret etmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(okumak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(okumamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(olmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(olmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(oynamak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(oynamamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(pişmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(pişmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(sanmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(sanmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(sevmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(sevmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(sinirlenmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(sinirlenmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(tutmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(tutmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(uyumak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(uyumamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(vermek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(vermemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(vurmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(vurmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(yapmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(yapmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(yazmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(yazmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(yemin etmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(yemin etmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(yenmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(yenmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(çalışmak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(çalışmamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(ölmek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(ölmemek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(özlemek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with CORRECT verbs <<< isNegativeVerb(özlememek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb( ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb($) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb($mamk) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb() 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(<<<) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(<<<<>>>>) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(>>>) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(VERB) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(WRONG) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(affetmek࠴) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(affetmemekᵌ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(almak ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(almamakᔘ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(alışmakᇸ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(alışmamak✐) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(anlamak໘) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(anlamamak⏰) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(anlaşmak๴) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(anlaşmakᆔ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(anlaşmamak⎌) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(anlaşmamak⚬) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(aramakඬ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(aramamak⋄) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(atmakь) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(atmamakᥤ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(ağlamakո) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(ağlamamak᪐) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(bakmakྠ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(bakmamakⒸ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(benzemekൈ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(benzemekᏬ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(benzememek≠) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(benzememek⤄) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(bilmekÈ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(bilmemekᗠ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(bulmakࣼ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(bulmamakḔ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(büyümek೤) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(büyümemek⇼) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(denmekԔ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(denmek࢘) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(denmemekᨬ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(denmemekᶰ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(değiştirmek܈) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(değiştirmemekᰠ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(dövmekฐ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(dövmemek⌨) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(düşünmekᄰ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(düşünmemek♈) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(gelmekd) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(gelmemekᕼ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(getirmekင) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(getirmemek├) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(girmek༼) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(girmemek⑔) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(gitmek჌) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(gitmemek◤) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(görmekĬ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(görmemekᙄ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(istemekـ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(istememek᭘) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(izlemekᎈ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(izlememek⢠) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(içmekಀ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(içmemek↘) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kalmakƐ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kalmakॠ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kalmamakᚨ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kalmamakṸ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kapatmakቜ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kapatmamak❴) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kaybetmekઌ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kaybetmemekᾤ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kokmakҰ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kokmamakᧈ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(konuşmakڤ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(konuşmamakᮼ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kullanmakၨ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(kullanmamak▀) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(mak) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(mamak) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(me$k) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(mek) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(memek) 1`] = `true`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(nefret etmek̠) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(nefret etmemekᠸ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(okumakᑐ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(okumamak⥨) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(olmakǴ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(olmamakᜌ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(oynamakዀ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(oynamamak⟘) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(pişmekᒴ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(pişmemek⧌) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(sanmakʼ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(sanmamak។) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(sevmek΄) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(sevmemekᢜ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(sinirlenmekݬ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(sinirlenmemekᲄ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(tutmakజ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(tutmamakℴ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(uyumakஸ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(uyumamak⃐) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(vermekਨ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(vermemekὀ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(vurmakৄ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(vurmamakỜ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(yapmakϨ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(yapmamakᤀ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(yazmak୔) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(yazmamak⁬) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(yemin etmekߐ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(yemin etmemek᳨) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(yenmekጤ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(yenmemek⠼) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(çalışmakל) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(çalışmamak᫴) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(ölmekɘ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(ölmemekᝰ) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(özlemek૰) 1`] = `false`;
+
+exports[`>>> isNegativeVerb, with WRONG verbs <<< isNegativeVerb(özlememek ) 1`] = `false`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(affetmek) 1`] = `"affetmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(affetmemek) 1`] = `"affetmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(almak) 1`] = `"almak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(almamak) 1`] = `"almak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(alışmak) 1`] = `"alışmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(alışmamak) 1`] = `"alışmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(anlamak) 1`] = `"anlamak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(anlamamak) 1`] = `"anlamak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(anlaşmak) 1`] = `"anlaşmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(anlaşmak) 2`] = `"anlaşmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(anlaşmamak) 1`] = `"anlaşmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(anlaşmamak) 2`] = `"anlaşmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(aramak) 1`] = `"aramak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(aramamak) 1`] = `"aramak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(atmak) 1`] = `"atmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(atmamak) 1`] = `"atmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(ağlamak) 1`] = `"ağlamak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(ağlamamak) 1`] = `"ağlamak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(bakmak) 1`] = `"bakmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(bakmamak) 1`] = `"bakmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(benzemek) 1`] = `"benzemek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(benzemek) 2`] = `"benzemek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(benzememek) 1`] = `"benzemek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(benzememek) 2`] = `"benzemek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(bilmek) 1`] = `"bilmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(bilmemek) 1`] = `"bilmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(bulmak) 1`] = `"bulmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(bulmamak) 1`] = `"bulmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(büyümek) 1`] = `"büyümek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(büyümemek) 1`] = `"büyümek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(denmek) 1`] = `"denmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(denmek) 2`] = `"denmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(denmemek) 1`] = `"denmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(denmemek) 2`] = `"denmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(değiştirmek) 1`] = `"değiştirmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(değiştirmemek) 1`] = `"değiştirmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(dövmek) 1`] = `"dövmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(dövmemek) 1`] = `"dövmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(düşünmek) 1`] = `"düşünmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(düşünmemek) 1`] = `"düşünmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(gelmek) 1`] = `"gelmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(gelmemek) 1`] = `"gelmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(getirmek) 1`] = `"getirmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(getirmemek) 1`] = `"getirmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(girmek) 1`] = `"girmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(girmemek) 1`] = `"girmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(gitmek) 1`] = `"gitmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(gitmemek) 1`] = `"gitmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(görmek) 1`] = `"görmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(görmemek) 1`] = `"görmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(istemek) 1`] = `"istemek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(istememek) 1`] = `"istemek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(izlemek) 1`] = `"izlemek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(izlememek) 1`] = `"izlemek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(içmek) 1`] = `"içmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(içmemek) 1`] = `"içmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kalmak) 1`] = `"kalmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kalmak) 2`] = `"kalmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kalmamak) 1`] = `"kalmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kalmamak) 2`] = `"kalmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kapatmak) 1`] = `"kapatmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kapatmamak) 1`] = `"kapatmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kaybetmek) 1`] = `"kaybetmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kaybetmemek) 1`] = `"kaybetmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kokmak) 1`] = `"kokmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kokmamak) 1`] = `"kokmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(konuşmak) 1`] = `"konuşmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(konuşmamak) 1`] = `"konuşmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kullanmak) 1`] = `"kullanmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(kullanmamak) 1`] = `"kullanmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(nefret etmek) 1`] = `"nefret etmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(nefret etmemek) 1`] = `"nefret etmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(okumak) 1`] = `"okumak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(okumamak) 1`] = `"okumak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(olmak) 1`] = `"olmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(olmamak) 1`] = `"olmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(oynamak) 1`] = `"oynamak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(oynamamak) 1`] = `"oynamak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(pişmek) 1`] = `"pişmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(pişmemek) 1`] = `"pişmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(sanmak) 1`] = `"sanmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(sanmamak) 1`] = `"sanmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(sevmek) 1`] = `"sevmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(sevmemek) 1`] = `"sevmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(sinirlenmek) 1`] = `"sinirlenmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(sinirlenmemek) 1`] = `"sinirlenmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(tutmak) 1`] = `"tutmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(tutmamak) 1`] = `"tutmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(uyumak) 1`] = `"uyumak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(uyumamak) 1`] = `"uyumak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(vermek) 1`] = `"vermek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(vermemek) 1`] = `"vermek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(vurmak) 1`] = `"vurmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(vurmamak) 1`] = `"vurmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(yapmak) 1`] = `"yapmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(yapmamak) 1`] = `"yapmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(yazmak) 1`] = `"yazmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(yazmamak) 1`] = `"yazmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(yemin etmek) 1`] = `"yemin etmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(yemin etmemek) 1`] = `"yemin etmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(yenmek) 1`] = `"yenmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(yenmemek) 1`] = `"yenmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(çalışmak) 1`] = `"çalışmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(çalışmamak) 1`] = `"çalışmak"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(ölmek) 1`] = `"ölmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(ölmemek) 1`] = `"ölmek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(özlemek) 1`] = `"özlemek"`;
+
+exports[`>>> isTurkishVerb, with CORRECT verbs <<< isTurkishVerb(özlememek) 1`] = `"özlemek"`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb( ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb($) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb($mamk) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb() 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(<<<) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(<<<<>>>>) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(>>>) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(VERB) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(WRONG) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(affetmek࠴) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(affetmemekᵌ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(almak ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(almamakᔘ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(alışmakᇸ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(alışmamak✐) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(anlamak໘) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(anlamamak⏰) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(anlaşmak๴) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(anlaşmakᆔ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(anlaşmamak⎌) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(anlaşmamak⚬) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(aramakඬ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(aramamak⋄) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(atmakь) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(atmamakᥤ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(ağlamakո) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(ağlamamak᪐) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(bakmakྠ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(bakmamakⒸ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(benzemekൈ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(benzemekᏬ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(benzememek≠) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(benzememek⤄) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(bilmekÈ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(bilmemekᗠ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(bulmakࣼ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(bulmamakḔ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(büyümek೤) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(büyümemek⇼) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(denmekԔ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(denmek࢘) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(denmemekᨬ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(denmemekᶰ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(değiştirmek܈) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(değiştirmemekᰠ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(dövmekฐ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(dövmemek⌨) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(düşünmekᄰ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(düşünmemek♈) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(gelmekd) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(gelmemekᕼ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(getirmekင) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(getirmemek├) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(girmek༼) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(girmemek⑔) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(gitmek჌) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(gitmemek◤) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(görmekĬ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(görmemekᙄ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(istemekـ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(istememek᭘) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(izlemekᎈ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(izlememek⢠) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(içmekಀ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(içmemek↘) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kalmakƐ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kalmakॠ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kalmamakᚨ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kalmamakṸ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kapatmakቜ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kapatmamak❴) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kaybetmekઌ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kaybetmemekᾤ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kokmakҰ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kokmamakᧈ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(konuşmakڤ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(konuşmamakᮼ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kullanmakၨ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(kullanmamak▀) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(mak) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(mamak) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(me$k) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(mek) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(memek) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(nefret etmek̠) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(nefret etmemekᠸ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(okumakᑐ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(okumamak⥨) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(olmakǴ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(olmamakᜌ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(oynamakዀ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(oynamamak⟘) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(pişmekᒴ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(pişmemek⧌) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(sanmakʼ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(sanmamak។) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(sevmek΄) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(sevmemekᢜ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(sinirlenmekݬ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(sinirlenmemekᲄ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(tutmakజ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(tutmamakℴ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(uyumakஸ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(uyumamak⃐) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(vermekਨ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(vermemekὀ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(vurmakৄ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(vurmamakỜ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(yapmakϨ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(yapmamakᤀ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(yazmak୔) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(yazmamak⁬) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(yemin etmekߐ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(yemin etmemek᳨) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(yenmekጤ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(yenmemek⠼) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(çalışmakל) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(çalışmamak᫴) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(ölmekɘ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(ölmemekᝰ) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(özlemek૰) 1`] = `""`;
+
+exports[`>>> isTurkishVerb, with WRONG verbs <<< isTurkishVerb(özlememek ) 1`] = `""`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(affetmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(affetmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(almak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(almamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(alışmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(alışmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(anlamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(anlamamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(anlaşmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(anlaşmak) 2`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(anlaşmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(anlaşmamak) 2`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(aramak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(aramamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(atmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(atmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(ağlamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(ağlamamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(bakmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(bakmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(benzemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(benzemek) 2`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(benzememek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(benzememek) 2`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(bilmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(bilmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(bulmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(bulmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(büyümek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(büyümemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(denmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(denmek) 2`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(denmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(denmemek) 2`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(değiştirmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(değiştirmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(dövmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(dövmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(düşünmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(düşünmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(gelmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(gelmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(getirmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(getirmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(girmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(girmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(gitmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(gitmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(görmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(görmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(istemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(istememek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(izlemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(izlememek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(içmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(içmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kalmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kalmak) 2`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kalmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kalmamak) 2`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kapatmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kapatmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kaybetmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kaybetmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kokmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kokmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(konuşmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(konuşmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kullanmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(kullanmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(nefret etmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(nefret etmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(okumak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(okumamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(olmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(olmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(oynamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(oynamamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(pişmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(pişmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(sanmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(sanmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(sevmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(sevmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(sinirlenmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(sinirlenmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(tutmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(tutmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(uyumak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(uyumamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(vermek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(vermemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(vurmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(vurmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(yapmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(yapmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(yazmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(yazmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(yemin etmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(yemin etmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(yenmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(yenmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(çalışmak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(çalışmamak) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(ölmek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(ölmemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(özlemek) 1`] = `true`;
+
+exports[`>>> isVerb, with CORRECT verbs <<< isVerb(özlememek) 1`] = `true`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb( ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb($) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb($mamk) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb() 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(<<<) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(<<<<>>>>) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(>>>) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(VERB) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(WRONG) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(affetmek࠴) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(affetmemekᵌ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(almak ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(almamakᔘ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(alışmakᇸ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(alışmamak✐) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(anlamak໘) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(anlamamak⏰) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(anlaşmak๴) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(anlaşmakᆔ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(anlaşmamak⎌) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(anlaşmamak⚬) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(aramakඬ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(aramamak⋄) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(atmakь) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(atmamakᥤ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(ağlamakո) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(ağlamamak᪐) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(bakmakྠ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(bakmamakⒸ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(benzemekൈ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(benzemekᏬ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(benzememek≠) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(benzememek⤄) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(bilmekÈ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(bilmemekᗠ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(bulmakࣼ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(bulmamakḔ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(büyümek೤) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(büyümemek⇼) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(denmekԔ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(denmek࢘) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(denmemekᨬ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(denmemekᶰ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(değiştirmek܈) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(değiştirmemekᰠ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(dövmekฐ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(dövmemek⌨) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(düşünmekᄰ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(düşünmemek♈) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(gelmekd) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(gelmemekᕼ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(getirmekင) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(getirmemek├) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(girmek༼) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(girmemek⑔) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(gitmek჌) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(gitmemek◤) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(görmekĬ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(görmemekᙄ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(istemekـ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(istememek᭘) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(izlemekᎈ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(izlememek⢠) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(içmekಀ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(içmemek↘) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kalmakƐ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kalmakॠ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kalmamakᚨ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kalmamakṸ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kapatmakቜ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kapatmamak❴) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kaybetmekઌ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kaybetmemekᾤ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kokmakҰ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kokmamakᧈ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(konuşmakڤ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(konuşmamakᮼ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kullanmakၨ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(kullanmamak▀) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(mak) 1`] = `true`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(mamak) 1`] = `true`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(me$k) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(mek) 1`] = `true`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(memek) 1`] = `true`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(nefret etmek̠) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(nefret etmemekᠸ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(okumakᑐ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(okumamak⥨) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(olmakǴ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(olmamakᜌ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(oynamakዀ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(oynamamak⟘) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(pişmekᒴ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(pişmemek⧌) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(sanmakʼ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(sanmamak។) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(sevmek΄) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(sevmemekᢜ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(sinirlenmekݬ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(sinirlenmemekᲄ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(tutmakజ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(tutmamakℴ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(uyumakஸ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(uyumamak⃐) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(vermekਨ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(vermemekὀ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(vurmakৄ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(vurmamakỜ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(yapmakϨ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(yapmamakᤀ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(yazmak୔) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(yazmamak⁬) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(yemin etmekߐ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(yemin etmemek᳨) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(yenmekጤ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(yenmemek⠼) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(çalışmakל) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(çalışmamak᫴) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(ölmekɘ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(ölmemekᝰ) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(özlemek૰) 1`] = `false`;
+
+exports[`>>> isVerb, with WRONG verbs <<< isVerb(özlememek ) 1`] = `false`;
