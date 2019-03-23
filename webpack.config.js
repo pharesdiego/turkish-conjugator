@@ -1,57 +1,45 @@
-const bundle = {
-  entry: './final.js',
+const path = require('path');
+const merge = require('webpack-merge');
 
-  output: {
-    path: __dirname + '/dist',
-    filename: 'bundle.js',
-    library: 'Conjugate',
-    libraryTarget: 'window'
-  },
-
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /(node_modules)/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['es2015'],
-          plugins: [
-            'transform-es2015-destructuring',
-            'transform-object-rest-spread'
-          ]
-        }
-      }
-    ]
-  }
+const TSRule = {
+  test: /\.ts$/,
+  exclude: /node_modules/,
+  use: [{ loader: 'babel-loader' }],
 };
 
-const npmPackage = {
-  entry: './final.js',
+const commonConfig = {
+  entry: {
+    app: './index.ts',
+  },
+  module: {
+    rules: [TSRule],
+  },
+  resolve: {
+    extensions: ['.ts'],
+  },
+  mode: 'production',
+  optimization: {
+    sideEffects: false,
+  },
+};
 
+const webBundle = merge(commonConfig, {
   output: {
-    path: __dirname,
-    filename: 'index.js',
-    library: 'Conjugate',
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'web.bundle.js',
+    library: 'Turkish',
+    libraryTarget: 'window',
+    libraryExport: 'default',
+  },
+});
+
+const npmPackage = merge(commonConfig, {
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'common.bundle.js',
+    library: 'Turkish',
     libraryTarget: 'commonjs2'
   },
+});
 
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /(node_modules)/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['es2015'],
-          plugins: [
-            'transform-es2015-destructuring',
-            'transform-object-rest-spread'
-          ]
-        }
-      }
-    ]
-  }
-};
-
-module.exports = [bundle, npmPackage];
+module.exports = [webBundle, npmPackage];
