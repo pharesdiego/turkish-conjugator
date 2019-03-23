@@ -1,13 +1,14 @@
 {
   "name": "turkish-conjugator",
-  "version": "2.0.7",
+  "version": "3.0.0",
   "description": "Turkish conjugator for students!",
-  "main": "index.js",
+  "main": "./dist/common.bundle.js",
+  "sideEffects": false,
   "scripts": {
-    "build": "webpack -p",
-    "dev": "webpack",
-    "tests": "mocha --recursive ./src/tests/",
-    "prettier": "prettier --single-quote --arrow-parens always --write \"**/*.js\""
+    "build": "webpack",
+    "test": "jest --watch",
+    "prettier": "prettier --single-quote --arrow-parens always  --trailing-comma es5 --write \"**/*.ts\"",
+    "compile": "tsc"
   },
   "author": {
     "name": "Diego Phares <pharesdiego@gmail.com>",
@@ -24,13 +25,22 @@
     "url": "https://github.com/pharesdiego/turkish-conjugator"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.11",
+    "babel-loader": "^8.0.5",
     "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "mocha": "^5.1.1",
-    "prettier": "^1.14.3",
-    "webpack": "^3.10.0"
-  }
+    "jest": "^24.4.0",
+    "mocha": "^6.0.2",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {}
 }
