@@ -85,9 +85,9 @@ This method returns a **valid verb or an empty string** if the passed verb is no
 
 At [Konjüsh](https://pharesdiego.github.io/konjush/) this method's output is used as input for `Turkush.it` in this way:
 ```
-const isTurkishVerb = Conjugate.verify.isTurkishVerb('gelmek');
+const isTurkishVerb = Turkish.isTurkishVerb('gelmek');
 if(isTurkishVerb) {
-  Conjugate.it(isTurkishVerb);
+  Turkish.it(isTurkishVerb);
 } else {
   // Show up an invalid Turkish verb message.
 }
