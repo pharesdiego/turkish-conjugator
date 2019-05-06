@@ -83,7 +83,7 @@ This method returns a **valid verb or an empty string** if the passed verb is no
 
 `Turkish.isTurkishVerb('gelmekk') // ''`
 
-At [Konjüsh](https://pharesdiego.github.io/konjush/) this method's output is used as input for `Turkush.it` in this way:
+At [Konjüsh](https://pharesdiego.github.io/konjush/) this method's output is used as input for `Turkish.it` in this way:
 ```
 const isTurkishVerb = Turkish.isTurkishVerb('gelmek');
 if(isTurkishVerb) {
