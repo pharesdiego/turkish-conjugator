@@ -46,27 +46,33 @@ const getVowelsFromInitOfComposedVerb = compose<string>(
 const isTurkishVerb = (verb: string): string => {
   verb = lowerCase(verb);
 
-  if (hasMinLength(verb, 5)) {
-    // getting vowels from a composed verb is different from a normal verb.
-    if (
-      (hasWhiteSpaces(verb)
-        ? getVowelsFromInitOfComposedVerb(verb)
-        : getVowelsStr(verb)
-      ).length > 1
-    ) {
-      if (isAlphabeticallyValid(verb)) {
-        if (splitWords(verb).every((str) => hasMinLength(str, 3))) {
-          // match strings like: memek, mamak, mamek, memak, mekmek...
-          if (/^m(e|a)k?m(e|a)k$/.test(verb)) return '';
+  // a turkish word can't start with 'ğ'
+  if (!verb.startsWith('ğ')) {
+    if (hasMinLength(verb, 5)) {
+      // getting vowels from a composed verb is different from a normal verb.
+      if (
+        (hasWhiteSpaces(verb)
+          ? getVowelsFromInitOfComposedVerb(verb)
+          : getVowelsStr(verb)
+        ).length > 1
+      ) {
+        if (isAlphabeticallyValid(verb)) {
+          if (splitWords(verb).every((str) => hasMinLength(str, 3))) {
+            // match strings like: memek, mamak, mamek, memak, mekmek...
+            if (/^m(e|a)k?m(e|a)k$/.test(verb)) return '';
 
-          if (isNegativeVerb(verb) && hasMinLength(verb, 7))
-            return convertToPositive(verb);
+            if (isNegativeVerb(verb) && hasMinLength(verb, 7))
+              return convertToPositive(verb);
 
-          if (isVerb(verb)) return verb;
+            if (isVerb(verb)) return verb;
+          }
         }
       }
     }
   }
+
+
+  
   return '';
 };
 
