@@ -33,7 +33,7 @@
     "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "jest": "^24.4.0",
-    "mocha": "^6.0.2",
+    "mocha": "^10.2.0",
     "prettier": "^1.16.4",
     "ts-jest": "^24.0.0",
     "ts-node": "^8.0.3",
